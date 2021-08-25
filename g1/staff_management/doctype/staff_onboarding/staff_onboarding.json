@@ -1,0 +1,199 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:full_name",
+ "creation": "2020-12-30 17:13:05.600877",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "user",
+  "full_name",
+  "bd3",
+  "bq1",
+  "dt2",
+  "bq2",
+  "dt3",
+  "bq3",
+  "dt4",
+  "bq4",
+  "dt5",
+  "section_break_13",
+  "bq5",
+  "dt7",
+  "s1n",
+  "dt8",
+  "column_break_19",
+  "html_20",
+  "dt9",
+  "s2n",
+  "staff_member"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Staff Onboarding</h1>"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<h5>Induction Checklist</h5>"
+  },
+  {
+   "fieldname": "bq1",
+   "fieldtype": "HTML",
+   "label": "bq1",
+   "options": "<p><b>Orientation to the work area</b>\n</p><ul>\n<li>Meet colleagues</li>\n<li>Personal work area, toilets, lunch room, lockers</li>\n<li>Building opening and closing procedures</li>\n<li>Stationary / supplies store</li>\n<li>Computer access</li>\n<li>Telephone and voicemail protocol</li>\n</ul><p></p>"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt2",
+   "fieldtype": "Check",
+   "label": " "
+  },
+  {
+   "fieldname": "bq2",
+   "fieldtype": "HTML",
+   "label": "bq2",
+   "options": "<p><b>Detailed induction to work area</b></p>\n<ul>\n<li>Hi five community services\u2019 Mission and Vision and Strategic and\nOperational Plans</li>\n<li>Hi five community services\u2019 compliance responsibilities, including\nobligations under relevant legislation, regulations and standards and its\nPolicies and Procedures</li>\n<li>Staff roles and responsibilities and Hi five community services\u2019 Staff\nCode of Conduct</li>\n<li>Hi five community services\u2019 organisational and governance structures,\nteam processes, communication channels, staffing, supervision\narrangements and accountabilities</li>\n<li>Continuous improvement</li>\n<li>Staff entitlements and working conditions</li>\n<li>Client rights and responsibilities and Hi five community services\u2019 Client\nCharter</li>\n<li>Obtaining feedback and handling complaints</li>\n<li>Privacy and confidentiality and Hi five community services\u2019 records and\ninformation management processes</li>\n<li>Financial management processes, including supporting clients\u2019 control\nover their finances</li>\n</ul><p></p>"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt3",
+   "fieldtype": "Check",
+   "label": " "
+  },
+  {
+   "fieldname": "bq3",
+   "fieldtype": "HTML",
+   "label": "bq3",
+   "options": "<p><b>OH&amp;S induction</b>\n</p><ul>\n<li>Centre OH&amp;S and related Policies and Procedures</li>\n<li>Key contacts: OHS officer; Fire Warden; First Aid officer; Security emergency\nnumber</li>\n<li>First Aid / CPR / Asthma / Anaphylaxis information and location of first aid kits</li>\n<li>Risk management</li>\n<li>Hazard and Incident reporting</li>\n<li>Emergency procedures</li>\n<li>Location and operation of equipment</li>\n<li>Task Specific Safe Work Procedures (SWPs)</li>\n<li>Potential hazards in the immediate working environment (e.g. manual handling\nor chemicals)</li></ul><p></p>"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt4",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "bq4",
+   "fieldtype": "HTML",
+   "label": "bq4",
+   "options": "<p><b>Job role and Performance Expectations</b></p><ul>\n<li>How the position relates to others</li>\n<li>The role, position objectives and key performance targets</li>\n<li>The probation process including behavioral and performance expectations</li>\n<li>Performance Management processes</li>\n<li>Essential and other training /development to be undertaken</li>\n<li>Supporting clients to actively participate in their service delivery, including\nfamily members and supporters in service delivery and alternative\ncommunication needs and aids</li>\n<li>Cultural, linguistic and disability diversity</li>\n<li>The needs of vulnerable people including children, people with complex needs,\nand culturally and linguistically diverse and Aboriginal and Torres Strait Islander\npeople</li>\n<li>Responsibilities under anti-discrimination legislation</li>\n<li>Use of interpreters and translators</li>\n<li>Access and exit/transition processes</li>\n<li>Referral processes, including target response and referral timeframes and how\nto make appropriate referrals</li>\n<li>Hi five community services\u2019 service network, Referral Database and\nappropriate referrals for common issues</li>\n<li>Assessment, planning and review processes</li>\n<li>Evidence-based, person-centred approaches to service delivery and how to use\na strengths-based approach to identifying client needs and life goals</li>\n<li>Service delivery and participation processes</li>\n<li>Duty of Care requirements</li>\n<li>Child protection and interacting appropriately with children</li>\n<li>How to prevent and respond to actual or potential signs of abuse and neglect,\nincluding responsibilities for responding</li>\n<li>Particular risks that may be experienced by people with different needs</li>\n<li>Positive behaviour support strategies</li>\n<li>Identifying and responding to complaints.</li></ul><p></p>"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt5",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "bq5",
+   "fieldtype": "HTML",
+   "label": "bq5",
+   "options": "<h5>The information outlined in this checklist has been provided</h5>"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt7",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "s1n",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fetch_from": "dt8.full_name",
+   "fieldname": "dt8",
+   "fieldtype": "Link",
+   "label": "Supervisor",
+   "options": "User"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt9",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "s2n",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "staff_member",
+   "fieldtype": "Data",
+   "label": "Staff Member",
+   "read_only": 1
+  },
+  {
+   "fieldname": "html_20",
+   "fieldtype": "HTML",
+   "options": "<h5>-</h5>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:49.297536",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Onboarding",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format: {goal} {####}",
+ "creation": "2021-02-04 06:18:23.988834",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "goal",
+  "status",
+  "goal_achievement_strategy",
+  "barriers_to_achieveing_goal",
+  "participant"
+ ],
+ "fields": [
+  {
+   "fieldname": "goal",
+   "fieldtype": "Data",
+   "label": "Goal"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Lots of Barriers\nSlow Progress\nNo Progress\nParticipant is working towards goal\nParticipant has achieved goal\nGoal discarded by participant"
+  },
+  {
+   "fieldname": "goal_achievement_strategy",
+   "fieldtype": "Small Text",
+   "label": "Goal Achievement Strategy"
+  },
+  {
+   "fieldname": "barriers_to_achieveing_goal",
+   "fieldtype": "Data",
+   "label": "Barriers to achieveing goal"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:29:57.762131",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Goal",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Governance Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

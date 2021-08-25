@@ -1,0 +1,497 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format: {full_name} {version}",
+ "creation": "2020-12-30 16:33:45.193992",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "version",
+  "user",
+  "full_name",
+  "dt2",
+  "dt3",
+  "street",
+  "suburb",
+  "post_code",
+  "mobile_number",
+  "dt6",
+  "dt8",
+  "dt9",
+  "dt10",
+  "email",
+  "languages_spoken",
+  "dt11",
+  "dt12",
+  "upload_vevo_check",
+  "dt13",
+  "upload_police_check",
+  "expiry_date",
+  "dt14",
+  "upload_working_with_children_check",
+  "exp0",
+  "dt15",
+  "upload_first_aid",
+  "expiry1",
+  "dt16",
+  "upldrilic",
+  "exp1",
+  "dtt16",
+  "upload_ndis_workers_screening_check",
+  "expp1",
+  "bdhtedit",
+  "checkpl",
+  "upload_international_police_check",
+  "bd2",
+  "dt23",
+  "bd3",
+  "bd4",
+  "dt24",
+  "bd5",
+  "dt25",
+  "score1",
+  "bd6",
+  "dt26",
+  "score2",
+  "bd7",
+  "bd8",
+  "dt27",
+  "bd9",
+  "dt28",
+  "dt29",
+  "bd10",
+  "bd11",
+  "dt30",
+  "score3",
+  "score4",
+  "section_break_44",
+  "userp",
+  "pfull_name",
+  "dt32",
+  "vevocheckuploaded"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Staff Screening</h1>"
+  },
+  {
+   "fetch_from": "user.birth_date",
+   "fieldname": "dt2",
+   "fieldtype": "Read Only",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "dt3",
+   "fieldtype": "Data",
+   "label": "Country of Origin"
+  },
+  {
+   "fetch_from": "user.street",
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.area",
+   "fieldname": "suburb",
+   "fieldtype": "Data",
+   "label": "Suburb",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.mobile_number",
+   "fieldname": "mobile_number",
+   "fieldtype": "Read Only",
+   "label": "Mobile Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "dt6",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt8",
+   "fieldtype": "Check",
+   "label": "Drives here?"
+  },
+  {
+   "default": "0",
+   "depends_on": "dt8",
+   "fieldname": "dt9",
+   "fieldtype": "Check",
+   "label": "If yes, comprehensive car insurance?"
+  },
+  {
+   "default": "0",
+   "depends_on": "dt8",
+   "fieldname": "dt10",
+   "fieldtype": "Check",
+   "label": "Owns a car here?"
+  },
+  {
+   "fetch_from": "user.email",
+   "fieldname": "email",
+   "fieldtype": "Read Only",
+   "label": "Email",
+   "read_only": 1
+  },
+  {
+   "fieldname": "languages_spoken",
+   "fieldtype": "Table MultiSelect",
+   "label": "Languages Spoken",
+   "options": "Language Link"
+  },
+  {
+   "fieldname": "dt11",
+   "fieldtype": "Data",
+   "label": "Visa Type (Student/PR etc.)"
+  },
+  {
+   "fieldname": "dt12",
+   "fieldtype": "Select",
+   "label": "Vevo check",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt13",
+   "fieldtype": "Select",
+   "label": "Police Check",
+   "options": "Available\nNot Available\nApplied For\nGoing to Apply\nExpired"
+  },
+  {
+   "fieldname": "dt14",
+   "fieldtype": "Select",
+   "label": "Working with Children Check",
+   "options": "Available\nNot Available\nApplied For\nGoing to Apply\nExpired"
+  },
+  {
+   "fieldname": "dt15",
+   "fieldtype": "Select",
+   "label": "First Aid",
+   "options": "Available\nNot Available\nApplied For\nGoing to Apply\nExpired"
+  },
+  {
+   "fieldname": "dt16",
+   "fieldtype": "Select",
+   "label": "Driver\u2019s License",
+   "options": "Valid Australian License\nValid Overseas License\nNo License"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<p>Availability</p>"
+  },
+  {
+   "fieldname": "dt23",
+   "fieldtype": "Table",
+   "label": "Please enter the days and time you are available",
+   "options": "Staff Time"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<h5>CRITERION 1 \u2013 Applicant Background &amp; Skills</h5>"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<p>Credential Verification</p>"
+  },
+  {
+   "fieldname": "dt24",
+   "fieldtype": "Small Text",
+   "label": "Please advise the qualifications you have achieved and the ones you are working towards completing:"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<p>Experience Verification</p>"
+  },
+  {
+   "fieldname": "dt25",
+   "fieldtype": "Small Text",
+   "label": "Please advise the experience you have in the Disability or Community Care industry or any relevant industry:"
+  },
+  {
+   "fieldname": "score1",
+   "fieldtype": "Int",
+   "label": "Score:"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<h5>CRITERION 2 \u2013 Communication</h5>"
+  },
+  {
+   "fieldname": "dt26",
+   "fieldtype": "Small Text",
+   "label": "Tell me about a time that you were confused by a client\u2019s request. What steps did you take to clarify things?"
+  },
+  {
+   "fieldname": "score2",
+   "fieldtype": "Int",
+   "label": "Score:"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<h5>CRITERION 3 \u2013 Decision Making Skills &amp; Suitability for Position</h5>"
+  },
+  {
+   "fieldname": "bd8",
+   "fieldtype": "HTML",
+   "label": "bd8",
+   "options": "<p>Behavioural questions</p>"
+  },
+  {
+   "fieldname": "dt27",
+   "fieldtype": "Small Text",
+   "label": "What has been the most stressful situation you have ever found yourself in at work? How did you handle it?"
+  },
+  {
+   "fieldname": "bd9",
+   "fieldtype": "HTML",
+   "label": "bd9",
+   "options": "<p>Competency questions</p>"
+  },
+  {
+   "fieldname": "dt28",
+   "fieldtype": "Small Text",
+   "label": "Can you describe what you think a care worker does and what type of people or groups you might work with?"
+  },
+  {
+   "fieldname": "dt29",
+   "fieldtype": "Small Text",
+   "label": "If you were delivering personal support to someone, how would you maintain their dignity and respect?"
+  },
+  {
+   "fieldname": "bd10",
+   "fieldtype": "HTML",
+   "label": "bd10",
+   "options": "<h5>Case Study questions</h5>"
+  },
+  {
+   "fieldname": "bd11",
+   "fieldtype": "HTML",
+   "label": "bd11",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Safeguarding is an important and topical issue. When going into someone\u2019s home, how would\nyou know they are safe and healthy? If you felt concerned, what would you do?</label>"
+  },
+  {
+   "fieldname": "dt30",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "score3",
+   "fieldtype": "Int",
+   "label": "Score:"
+  },
+  {
+   "fieldname": "score4",
+   "fieldtype": "Int",
+   "label": "Total Score:",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_44",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt32",
+   "fieldtype": "Signature",
+   "label": "Admin Staff Signature"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff Member",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt13 == \"Available\";",
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "depends_on": "eval:doc.dt14 == \"Available\"",
+   "fieldname": "exp0",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "depends_on": "eval:doc.dt16 == 'Valid Australian License' || doc.dt16 == 'Valid Overseas License'",
+   "fieldname": "exp1",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "dtt16",
+   "fieldtype": "Select",
+   "label": "NDIS Workers Screening Check",
+   "options": "Available\nNot Available\nApplied For\nGoing to Apply\nExpired"
+  },
+  {
+   "depends_on": "eval:doc.dtt16 == \"Available\"",
+   "fieldname": "expp1",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "depends_on": "eval:doc.dt15 == \"Available\"",
+   "fieldname": "expiry1",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "userp",
+   "fieldtype": "Link",
+   "label": "Admin Staff",
+   "options": "User"
+  },
+  {
+   "fetch_from": "userp.full_name",
+   "fieldname": "pfull_name",
+   "fieldtype": "Data",
+   "label": "Admin Staff Name:",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.post_code",
+   "fieldname": "post_code",
+   "fieldtype": "Data",
+   "label": "Post Code",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt12 == \"Yes\"",
+   "fieldname": "upload_vevo_check",
+   "fieldtype": "Attach",
+   "label": "Upload Vevo Check"
+  },
+  {
+   "depends_on": "eval:doc.dt13 == \"Available\"",
+   "fieldname": "upload_police_check",
+   "fieldtype": "Attach",
+   "label": "Upload Police Check"
+  },
+  {
+   "depends_on": "eval:doc.dt14 == \"Available\"",
+   "fieldname": "upload_working_with_children_check",
+   "fieldtype": "Attach",
+   "label": "Upload Working with Children Check"
+  },
+  {
+   "depends_on": "eval:doc.dt15 == \"Available\"",
+   "fieldname": "upload_first_aid",
+   "fieldtype": "Attach",
+   "label": "Upload First Aid"
+  },
+  {
+   "depends_on": "eval:doc.dt16 == 'Valid Australian License' || doc.dt16 == 'Valid Overseas License'",
+   "fieldname": "upldrilic",
+   "fieldtype": "Attach",
+   "label": "Upload Driver's License"
+  },
+  {
+   "fieldname": "bdhtedit",
+   "fieldtype": "HTML",
+   "label": "bdhtedit",
+   "options": "<p>International Police Check</p>"
+  },
+  {
+   "fieldname": "checkpl",
+   "fieldtype": "Select",
+   "label": "Have you lived overseas for more than 12 months consecutively in the last 10 years?",
+   "options": "Yes\nNo"
+  },
+  {
+   "depends_on": "eval:doc.checkpl == \"Yes\"",
+   "fieldname": "upload_international_police_check",
+   "fieldtype": "Attach",
+   "label": "Upload International Police Check"
+  },
+  {
+   "depends_on": "eval:doc.dtt16 == \"Available\"",
+   "fieldname": "upload_ndis_workers_screening_check",
+   "fieldtype": "Attach",
+   "label": "Upload NDIS Workers Screening Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "vevocheckuploaded",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "vevocheckuploaded",
+   "options": "0\n1",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-24 21:02:49.011755",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Screening",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

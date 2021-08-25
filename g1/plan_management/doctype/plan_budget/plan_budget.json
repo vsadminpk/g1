@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "creation": "2021-01-22 15:59:56.465483",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "plan_category",
+  "budget_allocation",
+  "delivered",
+  "remaining"
+ ],
+ "fields": [
+  {
+   "fieldname": "plan_category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Plan Category",
+   "options": "Assistance with daily life\nAssistance with social and community participation\nConsumables\nTransport\nAssistive Technology\nCoordination of supports\nFinding and keeping a job\nHome Modifications\nImproved Daily Living Skills\nImproved Health and Wellbeing\nImproved Learning\nImproved Life Choices\nImproved Living Arrangements\nImproved Relationships\nIncreased Social and Community Participation"
+  },
+  {
+   "fieldname": "budget_allocation",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Budget Allocation"
+  },
+  {
+   "fieldname": "delivered",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Delivered",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remaining",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Remaining",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:08:39.713883",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Plan Budget",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

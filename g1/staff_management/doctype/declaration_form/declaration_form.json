@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:full_name",
+ "creation": "2020-12-30 21:33:04.621758",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "user",
+  "full_name",
+  "dt2",
+  "section_break_6",
+  "html_7",
+  "sbbh",
+  "db2",
+  "section_break_9",
+  "html_11",
+  "section_break_12",
+  "html_8",
+  "datee",
+  "sign12",
+  "column_break_11",
+  "supervisor",
+  "dateer",
+  "sign13"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Declaration for workers</h1>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h5>I</h5>"
+  },
+  {
+   "fieldname": "dt2",
+   "fieldtype": "HTML",
+   "options": "<h5>hereby declare the following that I:<br><br></h5>"
+  },
+  {
+   "fieldname": "db2",
+   "fieldtype": "HTML",
+   "options": "<h5>1.3 PRIVACY AND CONFIDENTIALITY POLICY AND PROCEDURE</h5><br><p><u>Purpose and Scope</u></p>\n<p>The purpose of this policy and procedure is to set out staff responsibilities relating to collecting, using, protecting and releasing personal information in compliance with privacy legislation.</p>\n<p>Legislation, regulations and standards relevant to this policy and procedure include:</p>\n<ul>\n<li>National Disability Insurance Scheme Act 2013</li>\n<li>National Disability Insurance Scheme (Protection and Disclosure of Information - Commissioner) Rules 2018 [F2018L00635]</li>\n<li>Privacy Act 1988 (Cwth)</li>\n<li>Freedom of Information Act 1982 (Cwth)</li>\n<li>Privacy Act 1988</li>\n<li>State Records Act 1997</li>\n<li>State Records Act 1997</li>\n<li>Disability Inclusion Act 2018</li>\n<li>National Disability Insurance Scheme (Protection and Disclosure of Information - Commissioner) Rules 2018 [F2018L00635]</li>\n<li>NDIS Practice Standards and Quality Indicators &ndash; Provider Governance and Operational Management</li>\n<li>The Records Principles 2014 (Cwth)</li>\n</ul>\n<p>Documents relevant to this policy and procedure include:</p>\n<ul>\n<li>Hi Five Community Services&rsquo; general Privacy and Confidentiality Policy and Procedure</li>\n<li>Hi Five Community Services Records and Information Management Policy and Procedure</li>\n<li>Hi Five Community Services Continuous Improvement Plan</li>\n<li>Hi Five Community Services Permission Slip</li>\n<li>Hi Five Community Services Declaration of Confidentiality</li>\n<li>Hi Five Community Services Participant Induction Handbook</li>\n<li>Hi Five Community Services Privacy Statement</li>\n<li>Hi Five Community Services Privacy Audit Form</li>\n</ul>\n<p>This policy and procedure applies to all:</p>\n<ul>\n<li>Hi Five Community Services staff, contractors and volunteers;</li>\n<li>aspects of Hi Five Community Services&rsquo; business; and</li>\n<li>staff and client personal and health information.</li>\n</ul>\n<p>This policy and procedure should be read in conjunction with Hi Five Community Services&rsquo; Records and Information Management Policy and Procedure. It incorporates the policies and procedures set out in Hi Five Community Services&rsquo; general Privacy and Confidentiality Policy and Procedure.</p>\n<p><u>Definitions</u></p>\n<p>Personal information - Recorded information (including images) or opinion, whether true or not, about a living individual whose identity can reasonably be ascertained.</p>\n<p>Sensitive information - Information or an opinion about an individual&rsquo;s racial or ethnic origin, political opinions, membership of a political party, religious beliefs or affiliations, philosophical beliefs, membership of a professional or trade association, membership of a trade union, sexual preference or practices, or criminal record. This is also considered to be personal information.</p>\n<p>Health information - Any information or an opinion about the physical, mental or psychological health or ability (at any time) of an individual.</p>\n<p><u>Policy</u></p>\n<ul>\n<li>Privacy and confidentiality are of paramount importance to Hi Five Community Services.</li>\n<li>Hi Five Community Services recognises the importance of protecting the personal information of individuals. Clients&rsquo; right to privacy and confidentiality is recognised, respected and protected in all aspects of their contact with Hi Five Community Services. All clients have the right to decide who has access to their personal information.</li>\n<li>Hi Five Community Services will collect, use and disclose information in accordance with relevant state and Federal privacy legislation.</li>\n<li>All staff are responsible for upholding Hi Five Community Services&rsquo; privacy and confidentiality responsibilities. Hi Five Community Services will operate at all times in accordance with the requirements state and federal legislation.</li>\n<li>Hi Five Community Services will only collect information necessary for safe and effective service delivery. It will only use information collected for the purpose it was collected, and secure it appropriately.</li>\n<li>Information related to clients will not be released to other individuals or services without informed consent from the client or their representative, or in exceptional circumstances.</li>\n<li>Hi Five Community Services will give due consideration to individuals and groups with special needs when upholding their privacy, dignity and confidentiality.</li>\n</ul>\n<p>&nbsp;</p>\n<p><u>Communication in client&rsquo;s preferred language</u></p>\n<p>&nbsp;</p>\n<p>We respect the right of the client to communicate in their preferred language. In the clients intake assessment, client or their legal nominee will be asked of their preferred language for verbal and written communication. Whichever language they prefer will be adapted in service delivery to the client as well as in providing them information, policies and resources in their preferred language.</p>\n<p>&nbsp;</p>\n<p><u>Procedures</u></p>\n<p>Hi Five Community Services Responsibilities</p>\n<p>The Directors are responsible for:</p>\n<ul>\n<li>Ensuring Hi Five Community Services complies with the requirements of the Privacy Principles as outlined in the Health Records Act 2001, the Information Privacy Act 2000 and, where applicable, the Privacy Act 1988 by developing, reviewing and implementing processes and practices that identify:</li>\n<li>what information Hi Five Community Services collects about individuals, and the source of the information;</li>\n<li>why and how Hi Five Community Services collects, uses and discloses the information;</li>\n<li>who will have access to the information;</li>\n<li>risks in relation to the collection, storage, use, disclosure or disposal of and access to personal and health information collected by Hi Five Community Services.</li>\n<li>Immediately notify the relevant state government agency if they become aware of a breach or possible breach of privacy legislation.</li>\n<li>Ensuring clients, their parents, guardians and/or their representatives know why information is being collected and how it will be protected, used, disclosed and disposed of; and how they can access it.</li>\n<li>Providing adequate and appropriate secure storage for personal information collected by the service (see Hi Five Community Services&rsquo; Records and Information Management Policy).</li>\n<li>Developing procedures that will protect personal information from unauthorised access.</li>\n<li>Ensuring the appropriate use of images of clients, including being aware of cultural sensitivities and the need for some images to be treated with special care.</li>\n<li>Ensuring all employees and volunteers are provided with a copy of this policy and procedure.</li>\n<li>Ensuring all client, parents, guardians and other relevant stakeholders are provided with the service&rsquo;s easy-to-read Privacy Statement and informed that a copy of the complete policy is available on request.</li>\n<li>Ensuring Hi Five Community Services&rsquo; Privacy Statement is prominently displayed at the service and included in Hi Five Community Services&rsquo; Participant Induction Handbook, and that a copy of this policy and procedure is available on request.</li>\n<li>Establishing procedures to be implemented if parents or guardians request that their child&rsquo;s image is not to be taken, published or recorded, or when a person requests that their photo not be taken.</li>\n<li>Ensuring Hi Five Community Services&rsquo; arrangements for maintaining privacy and confidentiality are reviewed annually through a privacy audit.</li>\n<li>Ensuring all staff are provided a copy of this policy and procedure and that they complete Hi Five Community Services&rsquo; Declaration of Confidentiality.</li>\n<li>Ensuring all signed Declarations of Confidentiality are retained on the relevant staff record.</li>\n<li>Ensuring all staff maintain up-to-date understanding of their privacy, dignity and confidentiality responsibilities through formal induction and ongoing training and team meetings.</li>\n<li>Ensuring improvements identified in this area, including through staff and client feedback, are actioned through Hi Five Community Services&rsquo; Continuous Improvement Plan.</li>\n<li>Monitoring staff knowledge and application of confidentiality and privacy principles on-the-job and through yearly Performance Reviews.</li>\n<li>Providing additional on-the-job and formal training to staff where required.</li>\n<li>Obtaining informed and voluntary consent from clients or their parents or guardians, in order to take photographs or videos.</li>\n</ul>\n<p>Hi Five Community Services staff are responsible for:</p>\n<ul>\n<li>Reading&nbsp;and following this Privacy and Confidentiality Policy and Procedure.</li>\n<li>Ensuring they are aware of their responsibilities in relation to the collection, storage, use, disclosure and disposal of personal and health information.</li>\n<li>Collecting, handling, storing, using, disclosing and disposing of clients&rsquo; personal and health information in accordance with state and federal legislation and this policy and procedure.</li>\n<li>When collecting personal information from clients or their parent, guardian or other stakeholders:</li>\n<li>confirming Hi Five Community Services&rsquo; commitment to maintaining their privacy and confidentiality and the occasions when personal information may need to be released;</li>\n<li>explaining why information is being collected and how it will be used;</li>\n<li>explaining clients&rsquo; right to decline providing information;</li>\n<li>explaining clients&rsquo; rights in terms of providing, accessing, updating and using personal information, and giving and withdrawing consent;</li>\n<li>advising to whom (or the types of individuals or organisations to which) their information may be disclosed;</li>\n<li>advising the main consequences (if any) for the individual if all or part of the information is not provided;</li>\n<li>obtaining consent from the client or their parent or guardian, using a Consent Form where required;</li>\n<li>collecting information sensitively and within lawful limits; and</li>\n<li>ensuring information is only collected for a specific purpose and limiting the use of the information to the purpose for which it was collected.</li>\n<li>Performing the above activities in a way that is sensitive and caters to the cultural and disability background of the person they are dealing with.</li>\n<li>Where clients or their supporters have difficulty communicating, using either an interpreter or advocacy service to ensure that consent is informed.</li>\n<li>Keeping all client records up-to-date and stored securely.</li>\n<li>Conducting interviews or sensitive conversations with clients in a private room.</li>\n<li>Respecting clients&rsquo; or their parent or guardians&rsquo; choices about them being photographed or videoed.</li>\n</ul>\n<p>Clients, parents and guardians are responsible for:</p>\n<ul>\n<li>Providing accurate information when requested.</li>\n<li>Maintaining the privacy of any personal or health information provided to them about other individuals, such as contact details.</li>\n<li>Completing all permission forms and returning them to the service in a timely manner.</li>\n<li>Being sensitive and respectful to other clients and guardians who do not want their child/family member to be photographed or videoed.</li>\n<li>Being sensitive and respectful of the privacy of other clients in photographs/videos when using and disposing of these photographs/videos.</li>\n</ul>\n<p>Client and Family Privacy and Confidentiality</p>\n<ul>\n<li>Hi Five Community Services will only request and retain personal or health information that is necessary to:</li>\n<li>assess a potential client&rsquo;s eligibility for a service;</li>\n<li>provide a safe and responsive service;</li>\n<li>monitor the services provided; and</li>\n<li>fulfil contractual requirements to provide non identifying data and statistical information to a funding body.</li>\n</ul>\n<p>Personal and Health Information Hi Five Community Services Collects</p>\n<table>\n<tbody>\n<tr>\n<td width=\"319\">\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact details for clients and their parents and guardians, or relevant family member.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Details for emergency contacts and persons authorised to collect clients.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clients&rsquo; health status and medical records.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Immunisation records.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medication records.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; External agency information.</p>\n</td>\n<td width=\"319\">\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incident reports.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Custodial arrangements.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Permission / Consent Forms.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Service delivery intake, assessment, monitoring and review information.</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developmental records, plans, portfolios and observations.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Access</p>\n<ul>\n<li>Client and family information may be accessed by staff with a need to know.</li>\n<li>Individuals have the right to:</li>\n<li>request access to personal information Hi Five Community Services holds about them, without providing a reason for requesting access;</li>\n<li>access this information; and</li>\n<li>make corrections if they consider the information is not accurate, complete or up to date.</li>\n<li>There are some exceptions set out in the Information Privacy Act 2000, where access may be denied in part or in total. Examples of some exemptions are where:</li>\n<li>the request is frivolous or vexatious;</li>\n<li>providing access would have an unreasonable impact on the privacy of other individuals;</li>\n<li>providing access would pose a serious threat to the life or health of any person; and</li>\n<li>the service is involved in the detection, investigation or remedying of serious improper conduct and providing access would prejudice that.</li>\n<li>If an individual requests access to or the correction of personal information, within a service benchmark of 2 working days (and no more than 45 days after receiving the request), staff will:</li>\n<li>provide access, or reasons for the denial of access;</li>\n<li>correct the personal information, or provide reasons for the refusal to correct the personal information; or</li>\n<li>provide reasons for the delay in responding to the request for access to or correction of personal information.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Information Storage</p>\n<ul>\n<li>Personal files are kept in a secure filing cabinet in a private room, which is kept locked outside of operational hours. Computerised records are&nbsp;stored safely and secured with a password for access.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>Personal files are available for viewing upon request.</li>\n</ul>\n<p>Information Disclosure</p>\n<ul>\n<li>Client personal and health information will only be disclosed:</li>\n<li>for medical treatment or emergency;</li>\n<li>to outside agencies with the clients&rsquo; or parent or guardian or next of kin&rsquo;s permission;</li>\n<li>with written consent from person/s with lawful authority; or</li>\n<li>when required by Commonwealth Law, or to fulfil legislative obligations such as mandatory reporting.</li>\n<li>If a staff member is in a situation where they believe that they need to disclose information about a client that they ordinarily would not disclose, they should seek the advice of a Management Team member before making the disclosure.</li>\n</ul>\n<p>Staff Privacy and Confidentiality</p>\n<p>Personal and Health Information Hi Five Community Services Collects</p>\n<table>\n<tbody>\n<tr>\n<td width=\"319\">\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tax declaration form</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Employment contract</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personal Details</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emergency Contact details</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medical details</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Immunisation details</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Police and Working with Children Checks</p>\n</td>\n<td width=\"319\">\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qualifications</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First Aid, CPR and Anaphylaxis certificates</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medical History</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Permission forms</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Personal Resume</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Payroll information</p>\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Superannuation details</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>Access</p>\n<ul>\n<li>Staff information may be accessed by Management staff.</li>\n<li>Staff have the right to:</li>\n<li>request access to personal information Hi Five Community Services holds about them, without providing a reason for requesting access;</li>\n<li>access this information; and</li>\n<li>make corrections if they consider the information is not accurate, complete or up to date.</li>\n<li>There are some exceptions set out in the Information Privacy Act 2000, where access may be denied in part or in total. Examples of some exemptions are where:</li>\n<li>the request is frivolous or vexatious;</li>\n<li>providing access would have an unreasonable impact on the privacy of other individuals;</li>\n<li>providing access would pose a serious threat to the life or health of any person; and</li>\n<li>the service is involved in the detection, investigation or remedying of serious improper conduct and providing access would prejudice that.</li>\n<li>If an individual requests access to or the correction of personal information, within a service benchmark of 2 working days (and no more than 45 days after receiving the request), staff will:</li>\n<li>provide access, or reasons for the denial of access;</li>\n<li>correct the personal information, or provide reasons for the refusal to correct the personal information; or</li>\n<li>provide reasons for the delay in responding to the request for access to or correction of personal information.</li>\n</ul>\n<p>Information Storage</p>\n<ul>\n<li>Staff records are maintained by the Directors (or delegates) in a locked filing cabinet in their office, which is kept locked outside of operational hours. Computerised records are&nbsp;stored safely and secured with a password for access.</li>\n</ul>\n<p>Information Disclosure</p>\n<ul>\n<li>Staff personal and health information will only be disclosed:</li>\n<li>for medical treatment or emergency;</li>\n<li>with written consent from the staff member; or</li>\n<li>when required by Commonwealth Law, or to fulfil legislative obligations such as mandatory reporting.</li>\n</ul>\n<p>Photographs and Videos</p>\n<ul>\n<li>Photographs and videos are classified as personal information under privacy legislation.</li>\n</ul>\n<p>&nbsp;</p>\n<ul>\n<li>On employment a permission slip regarding photos, videos and social media is completed by the employee, to ensure management staff are aware of whether the staff member can be photographed and videoed and how this information can be used.</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<ul>\n<li>The purpose of this permission form is to:</li>\n<li>comply with privacy legislation in relation to all photographs/videos taken at Hi Five Community Services; and</li>\n<li>enable photographs/videos of employees to be taken as part of the programs delivered by Hi Five Community Services, including group photos/videos or photos/videos at special events and excursions.</li>\n</ul>\n<p>Privacy Audits</p>\n<ul>\n<li>Hi Five Community Services will conduct annual privacy audits as per its External Audit and Internal Review Schedule.</li>\n<li>The audit will be based on Hi Five Community Services&rsquo; Privacy Audit Checklist and review:</li>\n<li>what sort of personal information Hi Five Community Services collects, uses, stores and discloses;</li>\n<li>how Hi Five Community Services safeguards and manages personal information, including how it manages privacy queries and complaints; and</li>\n<li>how personal information that needs to be updated, destroyed or erased is managed.</li>\n</ul>\n<p>&nbsp;</p>\n<p>Monitoring and Review</p>\n<ul>\n<li>Hi Five Community Services&rsquo; annual service delivery and satisfaction surveys will include questions regarding:</li>\n<li>satisfaction with Hi Five Community Services&rsquo; privacy and confidentiality processes;</li>\n<li>whether stakeholders have received adequate information about privacy, dignity and confidentiality; and</li>\n<li>the extent to which clients and their supporters feel their privacy, dignity and confidentiality has been protected.</li>\n<li>Hi Five Community Services&rsquo; Continuous Improvement Plan will be used to record and monitor progress of any improvements identified.</li>\n<li>This Policy and Procedure will be reviewed at least two-yearly by Hi Five Community Services&rsquo; Management Team and incorporate client and other stakeholder feedback.</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Endorsement Date: 15 Jan 2020</p>\n<p>Last Review Date: 10 Jan 2020</p>\n<p>Next Review Date: 15 Jan 2021</p>\n<p>This policy and procedure will be reviewed at least 2-yearly and changes endorsed by the Management Team.</p>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": " ",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fieldname": "html_8",
+   "fieldtype": "HTML",
+   "options": "<p>Employee</p>"
+  },
+  {
+   "fieldname": "datee",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "sign12",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervisor",
+   "fieldtype": "HTML",
+   "label": "Supervisor",
+   "options": "<p>Supervisor</p>"
+  },
+  {
+   "fieldname": "dateer",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "sign13",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "html_7",
+   "fieldtype": "HTML",
+   "options": "<div class=\"section-head\">\n\u2022 Have been informed of and understand the obligations in the <b><a href=\"https://www.ndiscommission.gov.au/sites/default/files/documents/2020-12/ndis-code-conduct-summary-workers-ov.pdf\" target=\"blank\">NDIS Quality and Safeguards\nCommission Code of Conduct</a></b> for disability service workers and agree to abide by the code of conduct.</div>"
+  },
+  {
+   "fieldname": "html_11",
+   "fieldtype": "HTML",
+   "options": "<div class=\"section-head\">\n\u2022 Have been issued an ID card:<p></p><ul>\n<li>I give consent that this ID card is the property of Hi Five Community Services</li>\n<li>I will return it at the end of my employment with Hi Five Community Services</li>\n<li>I will report to my manager or the office immediately in case my ID card is lost/stolen</li>\n</ul></div>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sbbh",
+   "fieldtype": "Section Break",
+   "label": "\u2022 Have been informed of and understand the company's Privacy and Confidentiality policy and procedures and I agree to follow these policies."
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:54.090968",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Declaration Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

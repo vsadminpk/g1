@@ -1,0 +1,280 @@
+{
+ "actions": [],
+ "autoname": "format:{participant}-{####}",
+ "creation": "2021-01-22 05:50:34.361755",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "participant",
+  "ndis_number",
+  "supportsdeliveredfrom",
+  "supportsdeliveredto",
+  "mark_as_paid",
+  "service_provider",
+  "provider_invoice_number",
+  "invoice_date",
+  "invoice_note",
+  "abn",
+  "attachments",
+  "on_hold_reason",
+  "approved_by_client",
+  "services",
+  "grand_total",
+  "assistance_with_daily_life",
+  "assistance_with_social_and_community_participation",
+  "assistive_technology",
+  "consumables",
+  "finding_and_keeping_a_job",
+  "home_modifications",
+  "improved_daily_living_skills",
+  "improved_health_and_wellbeing",
+  "improved_learning",
+  "improved_life_choices",
+  "improved_living_arrangements",
+  "improved_relationships",
+  "increased_social_and_community_participation",
+  "support_coordination",
+  "transport",
+  "docname"
+ ],
+ "fields": [
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Link",
+   "label": "Service Provider",
+   "options": "Service Provider"
+  },
+  {
+   "fieldname": "invoice_note",
+   "fieldtype": "Small Text",
+   "label": "Invoice Note"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "on_hold_reason",
+   "fieldtype": "Data",
+   "label": "On Hold Reason"
+  },
+  {
+   "default": "0",
+   "fieldname": "approved_by_client",
+   "fieldtype": "Check",
+   "label": "Approved By Client"
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "label": "Grand Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Provider Invoice Date"
+  },
+  {
+   "fieldname": "services",
+   "fieldtype": "Table",
+   "label": "Services",
+   "options": "Services Support List"
+  },
+  {
+   "fieldname": "assistance_with_daily_life",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Assistance with daily life",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "assistance_with_social_and_community_participation",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Assistance with social and community participation",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "consumables",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Consumables",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "finding_and_keeping_a_job",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Finding and keeping a job",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "home_modifications",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Home modifications",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "improved_daily_living_skills",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved daily living skills",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "improved_health_and_wellbeing",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved health and wellbeing",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "improved_learning",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved learning",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "improved_life_choices",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved life choices",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "improved_living_arrangements",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved living arrangements",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "improved_relationships",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved relationships",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "increased_social_and_community_participation",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Increased social and community participation",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "support_coordination",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Support Coordination",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "transport",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Transport",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "assistive_technology",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Assistive Technology",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "default": "doc.title",
+   "fieldname": "docname",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "docname",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "provider_invoice_number",
+   "fieldtype": "Data",
+   "label": "Provider Invoice Number"
+  },
+  {
+   "fetch_from": "service_provider.abn_number",
+   "fieldname": "abn",
+   "fieldtype": "Data",
+   "label": "ABN",
+   "read_only": 1
+  },
+  {
+   "fieldname": "supportsdeliveredfrom",
+   "fieldtype": "Date",
+   "label": "SupportsDeliveredFrom"
+  },
+  {
+   "fieldname": "supportsdeliveredto",
+   "fieldtype": "Date",
+   "label": "SupportsDeliveredTo"
+  },
+  {
+   "fetch_from": "participant.ndis_no",
+   "fieldname": "ndis_number",
+   "fieldtype": "Data",
+   "label": "NDIS Number"
+  },
+  {
+   "fieldname": "mark_as_paid",
+   "fieldtype": "Select",
+   "label": "Mark as Paid",
+   "options": "Paid\nUnpaid"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-25 05:18:19.711695",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Plan Management Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

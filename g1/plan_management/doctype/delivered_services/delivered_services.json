@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2021-01-22 18:39:33.930654",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "invoice",
+  "total_hours",
+  "total_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Invoice",
+   "options": "Plan Management Invoice"
+  },
+  {
+   "fetch_from": "invoice.total_hours",
+   "fieldname": "total_hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Hours"
+  },
+  {
+   "fetch_from": "invoice.grand_total",
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:08:14.136062",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Delivered Services",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "autoname": "field:risks_in_home",
+ "creation": "2020-12-23 05:25:25.129342",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "risks_in_home",
+  "risks_in_community",
+  "behavioural_concernstriggers"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "risks_in_home",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risks in home",
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "risks_in_community",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risks in community"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "behavioural_concernstriggers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Behavioural concerns/triggers"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 01:52:49.629220",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Risk",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

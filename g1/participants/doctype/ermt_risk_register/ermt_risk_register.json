@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "creation": "2021-03-20 04:42:53.906531",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "risk",
+  "category",
+  "details",
+  "risk_impact",
+  "risk_likelihood",
+  "risk_rating",
+  "risk_control",
+  "user",
+  "tcd",
+  "acd",
+  "completion_signoff",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "risk",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Risk",
+   "read_only": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Category",
+   "read_only": 1
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details",
+   "read_only": 1
+  },
+  {
+   "fieldname": "risk_impact",
+   "fieldtype": "Data",
+   "label": "Risk Impact",
+   "read_only": 1
+  },
+  {
+   "fieldname": "risk_likelihood",
+   "fieldtype": "Data",
+   "label": "Risk Likelihood",
+   "read_only": 1
+  },
+  {
+   "fieldname": "risk_rating",
+   "fieldtype": "Data",
+   "label": "Risk Rating",
+   "read_only": 1
+  },
+  {
+   "fieldname": "risk_control",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risk Control",
+   "read_only": 1
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "label": "Responsible Staff Member",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tcd",
+   "fieldtype": "Date",
+   "label": "Target Completion Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "acd",
+   "fieldtype": "Date",
+   "label": "Actual Completion Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "completion_signoff",
+   "fieldtype": "Signature",
+   "label": "Completion Signoff",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-30 01:45:08.625817",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "ERMT Risk Register",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

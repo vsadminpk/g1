@@ -1,0 +1,13 @@
+{
+ "creation": "2021-08-02 01:13:14.542975",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2021-08-02 01:13:14.542975",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Test",
+ "owner": "Administrator",
+ "source_name": "Test",
+ "timeseries": 0
+}

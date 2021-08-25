@@ -1,0 +1,311 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-24 23:57:38.765014",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "participant",
+  "version",
+  "dt1",
+  "dt2",
+  "bd3",
+  "dt3",
+  "dt4",
+  "dt5",
+  "dt6",
+  "bd4",
+  "dt7",
+  "dt8",
+  "dt9",
+  "bd5",
+  "dt10",
+  "dt11",
+  "bd6",
+  "dt12",
+  "dt13",
+  "bd7",
+  "dt14",
+  "dt15",
+  "bd8",
+  "dt16",
+  "dt17",
+  "dt18",
+  "dt19",
+  "bd9",
+  "dt20",
+  "dt21",
+  "dt22",
+  "bd10",
+  "dt23",
+  "dt24",
+  "bd11",
+  "dt25"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Annual Feedback Form</h1>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h5>At Hi Five Community Services we like to know if you are happy with the services you are getting.\n</h5>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Name of participant:",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "dt1",
+   "fieldtype": "Select",
+   "label": "Form filled in on participant\u2019s behalf by a parent/carer?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt2",
+   "fieldtype": "Select",
+   "label": "Is the Participant verbal?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<h5>Rights</h5>"
+  },
+  {
+   "fieldname": "dt3",
+   "fieldtype": "Select",
+   "label": "If you have a problem with Hi Five Community Services programs or work do you speak up?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt4",
+   "fieldtype": "Select",
+   "label": "If someone has hurt you, would you tell someone at Hi Five Community Services?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt5",
+   "fieldtype": "Select",
+   "label": "Since the last survey has anyone from Hi Five Community Services hurt you?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt6",
+   "fieldtype": "Small Text",
+   "label": "If yes, please let us know what happened"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<h5>Participation and Inclusion</h5>"
+  },
+  {
+   "fieldname": "dt7",
+   "fieldtype": "Select",
+   "label": "Are you happy with the activities you do at Hi Five Community Services?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt8",
+   "fieldtype": "Select",
+   "label": "Do you get to choose which activities you want to do?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt9",
+   "fieldtype": "Select",
+   "label": "Would you like to learn new skills?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<h5>Individual Outcomes</h5>"
+  },
+  {
+   "fieldname": "dt10",
+   "fieldtype": "Select",
+   "label": "with Hi Five Community Services staff?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt11",
+   "fieldtype": "Select",
+   "label": "Are you happy with your Support Plan?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<h5>Feedback and Complaints</h5>"
+  },
+  {
+   "fieldname": "dt12",
+   "fieldtype": "Select",
+   "label": "Do you know about your advocacy options?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt13",
+   "fieldtype": "Select",
+   "label": "Do people at Hi Five Community Services try to help if you have a problem?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<h5>Service Access</h5>"
+  },
+  {
+   "fieldname": "dt14",
+   "fieldtype": "Select",
+   "label": "Are you new to any of Hi Five Community Services\u2019 programs or services?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt15",
+   "fieldtype": "Select",
+   "label": "If you are new, did you find Hi Five Community Services staff helpful in explaining to you what you can do?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bd8",
+   "fieldtype": "HTML",
+   "label": "bd8",
+   "options": "<h5>Service Management</h5>"
+  },
+  {
+   "fieldname": "dt16",
+   "fieldtype": "Select",
+   "label": "Do you feel Hi Five Community Services staff understand your needs?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt17",
+   "fieldtype": "Select",
+   "label": "Do Hi Five Community Services staff treat you with respect?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt18",
+   "fieldtype": "Select",
+   "label": "Would you feel comfortable bringing up any issues/ideas with Managers or the CEO?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt19",
+   "fieldtype": "Small Text",
+   "label": "What (if anything) do you like about Hi Five Community Services?"
+  },
+  {
+   "fieldname": "bd9",
+   "fieldtype": "HTML",
+   "label": "bd9",
+   "options": "<h5>For Families &amp; Carers</h5>"
+  },
+  {
+   "fieldname": "dt20",
+   "fieldtype": "Small Text",
+   "label": "In what way can Hi Five Community Services improve support for you, or your son/daughter?"
+  },
+  {
+   "fieldname": "dt21",
+   "fieldtype": "Small Text",
+   "label": "Any further Comments:"
+  },
+  {
+   "fieldname": "dt22",
+   "fieldtype": "Select",
+   "label": "Do you need to speak to anindependent advocate about any concerns you have right now?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bd10",
+   "fieldtype": "HTML",
+   "label": "bd10",
+   "options": "<h5>If yes, please write your name and contact phone number:</h5>"
+  },
+  {
+   "fieldname": "dt23",
+   "fieldtype": "Data",
+   "label": "Name:"
+  },
+  {
+   "fieldname": "dt24",
+   "fieldtype": "Data",
+   "label": "Contact Number:",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "bd11",
+   "fieldtype": "HTML",
+   "label": "bd11",
+   "options": "<h5>People who helped you with this survey:</h5>"
+  },
+  {
+   "fieldname": "dt25",
+   "fieldtype": "Table",
+   "label": "Staff Members:",
+   "options": "User Multi Link"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:29:58.400804",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Annual Feedback Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

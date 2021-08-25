@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "creation": "2020-12-23 23:18:21.972363",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "a_great_weekend_would_be",
+  "a_bad_weekend_would_be"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "a_great_weekend_would_be",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "A great weekend would be"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "a_bad_weekend_would_be",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "A bad weekend would be"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:03:41.978993",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Weekend",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

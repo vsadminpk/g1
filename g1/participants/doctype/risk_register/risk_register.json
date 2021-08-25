@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:participant",
+ "creation": "2021-02-25 03:43:22.077756",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "participant",
+  "fetch_risks",
+  "section_break_3",
+  "risk_management_control_models",
+  "erm1",
+  "section_break_74",
+  "enterprise_risk_management_plans",
+  "ermt"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Risk Register</h1>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant",
+   "unique": 1
+  },
+  {
+   "fieldname": "risk_management_control_models",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Risk Management Control Models",
+   "options": "RMC Model",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_74",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "enterprise_risk_management_plans",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Enterprise Risk Management Plans",
+   "options": "ERM Plan",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "erm1",
+   "fieldtype": "Table",
+   "label": "Risk Identification and Controls",
+   "options": "ERMT Risk Register"
+  },
+  {
+   "fetch_from": "enterprise_risk_management_plans.ermt",
+   "fieldname": "ermt",
+   "fieldtype": "Table",
+   "label": "Hazard Identification and Controls",
+   "options": "ERMT Risk Register"
+  },
+  {
+   "fieldname": "fetch_risks",
+   "fieldtype": "Button",
+   "label": "Fetch Risks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:29:37.824605",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Risk Register",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

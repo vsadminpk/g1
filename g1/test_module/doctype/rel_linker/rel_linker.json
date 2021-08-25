@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "creation": "2021-03-10 11:07:31.529015",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "table_1",
+  "link_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "table_1",
+   "fieldtype": "Table",
+   "options": "rel link 2"
+  },
+  {
+   "fetch_from": "relationship.name1",
+   "fieldname": "link_2",
+   "fieldtype": "Link",
+   "options": "Relationship"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-03-10 11:10:12.855609",
+ "modified_by": "Administrator",
+ "module": "Test Module",
+ "name": "rel linker",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

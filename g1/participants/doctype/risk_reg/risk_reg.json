@@ -1,0 +1,742 @@
+{
+ "actions": [],
+ "autoname": "format:{participant} Risk Register {version}",
+ "creation": "2021-02-25 03:58:46.022559",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "participant",
+  "risk_management_control_models",
+  "risks",
+  "dt8",
+  "dt9",
+  "t10",
+  "t20",
+  "t30",
+  "t40",
+  "t50",
+  "dt60",
+  "dt80",
+  "dt100",
+  "dt110",
+  "dt120",
+  "dt200",
+  "dt300",
+  "dt130",
+  "dt140",
+  "dt150",
+  "dt160",
+  "dt160a",
+  "dt170",
+  "dt180",
+  "dt190",
+  "dt210",
+  "dt220",
+  "dt230",
+  "dt240",
+  "dt250",
+  "bd250a",
+  "dt260",
+  "dt270",
+  "dt280",
+  "dt290",
+  "dt290d",
+  "dt310",
+  "dt320",
+  "dt330",
+  "data1",
+  "data2",
+  "data3",
+  "data4",
+  "data5",
+  "data6",
+  "data8",
+  "data9",
+  "data10",
+  "data11",
+  "data12",
+  "data13",
+  "data14",
+  "data15",
+  "data16",
+  "data17",
+  "data18",
+  "data19",
+  "data20",
+  "data21",
+  "data22",
+  "data23",
+  "data24",
+  "data25",
+  "data26",
+  "data27",
+  "data28",
+  "data29",
+  "data30",
+  "dataedited",
+  "data31",
+  "data32",
+  "data33",
+  "section_break_74",
+  "enterprise_risk_management_plans"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Risk Register</h1>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "risk_management_control_models",
+   "fieldtype": "Link",
+   "label": "Risk Management Control Models",
+   "options": "Risk Management Control Model"
+  },
+  {
+   "fieldname": "risks",
+   "fieldtype": "HTML",
+   "label": "Risks",
+   "options": "<h5>Risks</h5>"
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt8",
+   "fieldname": "dt8",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Does the Participant consent to the Home Visit?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt9",
+   "fieldname": "dt9",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Has this risk assessment been completed with the participant/carer present?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.t10",
+   "fieldname": "t10",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is the street sign visible?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.t20",
+   "fieldname": "t20",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is there difficulty finding property or number? (e.g descriptive marker)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.t30",
+   "fieldname": "t30",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is the house obscured from the street? (e.g question outdoor environment)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.t40",
+   "fieldname": "t40",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is there difficulty or a distance to a car park? (e.g closest parking)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.t50",
+   "fieldname": "t50",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is the gate difficult to open? (e.g other access available)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt60",
+   "fieldname": "dt60",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is there a shared driveway?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt80",
+   "fieldname": "dt80",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any uneven and/or dangerous paths on entry to the door?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt100",
+   "fieldname": "dt100",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is the participant able to open the door?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt110",
+   "fieldname": "dt110",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is there any difficulty with mobile phone reception and/or working land line?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt120",
+   "fieldname": "dt120",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any restrictions to time parameters for the visit?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt200",
+   "fieldname": "dt200",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is there adequate lighting inside?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt300",
+   "fieldname": "dt300",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any trip or slip hazards?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt130",
+   "fieldname": "dt130",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are the gas and electrical appliances well maintained?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt140",
+   "fieldname": "dt140",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any fire hazards?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt150",
+   "fieldname": "dt150",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are smoke detectors present and maintained?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt160",
+   "fieldname": "dt160",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any infectious illnesses in the house? (e.g Gastro, Measles, Chicken Pox, Other)",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "risk_management_control_models.dt160a",
+   "fieldname": "dt160a",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Illness:",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt170",
+   "fieldname": "dt170",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Does the client have any pets/animals around the residence?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt180",
+   "fieldname": "dt180",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any animals with open access to the front of the property?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt190",
+   "fieldname": "dt190",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Can the animals be put outside or in a room during a visit?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt210",
+   "fieldname": "dt210",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Does the participant, or other occupants smoke?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt220",
+   "fieldname": "dt220",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Does the participant have mobility issues? (e.g wheelchair or other)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt230",
+   "fieldname": "dt230",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Does the participant speak English? (Is an interpreter required?)",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt240",
+   "fieldname": "dt240",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Have communication methods with the participant been established?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt250",
+   "fieldname": "dt250",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are the manual handling risks associated with the following participant transfers and other duties assessed and controlled:",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bd250a",
+   "fieldtype": "HTML",
+   "hidden": 1,
+   "label": "bd250a",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">e.g. For transfers ON THE BED:<br>Moving the participant up/down on the bed<br>Sit up / Lie down<br>Rolling the participant in bed<br>Re-positioning the participant in bed<br>Patient moving from lying to sitting in bed<br><br>e.g. For transfers OFF THE BED:<br>Move from chair to bed or bed to chair<br>Transfer legs onto bed<br>Chair to chair or toilet<br>Move client off floor<br><br>e.g. For transfers IN/OUT BED:<br>To chair/commode/wheelchair<br>From sit to stand<br><br>e.g. For wheelchairs:<br>The condition of the wheelchair is checked<br>Transferring participant from wheelchair to car<br>Transferring the wheelchair into car<br></label>",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt260",
+   "fieldname": "dt260",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there particular religious or cultural sensitivities to be aware of?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt270",
+   "fieldname": "dt270",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Have hazards associated with showering, sponging and toileting been considered?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt280",
+   "fieldname": "dt280",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any other occupants or visitors likely to be present during home visits?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt290",
+   "fieldname": "dt290",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Are there any known weapons or fire arms in the house?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt290==1",
+   "fetch_from": "risk_management_control_models.dt290d",
+   "fieldname": "dt290d",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "If yes, what sort of weapons? are they secure?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt310",
+   "fieldname": "dt310",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Is there known substance abuse amongst occupants or visitors? What substances?",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt320",
+   "fieldname": "dt320",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Does the participant, or other occupants have a history of violent or aggressive behavior? ",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "risk_management_control_models.dt330",
+   "fieldname": "dt330",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Will the violent/aggressive person be present during the visit? (if it is not the participant)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.t10==0",
+   "fetch_from": "risk_management_control_models.data1",
+   "fieldname": "data1",
+   "fieldtype": "Small Text",
+   "label": "Is the street sign visible?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "t20",
+   "fetch_from": "risk_management_control_models.data2",
+   "fieldname": "data2",
+   "fieldtype": "Small Text",
+   "label": "Is there difficulty finding property or number? (e.g descriptive marker)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "t30",
+   "fetch_from": "risk_management_control_models.data3",
+   "fieldname": "data3",
+   "fieldtype": "Small Text",
+   "label": "Is the house obscured from the street? (e.g question outdoor environment)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "t40",
+   "fetch_from": "risk_management_control_models.data4",
+   "fieldname": "data4",
+   "fieldtype": "Small Text",
+   "label": "Is there difficulty or a distance to a car park? (e.g closest parking)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "t50",
+   "fetch_from": "risk_management_control_models.data5",
+   "fieldname": "data5",
+   "fieldtype": "Small Text",
+   "label": "Is the gate difficult to open? (e.g other access available)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt60",
+   "fetch_from": "risk_management_control_models.data6",
+   "fieldname": "data6",
+   "fieldtype": "Small Text",
+   "label": "Is there a shared driveway?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt80",
+   "fetch_from": "risk_management_control_models.data8",
+   "fieldname": "data8",
+   "fieldtype": "Small Text",
+   "label": "Are there any uneven and/or dangerous paths on entry to the door?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt90",
+   "fetch_from": "risk_management_control_models.data9",
+   "fieldname": "data9",
+   "fieldtype": "Small Text",
+   "label": "Are there any dangerous or slippery paths?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt100==0",
+   "fetch_from": "risk_management_control_models.data10",
+   "fieldname": "data10",
+   "fieldtype": "Small Text",
+   "label": "Is the participant able to open the door?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt110",
+   "fetch_from": "risk_management_control_models.data11",
+   "fieldname": "data11",
+   "fieldtype": "Small Text",
+   "label": "Is there any difficulty with mobile phone reception and/or working land line?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt120",
+   "fetch_from": "risk_management_control_models.data12",
+   "fieldname": "data12",
+   "fieldtype": "Small Text",
+   "label": "Are there any restrictions to time parameters for the visit?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt200==0",
+   "fetch_from": "risk_management_control_models.data13",
+   "fieldname": "data13",
+   "fieldtype": "Small Text",
+   "label": "Is there adequate lighting inside?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt300",
+   "fetch_from": "risk_management_control_models.data14",
+   "fieldname": "data14",
+   "fieldtype": "Small Text",
+   "label": "Are there any trip or slip hazards?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt130==0",
+   "fetch_from": "risk_management_control_models.data15",
+   "fieldname": "data15",
+   "fieldtype": "Small Text",
+   "label": "Are the gas and electrical appliances well maintained?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt140",
+   "fetch_from": "risk_management_control_models.data16",
+   "fieldname": "data16",
+   "fieldtype": "Small Text",
+   "label": "Are there any fire hazards?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt150==0",
+   "fetch_from": "risk_management_control_models.data17",
+   "fieldname": "data17",
+   "fieldtype": "Small Text",
+   "label": "Are smoke detectors present and maintained?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt160",
+   "fetch_from": "risk_management_control_models.data18",
+   "fieldname": "data18",
+   "fieldtype": "Small Text",
+   "label": "Are there any infectious illnesses in the house? (e.g Gastro, Measles, Chicken Pox, Other)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt170",
+   "fetch_from": "risk_management_control_models.data19",
+   "fieldname": "data19",
+   "fieldtype": "Small Text",
+   "label": "Does the client have any pets/animals around the residence?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt180",
+   "fetch_from": "risk_management_control_models.data20",
+   "fieldname": "data20",
+   "fieldtype": "Small Text",
+   "label": "Are there any animals with open access to the front of the property?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt190==0",
+   "fetch_from": "risk_management_control_models.data21",
+   "fieldname": "data21",
+   "fieldtype": "Small Text",
+   "label": "Can the animals be put outside or in a room during a visit?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt210",
+   "fetch_from": "risk_management_control_models.data22",
+   "fieldname": "data22",
+   "fieldtype": "Small Text",
+   "label": "Does the participant, or other occupants smoke?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt220",
+   "fetch_from": "risk_management_control_models.data23",
+   "fieldname": "data23",
+   "fieldtype": "Small Text",
+   "label": "Does the participant have mobility issues? (e.g wheelchair or other)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt230==0",
+   "fetch_from": "risk_management_control_models.data24",
+   "fieldname": "data24",
+   "fieldtype": "Small Text",
+   "label": "Does the participant speak English? (Is an interpreter required?)",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt240==0",
+   "fetch_from": "risk_management_control_models.data25",
+   "fieldname": "data25",
+   "fieldtype": "Small Text",
+   "label": "Have communication methods with the participant been established?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt250==0",
+   "fetch_from": "risk_management_control_models.data26",
+   "fieldname": "data26",
+   "fieldtype": "Small Text",
+   "label": "Are the manual handling risks associated with the following participant transfers and other duties assessed and controlled:",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt260",
+   "fetch_from": "risk_management_control_models.data27",
+   "fieldname": "data27",
+   "fieldtype": "Small Text",
+   "label": "Are there particular religious or cultural sensitivities to be aware of?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt270==0",
+   "fetch_from": "risk_management_control_models.data28",
+   "fieldname": "data28",
+   "fieldtype": "Small Text",
+   "label": "Have hazards associated with showering, sponging and toileting been considered?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt280",
+   "fetch_from": "risk_management_control_models.data29",
+   "fieldname": "data29",
+   "fieldtype": "Small Text",
+   "label": "Are there any other occupants or visitors likely to be present during home visits?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt290",
+   "fetch_from": "risk_management_control_models.data30",
+   "fieldname": "data30",
+   "fieldtype": "Small Text",
+   "label": "Are there any known weapons or fire arms in the house?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.dt290d==0",
+   "fetch_from": "risk_management_control_models.dataedited",
+   "fieldname": "dataedited",
+   "fieldtype": "Small Text",
+   "label": "If yes, what sort of weapons? are they secure?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt310",
+   "fetch_from": "risk_management_control_models.data31",
+   "fieldname": "data31",
+   "fieldtype": "Small Text",
+   "label": "Is there known substance abuse amongst occupants or visitors? What substances?",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt320",
+   "fetch_from": "risk_management_control_models.data32",
+   "fieldname": "data32",
+   "fieldtype": "Small Text",
+   "label": "Does the participant, or other occupants have a history of violent or aggressive behavior? ",
+   "read_only": 1
+  },
+  {
+   "depends_on": "dt330",
+   "fetch_from": "risk_management_control_models.data33",
+   "fieldname": "data33",
+   "fieldtype": "Small Text",
+   "label": "Will the violent/aggressive person be present during the visit? (if it is not the participant)"
+  },
+  {
+   "fieldname": "section_break_74",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "enterprise_risk_management_plans",
+   "fieldtype": "Link",
+   "label": "Enterprise Risk Management Plans",
+   "options": "Enterprise Risk Management Plan"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-02-25 04:14:48.322809",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Risk Reg",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

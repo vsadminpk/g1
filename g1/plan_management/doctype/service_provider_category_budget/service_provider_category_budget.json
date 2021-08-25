@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "creation": "2021-01-22 16:07:43.382726",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "service_provider",
+  "category"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service Provider",
+   "options": "Service Provider"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Assistance with social and community participation\nConsumables\nAssistance With Daily Life\nImproved Life Choices\nCoordination of supports\nImproved Daily Living Skills"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:08:46.169730",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Service Provider Category Budget",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

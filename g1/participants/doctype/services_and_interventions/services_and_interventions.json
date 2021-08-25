@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "creation": "2020-12-23 05:11:52.130549",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "services",
+  "interventions"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "services",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Services"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "interventions",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Interventions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-07-05 19:00:28.813956",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Services and Interventions",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "creation": "2020-12-22 18:55:34.819188",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "background"
+ ],
+ "fields": [
+  {
+   "fieldname": "background",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Background",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-06 04:48:01.958117",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Cultural Background",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

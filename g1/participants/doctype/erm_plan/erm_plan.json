@@ -1,0 +1,3105 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:participant",
+ "creation": "2021-03-20 02:42:11.039673",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "bd3",
+  "section_break_4",
+  "dt1",
+  "participant",
+  "dt3",
+  "primary_disability",
+  "column_break_9",
+  "assessment_form",
+  "dt4",
+  "version",
+  "secondary_disability",
+  "section_break_9",
+  "dt6",
+  "section_break_14",
+  "bd6",
+  "column_break_16",
+  "html_17",
+  "column_break_18",
+  "html_19",
+  "section_break_20",
+  "pk1",
+  "column_break_22",
+  "ck1",
+  "column_break_24",
+  "details1",
+  "section_break_26",
+  "html_29",
+  "cbbas",
+  "recheck1",
+  "column_break_32",
+  "redetails1",
+  "section_break_34",
+  "pk2",
+  "column_break_28",
+  "ck2",
+  "column_break_30",
+  "details2",
+  "section_break_32",
+  "pk3",
+  "column_break_34",
+  "ck3",
+  "column_break_36",
+  "details3",
+  "section_break_38",
+  "pk4",
+  "column_break_40",
+  "ck4",
+  "column_break_42",
+  "details4",
+  "section_break_44",
+  "html_45",
+  "column_break_46",
+  "ck5",
+  "column_break_48",
+  "details5",
+  "section_break_19",
+  "bd7",
+  "column_break_21",
+  "bd8",
+  "column_break_23",
+  "bd9",
+  "section_break_25",
+  "pk6",
+  "column_break_27",
+  "ck6",
+  "column_break_29",
+  "dat1b",
+  "section_break_31",
+  "pk7",
+  "column_break_33",
+  "ck7",
+  "column_break_35",
+  "dat2b",
+  "section_break_37",
+  "pk8",
+  "column_break_39",
+  "ck8",
+  "column_break_41",
+  "dat3b",
+  "section_break_43",
+  "pk9",
+  "column_break_45",
+  "ck9",
+  "column_break_47",
+  "dat4b",
+  "section_break_49",
+  "pk10",
+  "column_break_51",
+  "ck10",
+  "column_break_53",
+  "dat5b",
+  "section_break_55",
+  "pk11",
+  "column_break_57",
+  "ck11",
+  "column_break_59",
+  "dat6b",
+  "section_break_61",
+  "bod1",
+  "section_break_63",
+  "pk12",
+  "column_break_67",
+  "ck12",
+  "column_break_69",
+  "dat7b",
+  "section_break_71",
+  "pk13",
+  "column_break_73",
+  "ck13",
+  "column_break_75",
+  "dat8b",
+  "section_break_77",
+  "pk14",
+  "column_break_79",
+  "ck14",
+  "column_break_81",
+  "dat9b",
+  "section_break_83",
+  "pk15",
+  "column_break_85",
+  "ck15",
+  "column_break_87",
+  "dat10b",
+  "section_break_89",
+  "bod2",
+  "column_break_91",
+  "column_break_92",
+  "section_break_93",
+  "pk16",
+  "column_break_95",
+  "ck16",
+  "column_break_97",
+  "dat11b",
+  "section_break_99",
+  "details2h",
+  "cb22",
+  "recheck2",
+  "cb23",
+  "recdetails2",
+  "section_break_142",
+  "pk17",
+  "column_break_101",
+  "ck17",
+  "column_break_103",
+  "dat12b",
+  "section_break_105",
+  "pk18",
+  "column_break_107",
+  "ck18",
+  "column_break_109",
+  "dat13b",
+  "section_break_111",
+  "pk19",
+  "column_break_113",
+  "ck19",
+  "column_break_115",
+  "dat14b",
+  "section_break_117",
+  "pk20",
+  "column_break_119",
+  "ck20",
+  "column_break_121",
+  "dat15b",
+  "section_break_123",
+  "pk21",
+  "column_break_125",
+  "ck21",
+  "column_break_127",
+  "dat16b",
+  "section_break_129",
+  "pk22",
+  "column_break_131",
+  "ck22",
+  "column_break_133",
+  "dat17b",
+  "section_break_135",
+  "pk23",
+  "column_break_137",
+  "ck23",
+  "column_break_139",
+  "dat18b",
+  "section_break_141",
+  "pk24",
+  "column_break_143",
+  "ck24",
+  "column_break_145",
+  "dat19b",
+  "section_break_147",
+  "pk25",
+  "column_break_149",
+  "ck25",
+  "column_break_151",
+  "dat20b",
+  "section_break_159",
+  "pk27",
+  "column_break_161",
+  "ck27",
+  "column_break_163",
+  "dat22b",
+  "section_break_165",
+  "pk28",
+  "column_break_167",
+  "ck28",
+  "column_break_169",
+  "dat23b",
+  "section_break_171",
+  "pk29",
+  "column_break_173",
+  "ck29",
+  "column_break_175",
+  "dat24b",
+  "section_break_177",
+  "pk30",
+  "column_break_179",
+  "ck30",
+  "column_break_181",
+  "dat25b",
+  "section_break_183",
+  "tablebod",
+  "column_break_185",
+  "column_break_186",
+  "section_break_187",
+  "pk31",
+  "column_break_189",
+  "ck31",
+  "column_break_191",
+  "dat26b",
+  "section_break_193",
+  "pk32",
+  "column_break_195",
+  "ck32",
+  "column_break_197",
+  "dat27b",
+  "section_break_199",
+  "pk33",
+  "column_break_201",
+  "ck33",
+  "column_break_203",
+  "dat28b",
+  "section_break_205",
+  "pk34",
+  "column_break_207",
+  "ck34",
+  "column_break_209",
+  "dt29b",
+  "section_break_211",
+  "pk35",
+  "column_break_213",
+  "ck35",
+  "column_break_215",
+  "dat30b",
+  "section_break_217",
+  "rhh2",
+  "cb24",
+  "recheck3",
+  "cb25",
+  "redetails3",
+  "section_break_266",
+  "tablebod2",
+  "column_break_219",
+  "column_break_220",
+  "section_break_221",
+  "pk36",
+  "column_break_223",
+  "ck36",
+  "column_break_225",
+  "dat31b",
+  "section_break_227",
+  "pk37",
+  "column_break_229",
+  "ck37",
+  "column_break_231",
+  "dat32b",
+  "section_break_233",
+  "pk38",
+  "column_break_235",
+  "ck38",
+  "column_break_237",
+  "dat33b",
+  "section_break_239",
+  "pk39",
+  "column_break_241",
+  "ck39",
+  "column_break_243",
+  "dat34b",
+  "section_break_245",
+  "tablebod3",
+  "column_break_247",
+  "column_break_248",
+  "section_break_249",
+  "pk40",
+  "column_break_251",
+  "ck40",
+  "column_break_253",
+  "dat35b",
+  "section_break_255",
+  "html_305",
+  "cb27",
+  "recheck4",
+  "cb28",
+  "redetails4",
+  "section_break_310",
+  "pk41",
+  "column_break_257",
+  "ck41",
+  "column_break_259",
+  "dat36b",
+  "section_break_261",
+  "pk42",
+  "column_break_264",
+  "ck42",
+  "column_break_266",
+  "dat37b",
+  "section_break_268",
+  "pk43",
+  "column_break_270",
+  "ck43",
+  "column_break_272",
+  "dat38b",
+  "section_break_274",
+  "pk44",
+  "column_break_276",
+  "ck44",
+  "column_break_278",
+  "dat39b",
+  "section_break_28500",
+  "html_335",
+  "cb29",
+  "recheck5",
+  "cb30",
+  "redetails5",
+  "section_break_340",
+  "pk45",
+  "column_break_281",
+  "ck45",
+  "column_break_283",
+  "dat40b",
+  "section_break_285",
+  "pk46",
+  "column_break_287",
+  "ck46",
+  "column_break_289",
+  "dat41b",
+  "section_break_291",
+  "pk47",
+  "column_break_293",
+  "ck47",
+  "column_break_295",
+  "dat42b",
+  "section_break_297",
+  "pk48",
+  "column_break_299",
+  "ck48",
+  "column_break_301",
+  "dat43b",
+  "section_break_303",
+  "pk49",
+  "column_break_305",
+  "ck49",
+  "column_break_307",
+  "dat44b",
+  "section_break_309",
+  "pk50",
+  "column_break_311",
+  "ck50",
+  "column_break_313",
+  "dat45b",
+  "section_break_315",
+  "pk51",
+  "column_break_317",
+  "ck51",
+  "column_break_319",
+  "dat46b",
+  "section_break_321",
+  "pk52",
+  "column_break_323",
+  "ck52",
+  "column_break_325",
+  "dat47b",
+  "section_break_327",
+  "pk53",
+  "column_break_329",
+  "ck53",
+  "column_break_331",
+  "dat48b",
+  "section_break_333",
+  "html_395",
+  "cb31",
+  "recheck6",
+  "cb32",
+  "redetails6",
+  "section_break_400",
+  "html_401",
+  "cb33",
+  "recheck7",
+  "cb34",
+  "redetails7",
+  "section_break_406",
+  "tablebod6",
+  "column_break_335",
+  "column_break_336",
+  "section_break_337",
+  "pk54",
+  "column_break_339",
+  "ck54",
+  "column_break_341",
+  "dat49b",
+  "section_break_343",
+  "pk55",
+  "column_break_345",
+  "ck55",
+  "column_break_347",
+  "dat50b",
+  "section_break_349",
+  "pk56",
+  "column_break_352",
+  "ck56",
+  "column_break_353",
+  "dat51b",
+  "section_break_355",
+  "pk58",
+  "column_break_357",
+  "ck58",
+  "column_break_359",
+  "dat52b",
+  "section_break_361",
+  "pk59",
+  "column_break_363",
+  "ck59",
+  "column_break_365",
+  "dat53b",
+  "section_break_367",
+  "pk60",
+  "column_break_369",
+  "ck60",
+  "column_break_371",
+  "dat54b",
+  "section_break_373",
+  "pk61",
+  "column_break_375",
+  "ck61",
+  "column_break_377",
+  "dat55b",
+  "section_break_379",
+  "pk62",
+  "column_break_381",
+  "ck62",
+  "column_break_383",
+  "dat56b",
+  "section_break_385",
+  "html_459",
+  "cb35",
+  "recheck8",
+  "cob35",
+  "redetails8",
+  "section_break_464",
+  "html_465",
+  "cb36",
+  "recheck9",
+  "cb37",
+  "redetails9",
+  "section_break_470",
+  "tablebodlast1",
+  "column_break_387",
+  "column_break_388",
+  "section_break_389",
+  "pk63",
+  "column_break_391",
+  "ck63",
+  "column_break_393",
+  "dat57b",
+  "section_break_395",
+  "pk64",
+  "column_break_397",
+  "ck64",
+  "column_break_399",
+  "dat58b",
+  "section_break_401",
+  "pk65",
+  "column_break_403",
+  "ck65",
+  "column_break_405",
+  "dat60b",
+  "section_break_407",
+  "pk66",
+  "column_break_409",
+  "ck66",
+  "column_break_411",
+  "dat61b",
+  "section_break_413",
+  "pk67",
+  "column_break_415",
+  "ck67",
+  "column_break_417",
+  "dat62b",
+  "section_break_419",
+  "html_505",
+  "cb40",
+  "cb41",
+  "section_break_510",
+  "html_511",
+  "cb45",
+  "recheck10",
+  "cb46",
+  "redetails10",
+  "section_break_516",
+  "html_517",
+  "cb47",
+  "recheck11",
+  "column_break_520",
+  "redetails11",
+  "section_break_522",
+  "html_523",
+  "column_break_524",
+  "recheck12",
+  "column_break_526",
+  "redetails12",
+  "section_break_528",
+  "html_529",
+  "column_break_530",
+  "recheck13",
+  "column_break_532",
+  "redetails13",
+  "section_break_534",
+  "htmlbod1",
+  "review",
+  "control_measures",
+  "data3",
+  "data4",
+  "data6",
+  "data5",
+  "data7",
+  "data8",
+  "data9",
+  "data10",
+  "ermt"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Enterprise Risk Management Plan</h1>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h5>HI FIVE COMMUNITY SERVICES ENTERPRISE RISK MANAGEMENT APPROACH</h5>"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<p>Hi Five Community Services has adopted the <b>ORCA Approach </b>to ensure consistent application of risk management by\nall staff, in the:</p><ul>\n<li>execution of 3 years strategic plan,</li>\n<li>achievement of business objectives, and</li>\n<li>day-to-day operations.</li>\n</ul>\n<br><br>\n<b>ORCA </b>represents:<br>\n<b>O          OBJECTIVES</b><br>\nGoals and results that HiFive Community Services aims to achieve<br>\n<b>R          RISKS</b><br>\nAny potential event which could prevent\nthe achievement of an objective<br>\n<b>C          CONTROL</b><br>\nManagement\u2019s response to risks<br>\n<b>A          ALIGNMENT</b><br>\nAlignment of HiFive Community Services objectives, risks\nand controls across the enterprise determined by\nits appetites and tolerances for risks<br><p></p>"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt1",
+   "fieldtype": "Data",
+   "label": "Risk Assessment Title"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant",
+   "unique": 1
+  },
+  {
+   "fieldname": "dt3",
+   "fieldtype": "Data",
+   "label": "Assessment location:"
+  },
+  {
+   "fetch_from": "assessment_form.primary_disability",
+   "fieldname": "primary_disability",
+   "fieldtype": "Data",
+   "label": "Primary Disability",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assessment_form",
+   "fieldtype": "Link",
+   "label": "Assessment Form",
+   "options": "Assessment Form"
+  },
+  {
+   "fieldname": "dt4",
+   "fieldtype": "Date",
+   "label": "Assessment date:"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "fetch_from": "assessment_form.secondary_disability",
+   "fieldname": "secondary_disability",
+   "fieldtype": "Data",
+   "label": "Secondary Disability",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt6",
+   "fieldtype": "Table",
+   "label": "Staff Involved",
+   "options": "Staff Multi Link Risk Management"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "options": "<h5>Live alone Participant Sole\nWorker Risk Factor</h5>"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_17",
+   "fieldtype": "HTML",
+   "options": "<h5>Yes/No</h5>"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_19",
+   "fieldtype": "HTML",
+   "options": "<h5>Details</h5>"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pk1",
+   "fieldtype": "HTML",
+   "options": "<p>Is the participant receiving support or services from any other NDIS provider that involve regular, face-to-face contact</p>"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck1",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details1",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_29",
+   "fieldtype": "HTML",
+   "options": "<p>The participant or the participant's plan indicates that the participant has limited or no regular, face-to-face contact with relatives, friends, or other people with whom the participant is well-acquainted</p>"
+  },
+  {
+   "fieldname": "cbbas",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck1",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails1",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pk2",
+   "fieldtype": "HTML",
+   "options": "<p>Without the assistance of another person the participant has limited or no physical mobility</p>"
+  },
+  {
+   "fieldname": "column_break_28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck2",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details2",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_32",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pk3",
+   "fieldtype": "HTML",
+   "options": "<p>The participant uses equipment to enable them to be physically mobile or to facilitate their physical mobility</p>"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck3",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details3",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pk4",
+   "fieldtype": "HTML",
+   "options": "<p>Without the assistance of another person the participant has limited or no ability to communicate with others</p>"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck4",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_42",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details4",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_44",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_45",
+   "fieldtype": "HTML",
+   "options": "<p>The participant uses equipment to enable or facilitate communication with others, including to enable or facilitate the use of a phone or ot</p>"
+  },
+  {
+   "fieldname": "column_break_46",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck5",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_48",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details5",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<h5>Participant Vulnerability</h5>"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bd8",
+   "fieldtype": "HTML",
+   "label": "bd8",
+   "options": "<h5>Yes/No</h5>"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bd9",
+   "fieldtype": "HTML",
+   "label": "bd9",
+   "options": "<h5>Details</h5>"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk6",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of abuse/trauma; family violence (victim) or exploitation?</p>"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck6",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat1b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk7",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of financial difficulties? </p>"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck7",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat2b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk8",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of homelessness? </p>"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck8",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat3b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk9",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of substance use? </p>"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck9",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_47",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat4b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_49",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk10",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of violence/aggression, assault, family violence, criminal charges? </p>"
+  },
+  {
+   "fieldname": "column_break_51",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck10",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_53",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat5b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_55",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk11",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of prior sex offending, incident assault, and/or experiencing abuse/sexual abuse?</p>"
+  },
+  {
+   "fieldname": "column_break_57",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck11",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_59",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat6b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_61",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bod1",
+   "fieldtype": "HTML",
+   "label": "Participant Physical Health and Well Being",
+   "options": "<h5>Participant Physical Health and Well Being</h5>"
+  },
+  {
+   "fieldname": "section_break_63",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk12",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of frequent hospital admission?</p>"
+  },
+  {
+   "fieldname": "column_break_67",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck12",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_69",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat7b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_71",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk13",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a vision and/or hearing impairment? </p>"
+  },
+  {
+   "fieldname": "column_break_73",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck13",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_75",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat8b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_77",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk14",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of falling? </p>"
+  },
+  {
+   "fieldname": "column_break_79",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck14",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_81",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat9b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_83",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk15",
+   "fieldtype": "HTML",
+   "options": "<p>In Home Care \u2013 Is there a first aid kit available in the home. </p>"
+  },
+  {
+   "fieldname": "column_break_85",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck15",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat10b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_89",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bod2",
+   "fieldtype": "HTML",
+   "label": "bod2",
+   "options": "<h5>Personal Care</h5>"
+  },
+  {
+   "fieldname": "column_break_91",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_92",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_93",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk16",
+   "fieldtype": "HTML",
+   "options": "<p>Is there assistive equipment available to support participant in the home for personal care</p>"
+  },
+  {
+   "fieldname": "column_break_95",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck16",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_97",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat11b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_99",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "details2h",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant require two to one support when driving to a destination?</p>"
+  },
+  {
+   "fieldname": "cb22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck2",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recdetails2",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_142",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk17",
+   "fieldtype": "HTML",
+   "options": "<p>Is the bathroom big enough to shower the participant</p>"
+  },
+  {
+   "fieldname": "column_break_101",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck17",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_103",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat12b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_105",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk18",
+   "fieldtype": "HTML",
+   "options": "<p>Are there any steps or barriers to move in the bathroom</p>"
+  },
+  {
+   "fieldname": "column_break_107",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck18",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_109",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat13b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_111",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk19",
+   "fieldtype": "HTML",
+   "options": "<p>Is there assistive equipment available in participant home for toilet use</p>"
+  },
+  {
+   "fieldname": "column_break_113",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck19",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_115",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat14b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_117",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk20",
+   "fieldtype": "HTML",
+   "options": "<p>Are there safety mats (anti slip) available in bathroom/ toilet</p>"
+  },
+  {
+   "fieldname": "column_break_119",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck20",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_121",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat15b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_123",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk21",
+   "fieldtype": "HTML",
+   "options": "<p>Is the floor surface of the bathroom damaged?</p>"
+  },
+  {
+   "fieldname": "column_break_125",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck21",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_127",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat16b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_129",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk22",
+   "fieldtype": "HTML",
+   "options": "<p>Sink: is there sufficient space for participant wheelchair to move around the sink</p>"
+  },
+  {
+   "fieldname": "column_break_131",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck22",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_133",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat17b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_135",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk23",
+   "fieldtype": "HTML",
+   "options": "<p>Is there sufficient space in the bathroom to dress up the participant?</p>"
+  },
+  {
+   "fieldname": "column_break_137",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck23",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_139",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat18b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_141",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk24",
+   "fieldtype": "HTML",
+   "options": "<p>Is there safe passage between the bathroom and the room.</p>"
+  },
+  {
+   "fieldname": "column_break_143",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck24",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_145",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat19b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_147",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk25",
+   "fieldtype": "HTML",
+   "options": "<p>Is the assistive equipment and mobility equipment regularly maintained / repaired?</p>"
+  },
+  {
+   "fieldname": "column_break_149",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck25",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_151",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat20b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_159",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk27",
+   "fieldtype": "HTML",
+   "options": "<p>Is there enough lighting in the bathroom?</p>"
+  },
+  {
+   "fieldname": "column_break_161",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck27",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_163",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat22b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_165",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk28",
+   "fieldtype": "HTML",
+   "options": "<p>Any tripping hazards inside bathroom / shower area?</p>"
+  },
+  {
+   "fieldname": "column_break_167",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck28",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_169",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat23b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_171",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk29",
+   "fieldtype": "HTML",
+   "options": "<p>Has there been any past incidents during personal care delivery?</p>"
+  },
+  {
+   "fieldname": "column_break_173",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck29",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_175",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat24b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_177",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk30",
+   "fieldtype": "HTML",
+   "options": "<p>Are there contrast strips when surface levels change?</p>"
+  },
+  {
+   "fieldname": "column_break_179",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck30",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_181",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat25b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_183",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tablebod",
+   "fieldtype": "HTML",
+   "label": "tablebod",
+   "options": "<h5>Assistive with Household tasks<br>Cooking</h5>"
+  },
+  {
+   "fieldname": "column_break_185",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_186",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_187",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk31",
+   "fieldtype": "HTML",
+   "options": "<p>Electrical equipment \u2013 any electrical equipment that is damaged? Inc. cables</p>"
+  },
+  {
+   "fieldname": "column_break_189",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck31",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_191",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat26b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_193",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk32",
+   "fieldtype": "HTML",
+   "options": "<p>Is there any damage to gas powered equipment (inc. damage to gas pipes/ gas leaks) </p>"
+  },
+  {
+   "fieldname": "column_break_195",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck32",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_197",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat27b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_199",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk33",
+   "fieldtype": "HTML",
+   "options": "<p>Sharps management procedure, is there a safe place to store sharps?</p>"
+  },
+  {
+   "fieldname": "column_break_201",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck33",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_203",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat28b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_205",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk34",
+   "fieldtype": "HTML",
+   "options": "<p>Are there any cables laying around the kitchen area?</p>"
+  },
+  {
+   "fieldname": "column_break_207",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck34",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_209",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt29b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_211",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk35",
+   "fieldtype": "HTML",
+   "options": "<p>Is there a fire blanket or a fire extinguisher in home?</p>"
+  },
+  {
+   "fieldname": "column_break_213",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck35",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_215",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat30b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_217",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rhh2",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant understand the dangers related to fire and heat?</p>"
+  },
+  {
+   "fieldname": "cb24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck3",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails3",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_266",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tablebod2",
+   "fieldtype": "HTML",
+   "label": "tablebod2",
+   "options": "<h5>Cleaning/ Laundry</h5>"
+  },
+  {
+   "fieldname": "column_break_219",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_220",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_221",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk36",
+   "fieldtype": "HTML",
+   "options": "<p>Are the chemicals stored safely?</p>"
+  },
+  {
+   "fieldname": "column_break_223",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck36",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_225",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat31b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_227",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk37",
+   "fieldtype": "HTML",
+   "options": "<p>Is the cleaning equipment in participant\u2019s home safe to use/ not damaged?</p>"
+  },
+  {
+   "fieldname": "column_break_229",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck37",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_231",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat32b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_233",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk38",
+   "fieldtype": "HTML",
+   "options": "<p>Are there gloves available for staff to wear while using chemicals?</p>"
+  },
+  {
+   "fieldname": "column_break_235",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck38",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_237",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat33b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_239",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk39",
+   "fieldtype": "HTML",
+   "options": "<p>Are there any tripping hazards in the areas that require cleaning?</p>"
+  },
+  {
+   "fieldname": "column_break_241",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck39",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_243",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat34b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_245",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tablebod3",
+   "fieldtype": "HTML",
+   "label": "tablebod3",
+   "options": "<h5>Community Participation</h5>"
+  },
+  {
+   "fieldname": "column_break_247",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_248",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_249",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk40",
+   "fieldtype": "HTML",
+   "options": "<p>Is there safe transport available for the participant? E.g. wheelchair accessing vehicle?</p>"
+  },
+  {
+   "fieldname": "column_break_251",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck40",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_253",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat35b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_255",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_305",
+   "fieldtype": "HTML",
+   "options": "<p>Is there a restrictive intervention required for safety of participant? (seat belt covers etc?) (if YES, consult with CEO/APO)</p>"
+  },
+  {
+   "fieldname": "cb27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck4",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails4",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_310",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk41",
+   "fieldtype": "HTML",
+   "options": "<p>Is there equipment available to transfer participant from wheelchair into the car and vice versa?</p>"
+  },
+  {
+   "fieldname": "column_break_257",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck41",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_259",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat36b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_261",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk42",
+   "fieldtype": "HTML",
+   "options": "<p>If participants vehicle is being used, is the vehicle insured and fit to drive on road and registered?</p>"
+  },
+  {
+   "fieldname": "column_break_264",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck42",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_266",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat37b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_268",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk43",
+   "fieldtype": "HTML",
+   "options": "<p>If participants vehicle is being used, is the vehicle being regularly serviced/ maintained?</p>"
+  },
+  {
+   "fieldname": "column_break_270",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck43",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_272",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat38b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_274",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk44",
+   "fieldtype": "HTML",
+   "options": "<p>Is road side assistance available in participant\u2019 vehicle?</p>"
+  },
+  {
+   "fieldname": "column_break_276",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck44",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_278",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat39b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_28500",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_335",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant require two to one support when driving to a destination?</p>"
+  },
+  {
+   "fieldname": "cb29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck5",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails5",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_340",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk45",
+   "fieldtype": "HTML",
+   "options": "<p>Training on participant\u2019s vehicle for loading and unloading of wheelchair. </p>"
+  },
+  {
+   "fieldname": "column_break_281",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck45",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_283",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat40b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_285",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk46",
+   "fieldtype": "HTML",
+   "options": "<p>Is the community participation activity safe for participant? </p>"
+  },
+  {
+   "fieldname": "column_break_287",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck46",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_289",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat41b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_291",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk47",
+   "fieldtype": "HTML",
+   "options": "<p>Is there suitable accessibility for the participant to access the destination? </p>"
+  },
+  {
+   "fieldname": "column_break_293",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck47",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_295",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat42b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_297",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk48",
+   "fieldtype": "HTML",
+   "options": "<p>Is the destination overcrowded for participant?</p>"
+  },
+  {
+   "fieldname": "column_break_299",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck48",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_301",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat43b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_303",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk49",
+   "fieldtype": "HTML",
+   "options": "<p>Is there a toilet facility at the destination? And is accessible?</p>"
+  },
+  {
+   "fieldname": "column_break_305",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck49",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_307",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat44b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_309",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk50",
+   "fieldtype": "HTML",
+   "options": "<p>Does the activity require a detailed risk assessment?</p>"
+  },
+  {
+   "fieldname": "column_break_311",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck50",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_313",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat45b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_315",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk51",
+   "fieldtype": "HTML",
+   "options": "<p>Is there an animal related risk to participant? (participant is scared of dogs etc?)</p>"
+  },
+  {
+   "fieldname": "column_break_317",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck51",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_319",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat46b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_321",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk52",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant require a detailed behaviour risk assessment?</p>"
+  },
+  {
+   "fieldname": "column_break_323",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck52",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_325",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat47b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_327",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk53",
+   "fieldtype": "HTML",
+   "options": "<p>Are there any tripping risks at the destination?</p>"
+  },
+  {
+   "fieldname": "column_break_329",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck53",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_331",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat48b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_333",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_395",
+   "fieldtype": "HTML",
+   "options": "<p>Is the participant able to understand and/or comprehend information when communicating with support staff?</p>"
+  },
+  {
+   "fieldname": "cb31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck6",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails6",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_400",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_401",
+   "fieldtype": "HTML",
+   "options": "<p>Is the participant aware of the traffic safety?</p>"
+  },
+  {
+   "fieldname": "cb33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck7",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails7",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_406",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tablebod6",
+   "fieldtype": "HTML",
+   "label": "tablebod6",
+   "options": "<h5>Physical activities</h5>"
+  },
+  {
+   "fieldname": "column_break_335",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_336",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_337",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk54",
+   "fieldtype": "HTML",
+   "options": "<p>Has the participant done this activity before?</p>"
+  },
+  {
+   "fieldname": "column_break_339",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck54",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_341",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat49b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_343",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk55",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant require a trained support staff in this particular activity?</p>"
+  },
+  {
+   "fieldname": "column_break_345",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck55",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_347",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat50b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_349",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk56",
+   "fieldtype": "HTML",
+   "options": "<p>Is there any assistive equipment required to support participant in this activity? </p>"
+  },
+  {
+   "fieldname": "column_break_352",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck56",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo",
+   "width": "10"
+  },
+  {
+   "fieldname": "column_break_353",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat51b",
+   "fieldtype": "Small Text",
+   "width": "10"
+  },
+  {
+   "fieldname": "section_break_355",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk58",
+   "fieldtype": "HTML",
+   "options": "<p>And is this equipment maintained?</p>"
+  },
+  {
+   "fieldname": "column_break_357",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck58",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_359",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat52b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_361",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk59",
+   "fieldtype": "HTML",
+   "options": "<p>Are there any tripping hazards in this activity?</p>"
+  },
+  {
+   "fieldname": "column_break_363",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck59",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_365",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat53b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_367",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk60",
+   "fieldtype": "HTML",
+   "options": "<p>Do we have an OT or qualified Personal Trainer assessment for participant to be involved in this activity?</p>"
+  },
+  {
+   "fieldname": "column_break_369",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck60",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_371",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat54b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_373",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk61",
+   "fieldtype": "HTML",
+   "options": "<p>Can this activity cause any trauma or complication to participant (e.g. contact sports causing reminder of an injury)?</p>"
+  },
+  {
+   "fieldname": "column_break_375",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck61",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_377",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat55b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_379",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk62",
+   "fieldtype": "HTML",
+   "options": "<p>Does this activity require a detailed risk assessment?</p>"
+  },
+  {
+   "fieldname": "column_break_381",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck62",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_383",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat56b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_385",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_459",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant require two to one support when doing the physical activity?</p>"
+  },
+  {
+   "fieldname": "cb35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck8",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cob35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails8",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_464",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_465",
+   "fieldtype": "HTML",
+   "options": "<p>If given instruction, will participant be able to understand it?</p>"
+  },
+  {
+   "fieldname": "cb36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck9",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails9",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_470",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tablebodlast1",
+   "fieldtype": "HTML",
+   "label": "tablebodlast1",
+   "options": "<h5>Medication management</h5>"
+  },
+  {
+   "fieldname": "column_break_387",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_388",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_389",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk63",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant has previous experience of non-compliance with medication? </p>"
+  },
+  {
+   "fieldname": "column_break_391",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck63",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_393",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat57b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_395",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk64",
+   "fieldtype": "HTML",
+   "options": "<p>Is there a medication management plan developed by a health professional (GP, RN or hospital)?</p>"
+  },
+  {
+   "fieldname": "column_break_397",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck64",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_399",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat58b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_401",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk65",
+   "fieldtype": "HTML",
+   "options": "<p>Is there a safe place to store medication in the participant\u2019s home?</p>"
+  },
+  {
+   "fieldname": "column_break_403",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck65",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_405",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat60b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_407",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk66",
+   "fieldtype": "HTML",
+   "options": "<p>Is the support staff trained in management of medication?</p>"
+  },
+  {
+   "fieldname": "column_break_409",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck66",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_411",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat61b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_413",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pk67",
+   "fieldtype": "HTML",
+   "options": "<p>Are the medications properly labelled? </p>"
+  },
+  {
+   "fieldname": "column_break_415",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "ck67",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_417",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dat62b",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_419",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_505",
+   "fieldtype": "HTML",
+   "options": "<h5>Behavioural concerns and Violence</h5>"
+  },
+  {
+   "fieldname": "cb40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cb41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_510",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_511",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have a history of harming themselves or others around them?</p>"
+  },
+  {
+   "fieldname": "cb45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck10",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "cb46",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails10",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_516",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_517",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have triggers that causes them to get angry?</p>"
+  },
+  {
+   "fieldname": "cb47",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck11",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_520",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails11",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_522",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_523",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have prescribed restrictive practices in behaviour support plan?</p>"
+  },
+  {
+   "fieldname": "column_break_524",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck12",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_526",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails12",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_528",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_529",
+   "fieldtype": "HTML",
+   "options": "<p>Does the participant have an interim behaviour support plan and restrictive practices written in it?</p>"
+  },
+  {
+   "fieldname": "column_break_530",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "recheck13",
+   "fieldtype": "Select",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_532",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "redetails13",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_534",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "htmlbod1",
+   "fieldtype": "HTML",
+   "label": "htmlbod1",
+   "options": "<h4>Hazard Identification and Risk Assessment</h4>\n"
+  },
+  {
+   "fieldname": "review",
+   "fieldtype": "Heading",
+   "label": "Review"
+  },
+  {
+   "default": "Are further reviews required?",
+   "fieldname": "control_measures",
+   "fieldtype": "Select",
+   "label": "Control Measures",
+   "options": "Control measures have been reviewed and no further risks have been identified\nAre further reviews required?"
+  },
+  {
+   "depends_on": "eval:doc.control_measures == \"Are further reviews required?\"",
+   "fieldname": "data3",
+   "fieldtype": "Date",
+   "label": "When",
+   "mandatory_depends_on": "eval:doc.control_measures == \"Are further reviews required?\""
+  },
+  {
+   "fetch_from": "data4.full_name",
+   "fieldname": "data4",
+   "fieldtype": "Link",
+   "label": "Reviewer name",
+   "options": "User"
+  },
+  {
+   "fieldname": "data5",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "data6",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "data7",
+   "fieldtype": "Heading",
+   "label": "Record of subsequent reviews."
+  },
+  {
+   "fieldname": "data8",
+   "fieldtype": "Date",
+   "label": "Review date"
+  },
+  {
+   "fetch_from": "data9.full_name",
+   "fieldname": "data9",
+   "fieldtype": "Link",
+   "label": "Reviewed by",
+   "options": "User"
+  },
+  {
+   "fieldname": "data10",
+   "fieldtype": "Data",
+   "label": "Description of any changes"
+  },
+  {
+   "fieldname": "ermt",
+   "fieldtype": "Table",
+   "label": "Hazard Identification and Risk Assessment",
+   "options": "ERMT"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 11:17:05.918037",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "ERM Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

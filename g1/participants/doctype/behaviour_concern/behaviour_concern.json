@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "creation": "2020-12-23 23:24:32.183213",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description_of_behaviour",
+  "triggers",
+  "what_this_might_mean",
+  "how_to_best_respond"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "description_of_behaviour",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description of Behaviour"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "triggers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Triggers"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "what_this_might_mean",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "What this might mean"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "how_to_best_respond",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "How to best respond"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:03:17.451409",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Behaviour Concern",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

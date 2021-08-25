@@ -1,0 +1,527 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-23 23:43:23.191956",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "bd3",
+  "version",
+  "bd4",
+  "bd5",
+  "participant",
+  "bd6",
+  "bd7",
+  "relations",
+  "data_10",
+  "bd8",
+  "dt1",
+  "bd9",
+  "dt2",
+  "bd10",
+  "dt3",
+  "bd11",
+  "bd12",
+  "bd13",
+  "bd14",
+  "bd15",
+  "bd16",
+  "bd17",
+  "bd18",
+  "bd19",
+  "sm",
+  "email_address",
+  "plan_managed",
+  "plan_manager_name",
+  "plan_manager_email",
+  "plan_manager_phone_number",
+  "ndia_managed",
+  "bd20",
+  "bd21",
+  "bd22",
+  "bd23",
+  "bd24",
+  "bd25",
+  "bd26",
+  "bd27",
+  "section_break_42",
+  "bd28",
+  "bd8d1",
+  "section_break_45",
+  "data_39",
+  "street",
+  "post_code",
+  "column_break_47",
+  "mp",
+  "area",
+  "alternative_contact_person",
+  "column_break_49",
+  "email",
+  "state",
+  "section_break_53",
+  "bd29",
+  "data_45",
+  "section_break_58",
+  "bd30",
+  "bd31",
+  "section_break_51",
+  "npp1",
+  "pdt1",
+  "sn1",
+  "column_break_56",
+  "user",
+  "pdt2",
+  "sn2",
+  "section_break_60",
+  "asups1",
+  "bdlast"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Participant Service Agreement</h1>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h2>Hi Five Community Services</h2>"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<p><b>NOTE:</b>A Service Agreement can be made between a Participant and a Provider or a\nParticipant\u2019s representative and a Provider. A Participant\u2019s representative is someone close to\nthe Participant, such as a family member or friend or someone who manages the funding for\nsupports under a Participant\u2019s NDIS plan.</p>"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<h4>Parties</h4>"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<p>This <b>Service Agreement</b> is for: </p>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": " ",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<p>a participant\nin the National Disability Insurance Scheme (Participant), and is made between:</p>"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<p><b>[Participant / Participant\u2019s\nrepresentative</b>(such as a family\nmember or friend)]</p>"
+  },
+  {
+   "fieldname": "relations",
+   "fieldtype": "Data",
+   "label": " "
+  },
+  {
+   "fieldname": "data_10",
+   "fieldtype": "HTML",
+   "label": "and Provider",
+   "options": "<p>and Provider: Hi Five Community Services</p>"
+  },
+  {
+   "fieldname": "bd8",
+   "fieldtype": "HTML",
+   "label": "bd8",
+   "options": "<p>This Service Agreement will commence on</p>"
+  },
+  {
+   "fieldname": "dt1",
+   "fieldtype": "Date",
+   "label": " "
+  },
+  {
+   "fieldname": "bd9",
+   "fieldtype": "HTML",
+   "label": "bd9",
+   "options": "<p>for the period</p>"
+  },
+  {
+   "fieldname": "dt2",
+   "fieldtype": "Date",
+   "label": " "
+  },
+  {
+   "fieldname": "bd10",
+   "fieldtype": "HTML",
+   "label": "bd10",
+   "options": "<p>to</p>"
+  },
+  {
+   "fieldname": "dt3",
+   "fieldtype": "Date",
+   "label": " "
+  },
+  {
+   "fieldname": "bd11",
+   "fieldtype": "HTML",
+   "label": "bd11",
+   "options": "<h4>The NDIS and this Service Agreement</h4>"
+  },
+  {
+   "fieldname": "bd12",
+   "fieldtype": "HTML",
+   "label": "bd12",
+   "options": "<p>This Service Agreement is made for the purpose of providing supports under the Participant\u2019s\nNational Disability Insurance Scheme (NDIS) plan.<br><br>A copy of the Participant\u2019s NDIS plan is attached to this Service Agreement.<br><br>The Parties agree that this Service Agreement is made in the context of the NDIS, which is a\nscheme that aims to:\n</p><ul>\n<li>support the independence and social and economic participation of people with\ndisability, and</li>\n<li>enable people with a disability to exercise choice and control in the pursuit of their\ngoals and the planning and delivery of their supports.</li></ul><p></p>"
+  },
+  {
+   "fieldname": "bd13",
+   "fieldtype": "HTML",
+   "label": "bd13",
+   "options": "<h4>Schedule of supports</h4>"
+  },
+  {
+   "fieldname": "bd14",
+   "fieldtype": "HTML",
+   "label": "bd14",
+   "options": "<p>The Provider agrees to provide the Participant : see attached supports schedule.<br><br>The supports and their prices are set out in the NDIS Pricing guidelines. All prices are GST\ninclusive (if applicable) and include the cost of providing the supports.<br><br>Additional expenses (i.e. things that are not included as part of a Participant\u2019s NDIS supports)\nare the responsibility of the [Participant / Participant\u2019s representative] and are not included in\nthe cost of the supports. Examples include entrance fees, event tickets, meals, etc.</p>"
+  },
+  {
+   "fieldname": "bd15",
+   "fieldtype": "HTML",
+   "label": "bd15",
+   "options": "<h4>Responsibilities of Provider</h4>"
+  },
+  {
+   "fieldname": "bd16",
+   "fieldtype": "HTML",
+   "label": "bd16",
+   "options": "<p>The Provider agrees to:\n</p><ul>\n<li>review the provision of supports at least 3 monthly with the Participant</li>\n<li>once agreed, provide supports that meet the Participant\u2019s needs at the Participant\u2019s\npreferred times</li>\n<li>communicate openly and honestly in a timely manner</li>\n<li>treat the Participant with courtesy and respect</li>\n<li>consult the Participant on decisions about how supports are provided</li>\n<li>give the Participant information about managing any complaints or disagreements and\ndetails of the provider\u2019s cancellation policy (if relevant)</li>\n<li>listen to the Participant\u2019s feedback and resolve problems quickly</li>\n<li>give the Participant a minimum of 24 hours\u2019 notice if the Provider has to change a\nscheduled appointment to provide supports</li>\n<li>give the Participant the required notice if the Provider needs to end the Service\nAgreement (see \u2018Ending this Service Agreement\u2019 below for more information)</li>\n<li>protect the Participant\u2019s privacy and confidential information</li>\n<li>provide supports in a manner consistent with all relevant laws, including the National\nDisability Insurance Scheme Act 2013 and rules, and the Australian Consumer Law;\nkeep accurate records on the supports provided to the Participant, and</li>\n<li>issue regular invoices and statements of the supports delivered to the Participant.</li></ul><p></p>"
+  },
+  {
+   "fieldname": "bd17",
+   "fieldtype": "HTML",
+   "label": "bd17",
+   "options": "<h4>Responsibilities of [Participant / Participant\u2019s representative]</h4>"
+  },
+  {
+   "fieldname": "bd18",
+   "fieldtype": "HTML",
+   "label": "bd18",
+   "options": "<p>The [Participant / Participant\u2019s representative] agrees to:\n</p><ul>\n<li>inform the Provider about how they wish the supports to be delivered to meet the\nParticipant\u2019s needs</li>\n<li>treat the Provider with courtesy and respect</li>\n<li>talk to the Provider if the Participant has any concerns about the supports being\nprovided</li>\n<li>give the Provider a minimum of 24 hours\u2019 notice if the Participant cannot make a\nscheduled appointment; and if the notice is not provided by then, the Provider\u2019s\ncancellation policy will apply</li>\n<li>give the Provider the required notice if the Participant needs to end the Service\nAgreement (see \u2018Ending this Service Agreement\u2019 below for more information), and</li>\n<li>let the Provider know immediately if the Participant\u2019s NDIS plan is suspended or\nreplaced by a new NDIS plan or the Participant stops being a participant in the NDIS.</li></ul><p></p>"
+  },
+  {
+   "fieldname": "bd19",
+   "fieldtype": "HTML",
+   "label": "bd19",
+   "options": "<h4>Payments</h4>"
+  },
+  {
+   "default": "0",
+   "fieldname": "sm",
+   "fieldtype": "Check",
+   "label": "Self-Managed"
+  },
+  {
+   "depends_on": "sm",
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "default": "0",
+   "fieldname": "plan_managed",
+   "fieldtype": "Check",
+   "label": "Plan Managed"
+  },
+  {
+   "depends_on": "plan_managed",
+   "fieldname": "plan_manager_name",
+   "fieldtype": "Data",
+   "label": "Plan Manager Name"
+  },
+  {
+   "depends_on": "plan_managed",
+   "fieldname": "plan_manager_email",
+   "fieldtype": "Data",
+   "label": "Plan Manager Email"
+  },
+  {
+   "depends_on": "plan_managed",
+   "fieldname": "plan_manager_phone_number",
+   "fieldtype": "Data",
+   "label": "Plan Manager Phone Number",
+   "options": "Phone"
+  },
+  {
+   "default": "0",
+   "fieldname": "ndia_managed",
+   "fieldtype": "Check",
+   "label": "NDIA Managed"
+  },
+  {
+   "fieldname": "bd20",
+   "fieldtype": "HTML",
+   "label": "bd20",
+   "options": "<h4>Changes to this Service Agreement</h4>"
+  },
+  {
+   "fieldname": "bd21",
+   "fieldtype": "HTML",
+   "label": "bd21",
+   "options": "<p>If changes to the supports or their delivery are required, the Parties agree to discuss and\nreview this Service Agreement. The Parties agree that any changes to this Service Agreement\nwill be in writing, signed, and dated by the Parties.</p>"
+  },
+  {
+   "fieldname": "bd22",
+   "fieldtype": "HTML",
+   "label": "bd22",
+   "options": "<h4>Ending this Service Agreement</h4>"
+  },
+  {
+   "fieldname": "bd23",
+   "fieldtype": "HTML",
+   "label": "bd23",
+   "options": "<p>Should either Party wish to end this Service Agreement they must give 1 month notice or as\nmutually agreed between both parties.<br><br>If either Party seriously breaches this Service Agreement the requirement of notice will be\nwaived.</p>"
+  },
+  {
+   "fieldname": "bd24",
+   "fieldtype": "HTML",
+   "label": "bd24",
+   "options": "<h4>Feedback, complaints and disputes</h4>"
+  },
+  {
+   "fieldname": "bd25",
+   "fieldtype": "HTML",
+   "label": "bd25",
+   "options": "<p>If the Participant wishes to give the Provider feedback, the Participant can talk to our care team on\n0411 529 569, Email: feedback@hifive.org.au or info@hifive.org.au<br><br>\nIf the Participant is not happy with the provision of supports and wishes to make a complaint, the\nParticipant can talk to us on 1300 492 214, Email: care@hifive.org.au or in person by visiting our office\nMon-Fri 09-00 am \u2013 05:00 pm at Suite G1, U30, 22-30 Wallace Avenue, Point Cook, VIC 3029<br><br>If the Participant is not satisfied or does not want to talk to us, the Participant\ncan contact the National Disability Insurance Agency by calling 1800 800 110, visiting\none of their offices in person, or visiting ndis.gov.au for further information.<br><br>The Participants can also register their complaints to the NDIS Quality and Safeguards Commission by\ncalling on 1800 035 544 or by visiting ndiscommission.gov.au/about/complaints<br><br>The participant can contact a separate advocate like 'VALID' for any concerns. Disability advocates\nby can be found by visiting disabilityadvocacyfinder.dss.gov.au</p>"
+  },
+  {
+   "fieldname": "bd26",
+   "fieldtype": "HTML",
+   "label": "bd26",
+   "options": "<h4>Goods and services tax (GST)</h4>"
+  },
+  {
+   "fieldname": "bd27",
+   "fieldtype": "HTML",
+   "label": "bd27",
+   "options": "<p>For the purposes of GST legislation, the Parties confirm that:</p><ul>\n<li>a supply of supports under this Service Agreement is a supply of one or more of the\nreasonable and necessary supports specified in the statement included, under\nsubsection 33(2) of the National Disability Insurance Scheme Act 2013 (NDIS Act), in\nthe Participant\u2019s NDIS plan currently in effect under section 37 of the NDIS Act;</li>\n<li>the Participant\u2019s NDIS plan is expected to remain in effect during the period the\nsupports are provided; and</li>\n<li>the [Participant / Participant\u2019s representative] will immediately notify the Provider if the\nParticipant\u2019s NDIS Plan is replaced by a new plan or the Participant stops being a\nparticipant in the NDIS.</li></ul><p></p>"
+  },
+  {
+   "fieldname": "bd28",
+   "fieldtype": "HTML",
+   "label": "bd28",
+   "options": "<h4>Contact details</h4>"
+  },
+  {
+   "fieldname": "bd8d1",
+   "fieldtype": "HTML",
+   "label": "bd8d1",
+   "options": "<p>The [Participant / the Participant\u2019s representative] can be contacted on:</p>"
+  },
+  {
+   "fieldname": "data_39",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "mp",
+   "fieldtype": "Data",
+   "label": "Mobile/ Phone",
+   "length": 10
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "alternative_contact_person",
+   "fieldtype": "Data",
+   "label": "Alternative Contact Person"
+  },
+  {
+   "fieldname": "bd29",
+   "fieldtype": "HTML",
+   "label": "bd29",
+   "options": "<p>The Provider can be contacted on:</p>"
+  },
+  {
+   "fetch_from": "data_45.full_name",
+   "fieldname": "data_45",
+   "fieldtype": "Link",
+   "label": "Contact name",
+   "options": "User"
+  },
+  {
+   "fieldname": "bd30",
+   "fieldtype": "HTML",
+   "label": "bd30",
+   "options": "<h4>Agreement signatures</h4>"
+  },
+  {
+   "fieldname": "bd31",
+   "fieldtype": "HTML",
+   "label": "bd31",
+   "options": "<p>The Parties agree to the terms and conditions of this Service Agreement.</p>"
+  },
+  {
+   "fieldname": "section_break_51",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "participant_service_agreement.data_39",
+   "fieldname": "npp1",
+   "fieldtype": "Data",
+   "label": "Name of [Participant / Participant\u2019s representative"
+  },
+  {
+   "fieldname": "sn1",
+   "fieldtype": "Signature",
+   "label": "Signature of [Participant / Participant\u2019s Representative"
+  },
+  {
+   "default": "Today",
+   "fieldname": "pdt1",
+   "fieldtype": "Date",
+   "label": "Dated"
+  },
+  {
+   "fieldname": "column_break_56",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sn2",
+   "fieldtype": "Signature",
+   "label": "Signature of authorised person from Provider"
+  },
+  {
+   "default": "Today",
+   "fieldname": "pdt2",
+   "fieldtype": "Date",
+   "label": "Dated"
+  },
+  {
+   "fieldname": "section_break_60",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "asups1",
+   "fieldtype": "Table",
+   "label": "Attachment \u2013 Schedule of supports",
+   "options": "Scheduled Support"
+  },
+  {
+   "fieldname": "bdlast",
+   "fieldtype": "HTML",
+   "label": "bdlast",
+   "options": "<h5>Cancellation Policy:<br>Please notify of any cancellations 24 hours prior to the booking, failure to do so may result in incurring the full booking fees.</h5>"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Authorised person from Provider",
+   "options": "User"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "section_break_42",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_45",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_47",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_49",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_53",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street Number & Name"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Suburb"
+  },
+  {
+   "fieldname": "section_break_58",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "post_code",
+   "fieldtype": "Data",
+   "label": "Post Code"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-23 06:35:02.799835",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Participant Service Agreement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

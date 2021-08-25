@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "autoname": "field:support_item",
+ "creation": "2021-01-22 16:08:42.773497",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "support_item",
+  "support_item_number",
+  "support_category",
+  "description",
+  "days_of_the_week",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday",
+  "start_time",
+  "end_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "support_item",
+   "fieldtype": "Data",
+   "label": "Support Item",
+   "unique": 1
+  },
+  {
+   "fieldname": "support_item_number",
+   "fieldtype": "Data",
+   "label": "Support Item Number"
+  },
+  {
+   "fieldname": "support_category",
+   "fieldtype": "Select",
+   "label": "Support Category",
+   "options": "Assistance with daily life\nAssistance with social and community participation\nConsumables\nTransport\nAssistive Technology\nCoordination of supports\nFinding and keeping a job\nHome Modifications\nImproved Daily Living Skills\nImproved Health and Wellbeing\nImproved Learning\nImproved Life Choices\nImproved Living Arrangements\nImproved Relationships\nIncreases Social and Community Participation"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "days_of_the_week",
+   "fieldtype": "Heading",
+   "label": "Days of the week"
+  },
+  {
+   "default": "0",
+   "fieldname": "monday",
+   "fieldtype": "Check",
+   "label": "Monday"
+  },
+  {
+   "default": "0",
+   "fieldname": "tuesday",
+   "fieldtype": "Check",
+   "label": "Tuesday"
+  },
+  {
+   "default": "0",
+   "fieldname": "wednesday",
+   "fieldtype": "Check",
+   "label": "Wednesday"
+  },
+  {
+   "default": "0",
+   "fieldname": "thursday",
+   "fieldtype": "Check",
+   "label": "Thursday"
+  },
+  {
+   "default": "0",
+   "fieldname": "friday",
+   "fieldtype": "Check",
+   "label": "Friday"
+  },
+  {
+   "default": "0",
+   "fieldname": "saturday",
+   "fieldtype": "Check",
+   "label": "Saturday"
+  },
+  {
+   "default": "0",
+   "fieldname": "sunday",
+   "fieldtype": "Check",
+   "label": "Sunday"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "label": "End Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-01-30 02:09:04.001036",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Service",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

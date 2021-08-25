@@ -1,0 +1,245 @@
+{
+ "actions": [],
+ "creation": "2021-02-05 08:47:34.465465",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gst_code",
+  "type",
+  "nolabel1",
+  "delivered_from",
+  "delivered_to",
+  "service",
+  "price_limit_type",
+  "rate",
+  "quantity",
+  "total_price",
+  "support_item_number",
+  "support_item_name",
+  "support_category_name",
+  "htmla",
+  "registration_group_number",
+  "registration_group_name",
+  "support_category_number",
+  "unit",
+  "quote",
+  "price_limit_nt_satas_wa_mmm_1_to_5",
+  "price_limit_act_nswqld_vic_mmm_1_to_5",
+  "price_limit_national_non_remote_mmm_1_to_5",
+  "price_limit_national_remote_mmm_6",
+  "price_limit_national_very_remote_mmm_7",
+  "non_face_to_face_support_provision",
+  "provider_travel",
+  "short_notice_cancellations",
+  "ndia_requested_reports",
+  "irregular_sil_supports"
+ ],
+ "fields": [
+  {
+   "fieldname": "service",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service",
+   "options": "Plan Management Services List"
+  },
+  {
+   "fieldname": "price_limit_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Price Limit Type",
+   "options": "Price Limit NT SATAS WA MMM 1 to 5\nPrice Limit ACT NSWQLD VIC MMM 1 to 5\nPrice Limit National Non Remote MMM 1 to 5\nPrice Limit National Remote MMM 6\nPrice Limit National Very Remote MMM 7"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fetch_from": "service.support_item_number",
+   "fieldname": "support_item_number",
+   "fieldtype": "Data",
+   "label": "Support Item Number",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.support_item_name",
+   "fieldname": "support_item_name",
+   "fieldtype": "Data",
+   "label": "Support Item Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.registration_group_number",
+   "fieldname": "registration_group_number",
+   "fieldtype": "Data",
+   "label": "Registration Group Number",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.registration_group_name",
+   "fieldname": "registration_group_name",
+   "fieldtype": "Data",
+   "label": "Registration Group Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.support_category_number",
+   "fieldname": "support_category_number",
+   "fieldtype": "Data",
+   "label": "Support Category Number",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.unit",
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.quote",
+   "fieldname": "quote",
+   "fieldtype": "Data",
+   "label": "Quote",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.price_limit_nt_satas_wa_mmm_1_to_5",
+   "fieldname": "price_limit_nt_satas_wa_mmm_1_to_5",
+   "fieldtype": "Currency",
+   "label": "Price Limit NT SATAS WA MMM 1 to 5",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.price_limit_act_nswqld_vic_mmm_1_to_5",
+   "fieldname": "price_limit_act_nswqld_vic_mmm_1_to_5",
+   "fieldtype": "Currency",
+   "label": "Price Limit ACT NSWQLD VIC MMM 1 to 5",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.price_limit_national_non_remote_mmm_1_to_5",
+   "fieldname": "price_limit_national_non_remote_mmm_1_to_5",
+   "fieldtype": "Currency",
+   "label": "Price Limit National Non Remote MMM 1 to 5",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.price_limit_national_remote_mmm_6",
+   "fieldname": "price_limit_national_remote_mmm_6",
+   "fieldtype": "Currency",
+   "label": "Price Limit National Remote MMM 6",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.price_limit_national_very_remote_mmm_7",
+   "fieldname": "price_limit_national_very_remote_mmm_7",
+   "fieldtype": "Currency",
+   "label": "Price Limit National Very Remote MMM 7",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.non_face_to_face_support_provision",
+   "fieldname": "non_face_to_face_support_provision",
+   "fieldtype": "Data",
+   "label": "Non Face to Face Support Provision",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.provider_travel",
+   "fieldname": "provider_travel",
+   "fieldtype": "Data",
+   "label": "Provider Travel",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.short_notice_cancellations",
+   "fieldname": "short_notice_cancellations",
+   "fieldtype": "Data",
+   "label": "Short Notice Cancellations",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.ndia_requested_reports",
+   "fieldname": "ndia_requested_reports",
+   "fieldtype": "Data",
+   "label": "NDIA Requested Reports",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "service.irregular_sil_supports",
+   "fieldname": "irregular_sil_supports",
+   "fieldtype": "Data",
+   "label": "Irregular SIL Supports",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Price",
+   "read_only": 1
+  },
+  {
+   "fieldname": "htmla",
+   "fieldtype": "HTML",
+   "label": "htmla",
+   "options": "<p>NDIS Rates</p>"
+  },
+  {
+   "fetch_from": "service.support_category_name",
+   "fieldname": "support_category_name",
+   "fieldtype": "Data",
+   "label": "Support Category Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "gst_code",
+   "fieldtype": "Select",
+   "label": "GST Code",
+   "options": "P1\nP2"
+  },
+  {
+   "default": "STAND",
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "STAND\nCANC\nREPW\nTRAN\nNF2F\nTHLT\nIRSS"
+  },
+  {
+   "fieldname": "nolabel1",
+   "fieldtype": "Select",
+   "options": "NSDH\nNSDF\nNSDT\nNSDO"
+  },
+  {
+   "fieldname": "delivered_from",
+   "fieldtype": "Date",
+   "label": "Delivered From"
+  },
+  {
+   "fieldname": "delivered_to",
+   "fieldtype": "Date",
+   "label": "Delivered To"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-24 19:22:20.724885",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Services Support List",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

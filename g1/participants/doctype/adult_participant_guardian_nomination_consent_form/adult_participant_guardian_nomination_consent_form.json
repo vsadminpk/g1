@@ -1,0 +1,210 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-23 03:05:26.862373",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading",
+  "version",
+  "h111",
+  "participant",
+  "body1",
+  "relationship",
+  "body2",
+  "section_break_8",
+  "body3",
+  "body4",
+  "section_break_11",
+  "rl2",
+  "dt1",
+  "sn1",
+  "column_break_15",
+  "user",
+  "dt2",
+  "sn2",
+  "section_break_19",
+  "verbal_consent",
+  "staff_use_only",
+  "body5",
+  "vercon"
+ ],
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "heading",
+   "options": "<h1>Adult Client Guardian Nomination Consent Form</h1>"
+  },
+  {
+   "fieldname": "h111",
+   "fieldtype": "HTML",
+   "label": "h111",
+   "options": "<p>I, </p>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant",
+   "reqd": 1
+  },
+  {
+   "fieldname": "body1",
+   "fieldtype": "HTML",
+   "label": "body1",
+   "options": "<p>hereby acknowledge that I am nominating my carer/ guardian friend:</p>"
+  },
+  {
+   "fetch_from": "relationship.name1",
+   "fieldname": "relationship",
+   "fieldtype": "Link",
+   "label": "Relationship",
+   "options": "Relationship",
+   "reqd": 1
+  },
+  {
+   "fieldname": "body2",
+   "fieldtype": "HTML",
+   "label": "body2",
+   "options": "<p>as a nominee to act on my behalf in the dealings with Hi Five Community Services in: the\nfollowing:\n</p><ul>\n<li>Agreeing to Hi Five Community Services\u2019 privacy consents on my behalf</li>\n<li>Sign the service agreements</li>\n<li>Coordinate services, care plans on my behalf</li>\n<li>Review my care plan and make changes as necessary</li>\n</ul>\n<p></p>"
+  },
+  {
+   "fieldname": "body3",
+   "fieldtype": "HTML",
+   "label": "body3",
+   "options": "<p><b>I have my right to withdraw this consent at any time.</b></p>"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body4",
+   "fieldtype": "HTML",
+   "label": "body4",
+   "options": "<p>I understand that Hi Five Community Services\nmust ensure my individual rights are protected\nand my participation and inclusion will be part of\nthe service deliver.<br><br>I nominate my carer/ guardian/ friend to act on\nmy behalf in dealings with Hi Five Community\nServices:</p>"
+  },
+  {
+   "fetch_from": "relationship.name1",
+   "fieldname": "rl2",
+   "fieldtype": "Data",
+   "label": "Relationship",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sn1",
+   "fieldtype": "Signature",
+   "label": "Signature:",
+   "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt1",
+   "fieldtype": "Date",
+   "label": "Date:"
+  },
+  {
+   "fieldname": "sn2",
+   "fieldtype": "Signature",
+   "in_list_view": 1,
+   "label": "Signature:",
+   "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt2",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date:"
+  },
+  {
+   "fieldname": "verbal_consent",
+   "fieldtype": "Heading",
+   "label": "Verbal Consent"
+  },
+  {
+   "fieldname": "staff_use_only",
+   "fieldtype": "Heading",
+   "label": "Staff use only"
+  },
+  {
+   "fieldname": "body5",
+   "fieldtype": "HTML",
+   "label": "body5",
+   "options": "<p>Verbal consent should only be used where it\nis not practicable to obtain written consent.<br><br>I have discussed the nomination of clients\ncarer/ guardian/ friend to act on their behalf\nin dealings with Hi Five Community Services\nand I am satisfied that they understand the\nproposed nomination, and have provided\ntheir informed consent to these.</p>"
+  },
+  {
+   "default": "0",
+   "fieldname": "vercon",
+   "fieldtype": "Check",
+   "label": "Verbal Consent?"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Hi Five Community Services Staff Member",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:29:39.600313",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Adult Participant Guardian Nomination Consent Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

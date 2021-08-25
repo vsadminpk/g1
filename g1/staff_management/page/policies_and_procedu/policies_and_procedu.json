@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2021-08-24 21:13:02.764263",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2021-08-24 21:13:14.730537",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "policies-and-procedu",
+ "owner": "Administrator",
+ "page_name": "Policies and Procedures",
+ "roles": [
+  {
+   "role": "All"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1,
+ "title": "Policies and Procedures"
+}

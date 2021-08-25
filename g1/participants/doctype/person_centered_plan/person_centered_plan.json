@@ -1,0 +1,271 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-23 05:40:24.317873",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "head1",
+  "section_break_2",
+  "participant",
+  "date1",
+  "version",
+  "data_5",
+  "about_me",
+  "section_break_7",
+  "people_who_are_part_of_my_life",
+  "insert_photos_of_participant_with_or_friends_etc",
+  "data_10",
+  "very_important_information",
+  "data_12",
+  "what_makes_me_happy",
+  "things_im_good_at",
+  "things_im_working_on_improving",
+  "data_17",
+  "data18",
+  "things_i_like_to_do_at_home",
+  "bd3",
+  "dayroutine",
+  "weekends",
+  "my_future_dreams",
+  "ways_to_help_me_communicate",
+  "bd4",
+  "bd5",
+  "data_26",
+  "bd6",
+  "plan_updated",
+  "people_who_contributed_to_the_plan",
+  "bd7",
+  "ways_to_help_me_achieve_my_goals_are",
+  "nts1"
+ ],
+ "fields": [
+  {
+   "fieldname": "head1",
+   "fieldtype": "HTML",
+   "label": "head1",
+   "options": "<h1>Person Centered Plan</h1>"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "data_5",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "about_me",
+   "fieldtype": "Small Text",
+   "label": "About Me"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "people_who_are_part_of_my_life",
+   "fieldtype": "Small Text",
+   "label": "People who are part of my life"
+  },
+  {
+   "fieldname": "insert_photos_of_participant_with_or_friends_etc",
+   "fieldtype": "Table",
+   "label": "Insert photos of participant with or friends etc",
+   "options": "Photos Relationship"
+  },
+  {
+   "fieldname": "data_10",
+   "fieldtype": "Table",
+   "label": "How I speak up for myself",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "very_important_information",
+   "fieldtype": "Table",
+   "label": "Very Important Information",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "data_12",
+   "fieldtype": "Table",
+   "label": "Places I Visit",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "what_makes_me_happy",
+   "fieldtype": "Table",
+   "label": "What Makes Me Happy",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "things_im_good_at",
+   "fieldtype": "Table",
+   "label": "Things I'm Good at",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "things_im_working_on_improving",
+   "fieldtype": "Table",
+   "label": "Things I'm Working on Improving",
+   "options": "Def Table"
+  },
+  {
+   "fieldname": "data_17",
+   "fieldtype": "Table",
+   "label": "Programs/Activities/Things I like doing at my current service",
+   "options": "Programs and Activities"
+  },
+  {
+   "fieldname": "data18",
+   "fieldtype": "Table",
+   "label": "Things I don\u2019t like doing at my current service",
+   "options": "Programs and Activites neg"
+  },
+  {
+   "fieldname": "things_i_like_to_do_at_home",
+   "fieldtype": "Table",
+   "label": "Things I like to do at home",
+   "options": "Home Things"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<p>Is routine important to me</p>"
+  },
+  {
+   "fieldname": "dayroutine",
+   "fieldtype": "Table",
+   "label": "My Day (Routine)",
+   "options": "Routine Day"
+  },
+  {
+   "fieldname": "weekends",
+   "fieldtype": "Table",
+   "label": "Weekends",
+   "options": "Weekend"
+  },
+  {
+   "fieldname": "my_future_dreams",
+   "fieldtype": "Table",
+   "label": "My Future Dreams",
+   "options": "Future Dream"
+  },
+  {
+   "fieldname": "ways_to_help_me_communicate",
+   "fieldtype": "Table",
+   "label": "Ways to help me communicate",
+   "options": "Communication Way"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<p><b>How to best support me</b></p>"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<p>Please refer to my BSP for a detailed explanation of my \u201cBehaviours of\nConcern\u201d. This document also provides strategies used in supporting\nme.</p>"
+  },
+  {
+   "fieldname": "data_26",
+   "fieldtype": "Table",
+   "label": " ",
+   "options": "Behaviour Concern"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<p><b>Administrative Document</b></p>"
+  },
+  {
+   "fieldname": "plan_updated",
+   "fieldtype": "Date",
+   "label": "Plan Updated"
+  },
+  {
+   "fieldname": "people_who_contributed_to_the_plan",
+   "fieldtype": "Table",
+   "label": "People who contributed to the plan",
+   "options": "User Multi Link"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<p><b>The things that are most important to\nme at this time of my life are</b></p>"
+  },
+  {
+   "fieldname": "ways_to_help_me_achieve_my_goals_are",
+   "fieldtype": "Table",
+   "label": "My top goals and how to achieve them",
+   "options": "Goal Achieve"
+  },
+  {
+   "fieldname": "nts1",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:29:42.787080",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Person Centered Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

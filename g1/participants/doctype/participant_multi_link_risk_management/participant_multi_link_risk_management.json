@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "autoname": "field:participant",
+ "creation": "2021-01-16 20:36:29.951192",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "participant",
+  "signature"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Participant",
+   "options": "Participant",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:01:45.092919",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Participant Multi Link Risk Management",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "autoname": "format:{participant}-{####}",
+ "creation": "2021-01-24 19:43:21.625008",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "participant",
+  "total_allocation",
+  "total_delivered",
+  "total_remaining",
+  "funding"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Plan Management</h1>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "total_allocation",
+   "fieldtype": "Currency",
+   "label": "Total Allocation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_delivered",
+   "fieldtype": "Currency",
+   "label": "Total Delivered",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_remaining",
+   "fieldtype": "Currency",
+   "label": "Total Remaining",
+   "read_only": 1
+  },
+  {
+   "fieldname": "funding",
+   "fieldtype": "Table",
+   "label": "Funding",
+   "options": "Funding"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-01-30 02:09:10.271074",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

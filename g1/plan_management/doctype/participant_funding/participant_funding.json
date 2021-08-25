@@ -1,0 +1,392 @@
+{
+ "actions": [],
+ "autoname": "format:{participant}-{####}",
+ "creation": "2021-01-21 05:18:34.416039",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "total_allocation",
+  "total_delivered",
+  "total_remaining",
+  "participant",
+  "ndis_number",
+  "reference",
+  "ndis_plan_start_date",
+  "ndis_plan_end_date",
+  "start_date",
+  "end_date",
+  "funding_source",
+  "funding_management",
+  "referral_date",
+  "progress_report_date",
+  "review_submit",
+  "signed_date",
+  "section_break_14",
+  "budget_category_allocation",
+  "rbca",
+  "section_break_16",
+  "service_provider_category_budget",
+  "ttt1",
+  "section_break_18",
+  "invoices",
+  "verify",
+  "services_total",
+  "section_break_21",
+  "case_notes",
+  "fcn",
+  "case_notes_total",
+  "psc",
+  "var1",
+  "var2",
+  "var3",
+  "var4",
+  "var5",
+  "var6",
+  "var7",
+  "var8",
+  "var9",
+  "var10",
+  "var11",
+  "var12",
+  "var15",
+  "var14",
+  "var13",
+  "cnt"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Participant Funding</h1>"
+  },
+  {
+   "fieldname": "total_allocation",
+   "fieldtype": "Currency",
+   "label": "Total Allocation",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_delivered",
+   "fieldtype": "Currency",
+   "label": "Total Delivered",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_remaining",
+   "fieldtype": "Currency",
+   "label": "Total Remaining",
+   "non_negative": 1,
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant",
+   "unique": 1
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
+  },
+  {
+   "fieldname": "ndis_plan_start_date",
+   "fieldtype": "Date",
+   "label": "NDIS Plan Start Date"
+  },
+  {
+   "fieldname": "ndis_plan_end_date",
+   "fieldtype": "Date",
+   "label": "NDIS Plan End Date"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "funding_source",
+   "fieldtype": "Select",
+   "label": "Funding Source",
+   "options": "Participant\nNDIS"
+  },
+  {
+   "fieldname": "funding_management",
+   "fieldtype": "Select",
+   "label": "Funding Management",
+   "options": "NDIA\nParticipant\nParticipant's Nominee\nRegistered Plan Management Provider"
+  },
+  {
+   "fieldname": "referral_date",
+   "fieldtype": "Date",
+   "label": "Referral Date"
+  },
+  {
+   "fieldname": "progress_report_date",
+   "fieldtype": "Date",
+   "label": "Progress Report Date"
+  },
+  {
+   "fieldname": "review_submit",
+   "fieldtype": "Date",
+   "label": "Review Submit"
+  },
+  {
+   "fieldname": "signed_date",
+   "fieldtype": "Date",
+   "label": "Signed Date"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "service_provider_category_budget",
+   "fieldtype": "Table",
+   "label": "Service Provider Category Budget",
+   "options": "Service Provider Category Budget"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ttt1",
+   "fieldtype": "Currency",
+   "label": "Total"
+  },
+  {
+   "fieldname": "services_total",
+   "fieldtype": "Currency",
+   "label": "Services Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "case_notes_total",
+   "fieldtype": "Currency",
+   "label": "Case Notes Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "case_notes",
+   "fieldtype": "Table",
+   "label": "Case Notes",
+   "options": "Case Notes"
+  },
+  {
+   "fieldname": "invoices",
+   "fieldtype": "Table",
+   "label": "Service Support",
+   "options": "Invoices"
+  },
+  {
+   "fieldname": "verify",
+   "fieldtype": "Button",
+   "label": "Fetch Invoices"
+  },
+  {
+   "fieldname": "psc",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "psc",
+   "options": "Participant Support Coordination",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "fcn",
+   "fieldtype": "Button",
+   "label": "Fetch Case Notes"
+  },
+  {
+   "fieldname": "budget_category_allocation",
+   "fieldtype": "Table",
+   "label": "Budget Category Allocation",
+   "options": "Budget Category Allocation"
+  },
+  {
+   "fieldname": "rbca",
+   "fieldtype": "Button",
+   "label": "Reset Budget Category Allocation"
+  },
+  {
+   "fieldname": "var1",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var1",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var2",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var2",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var3",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var3",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var4",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var4",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var5",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var5",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var6",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var6",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var7",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var7",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var8",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var8",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var9",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var9",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var10",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var10",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var11",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var11",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var12",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var12",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var15",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var15",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var14",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var14",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "var13",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "var13",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "cnt",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "participant.ndis_no",
+   "fieldname": "ndis_number",
+   "fieldtype": "Data",
+   "label": "NDIS Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-24 20:17:57.824573",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Participant Funding",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

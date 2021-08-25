@@ -1,0 +1,400 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-23 03:25:49.197472",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "head1",
+  "head2",
+  "version",
+  "body1",
+  "participant",
+  "body2",
+  "section_break_6",
+  "body3",
+  "column_break_8",
+  "dt2",
+  "section_break_10",
+  "body4",
+  "column_break_12",
+  "dt3",
+  "section_break_14",
+  "body5",
+  "column_break_16",
+  "dt4",
+  "section_break_18",
+  "body6",
+  "column_break_20",
+  "dt5",
+  "section_break_22",
+  "body9",
+  "column_break_32",
+  "dt8",
+  "section_break_34",
+  "body10",
+  "column_break_36",
+  "dt9",
+  "section_break_38",
+  "body11",
+  "column_break_40",
+  "dt10",
+  "section_break_42",
+  "full_name",
+  "date",
+  "signature",
+  "section_break_46",
+  "html_47",
+  "hi_five_community_services_newsletter",
+  "participant_information_folder",
+  "website",
+  "internal_with_hi_five_community_services",
+  "identification_cards_for_outings__holidays",
+  "media_items_eg_newspaper_groups_outings_etc",
+  "external_eg_expos_promoting_hi_five_community_services",
+  "bdd1",
+  "bdd2",
+  "bdd3",
+  "i",
+  "selectrl",
+  "bdd4",
+  "dttt",
+  "sgnn"
+ ],
+ "fields": [
+  {
+   "fieldname": "head1",
+   "fieldtype": "HTML",
+   "label": "head1",
+   "options": "<h1>Participant Acknowledgement Form</h1>"
+  },
+  {
+   "fieldname": "head2",
+   "fieldtype": "HTML",
+   "label": "head2",
+   "options": "<h5>PARTICIPANT/GUARDIAN ACKNOWLEDGEMENT</h5>"
+  },
+  {
+   "fieldname": "body1",
+   "fieldtype": "HTML",
+   "label": "body1",
+   "options": "<p>I, </p>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant",
+   "reqd": 1
+  },
+  {
+   "fieldname": "body2",
+   "fieldtype": "HTML",
+   "label": "body2",
+   "options": "<p>acknowledge receipt of information from Hi Five Community Services about:</p>"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body3",
+   "fieldtype": "HTML",
+   "label": "body3",
+   "options": "<p>My rights and responsibilities, including my right to access a support person of my choice, such as an\nadvocate, in my dealings with Hi Five Community Services;</p>"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt2",
+   "fieldtype": "Check",
+   "label": " "
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body4",
+   "fieldtype": "HTML",
+   "label": "body4",
+   "options": "<p>My Privacy rights and Hi Five Community Services\u2019 legal obligations with respect to sharing information;</p>"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt3",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body5",
+   "fieldtype": "HTML",
+   "label": "body5",
+   "options": "<p>Hi Five Community Services, the services offered and other support services available;</p>"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt4",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body6",
+   "fieldtype": "HTML",
+   "label": "body6",
+   "options": "<p>How to access, leave or re-access Hi Five Community Services;</p>"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt5",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body9",
+   "fieldtype": "HTML",
+   "label": "body9",
+   "options": "<p>Fees to be charged, what the fees cover, timelines for payment and the process for addressing difficulties\nin making payment; and</p>"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt8",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body10",
+   "fieldtype": "HTML",
+   "label": "body10",
+   "options": "<p>The process for providing feedback or making a complaint, including about fees or the information\nprovided about fees.</p>"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt9",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body11",
+   "fieldtype": "HTML",
+   "label": "body11",
+   "options": "<p>I have received a copy of the participation induction handbook and I have reviewed it and understood it.</p>"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt10",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_42",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "participant.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "in_list_view": 1,
+   "label": "Signature",
+   "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_46",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_47",
+   "fieldtype": "HTML",
+   "options": "<h5>Permission for photos and where appropriate, your\nname, to be included in:</h5>"
+  },
+  {
+   "default": "0",
+   "fieldname": "hi_five_community_services_newsletter",
+   "fieldtype": "Check",
+   "label": "Hi Five Community Services Newsletter"
+  },
+  {
+   "default": "0",
+   "fieldname": "participant_information_folder",
+   "fieldtype": "Check",
+   "label": "Participant Information Folder"
+  },
+  {
+   "default": "0",
+   "fieldname": "website",
+   "fieldtype": "Check",
+   "label": "Website"
+  },
+  {
+   "default": "0",
+   "fieldname": "internal_with_hi_five_community_services",
+   "fieldtype": "Check",
+   "label": "Internal with Hi Five Community Services"
+  },
+  {
+   "default": "0",
+   "fieldname": "identification_cards_for_outings__holidays",
+   "fieldtype": "Check",
+   "label": "Identification Cards for Outings / Holidays"
+  },
+  {
+   "default": "0",
+   "fieldname": "media_items_eg_newspaper_groups_outings_etc",
+   "fieldtype": "Check",
+   "label": "Media Items e.g. Newspaper, Groups outings etc."
+  },
+  {
+   "default": "0",
+   "fieldname": "external_eg_expos_promoting_hi_five_community_services",
+   "fieldtype": "Check",
+   "label": "External e.g. Expo's promoting Hi Five Community Services"
+  },
+  {
+   "fieldname": "bdd1",
+   "fieldtype": "HTML",
+   "label": "bdd1",
+   "options": "<p><b>Access to Consumer File</b><br>I understand there are times when the CEO, Manager or Coordinator (or their relevant relievers) need\nto file documents relating to me or require to access information on my file that may assist with\nproviding the best possible support and care.</p>"
+  },
+  {
+   "fieldname": "bdd2",
+   "fieldtype": "HTML",
+   "label": "bdd2",
+   "options": "<p><b> Use and Disclosure of Information<br></b>I understand that agencies with whom I am presently or in the future involved, may need to be\nprovided with certain information about me.</p>"
+  },
+  {
+   "fieldname": "bdd3",
+   "fieldtype": "HTML",
+   "label": "bdd3",
+   "options": "<p><b>Emergency Treatment</b></p>"
+  },
+  {
+   "fetch_from": "participants.full_name",
+   "fieldname": "i",
+   "fieldtype": "Data",
+   "label": "I, "
+  },
+  {
+   "fieldname": "selectrl",
+   "fieldtype": "Select",
+   "label": "Please Select your relationship with this person:",
+   "options": "Participant\nParent\nLegal Guardian\nPower of Attorney"
+  },
+  {
+   "fieldname": "bdd4",
+   "fieldtype": "HTML",
+   "label": "bdd4",
+   "options": "<p>Authorise staff to make the necessary arrangements for emergency treatment in the event of medical\nassistance being required.</p>"
+  },
+  {
+   "fieldname": "sgnn",
+   "fieldtype": "Signature",
+   "label": "Signature:"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dttt",
+   "fieldtype": "Date",
+   "label": "Date:"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-05 06:51:46.240099",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Participant Acknowledgement Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

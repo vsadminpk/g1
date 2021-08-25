@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "creation": "2021-01-26 06:21:50.295514",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "structure"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "structure",
+   "fieldtype": "Data",
+   "in_list_view": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:01:21.694237",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Family Structure Living Arrangements Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

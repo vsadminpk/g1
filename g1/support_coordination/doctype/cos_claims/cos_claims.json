@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "autoname": "format:{DS}-{########}",
+ "creation": "2021-08-24 14:47:37.654392",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "registrationnumber",
+  "ndisnumber",
+  "supportsdeliveredfrom",
+  "supportsdeliveredto",
+  "supportnumber",
+  "claimreference",
+  "quantity",
+  "hours",
+  "unitprice",
+  "gstcode",
+  "authorisedby",
+  "participantapproved",
+  "inkindfundingprogram",
+  "claimtype",
+  "cancellationreason",
+  "abn_of_support_provider",
+  "section_break_17",
+  "participant",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "registrationnumber",
+   "fieldtype": "Data",
+   "label": "RegistrationNumber"
+  },
+  {
+   "fieldname": "ndisnumber",
+   "fieldtype": "Data",
+   "label": "NDISNumber"
+  },
+  {
+   "fieldname": "supportsdeliveredfrom",
+   "fieldtype": "Date",
+   "label": "SupportsDeliveredFrom"
+  },
+  {
+   "fieldname": "supportsdeliveredto",
+   "fieldtype": "Date",
+   "label": "SupportsDeliveredTo"
+  },
+  {
+   "fieldname": "supportnumber",
+   "fieldtype": "Data",
+   "label": "SupportNumber"
+  },
+  {
+   "fieldname": "claimreference",
+   "fieldtype": "Data",
+   "label": "ClaimReference"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "hours",
+   "fieldtype": "Data",
+   "label": "Hours"
+  },
+  {
+   "fieldname": "unitprice",
+   "fieldtype": "Currency",
+   "label": "UnitPrice"
+  },
+  {
+   "fieldname": "gstcode",
+   "fieldtype": "Data",
+   "label": "GSTCode"
+  },
+  {
+   "fieldname": "authorisedby",
+   "fieldtype": "Data",
+   "label": "AuthorisedBy"
+  },
+  {
+   "fieldname": "participantapproved",
+   "fieldtype": "Data",
+   "label": "ParticipantApproved"
+  },
+  {
+   "fieldname": "inkindfundingprogram",
+   "fieldtype": "Data",
+   "label": "InKindFundingProgram"
+  },
+  {
+   "fieldname": "claimtype",
+   "fieldtype": "Data",
+   "label": "ClaimType"
+  },
+  {
+   "fieldname": "cancellationreason",
+   "fieldtype": "Data",
+   "label": "CancellationReason"
+  },
+  {
+   "fieldname": "abn_of_support_provider",
+   "fieldtype": "Data",
+   "label": "ABN of Support Provider"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "default": "Unclaimed",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Claimed\nUnclaimed"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-24 15:27:16.446274",
+ "modified_by": "Administrator",
+ "module": "Support Coordination",
+ "name": "COS Claims",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

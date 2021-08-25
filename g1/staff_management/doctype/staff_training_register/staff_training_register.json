@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "autoname": "format: {TR} {user}",
+ "creation": "2021-08-24 20:46:34.555142",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "staff_member",
+  "register",
+  "supervisor_signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "staff_member",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User"
+  },
+  {
+   "fieldname": "register",
+   "fieldtype": "Table",
+   "label": "Register",
+   "options": "Training Register Table"
+  },
+  {
+   "fieldname": "supervisor_signature",
+   "fieldtype": "Signature",
+   "label": "Supervisor Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-24 20:47:19.284925",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Training Register",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

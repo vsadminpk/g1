@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "autoname": "format:{education_background} {employment_history}",
+ "creation": "2020-12-22 21:15:25.071417",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "education_background",
+  "employment_history"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "education_background",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Education Background",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "employment_history",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employment History",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:05:05.782432",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Employment and Education Background",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

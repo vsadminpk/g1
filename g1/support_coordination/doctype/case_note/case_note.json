@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "autoname": "field:participant",
+ "creation": "2021-02-09 01:35:50.809390",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sb1",
+  "participant",
+  "ndis_number",
+  "gender",
+  "column_break_5",
+  "date_of_birth",
+  "email",
+  "section_break_1",
+  "htma2",
+  "time",
+  "contact_type",
+  "case_note",
+  "column_break_6",
+  "html",
+  "delivered_date",
+  "subject_line",
+  "attachments",
+  "total_billing",
+  "ccn",
+  "section_break_12",
+  "case_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant",
+   "unique": 1
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Select",
+   "label": "Time",
+   "options": "5 Minutes\n10 Minutes\n15 Minutes\n20 Minutes\n30 Minutes\n45 Minutes\n1 Hr\n1 Hr 15 Minutes\n1 Hr 30 Minutes\n1 Hr 45 Minutes\n2 Hrs\n2 Hrs 15 Minutes\n2 Hrs 30 Minutes\n2 Hrs 45 Minutes\n3 Hrs\n3 Hrs 15 Minutes\n3 Hrs 30 Minutes\n3 Hrs 45 Minutes\n4 Hrs\n4 Hrs 15 Minutes\n4 Hrs 30 Minutes\n4 Hrs 45 Minutes\n5 Hrs\n5 Hrs 15 Minutes\n5 Hrs 30 Minutes\n5 Hrs 45 Minutes\n6 Hrs\n6 Hrs 15 Minutes\n6 Hrs 30 Minutes\n6 Hrs 45 Minutes\n7 Hrs\n7 Hrs 15 Minutes\n7 Hrs 30 Minutes\n7 Hrs 45 Minutes\n8 Hrs"
+  },
+  {
+   "fieldname": "contact_type",
+   "fieldtype": "Select",
+   "label": "Contact Type",
+   "options": "Meeting\nFilling out forms for services\nNDIA Report\nOrganize Payment\nDocumentation\nPhone Call\nTravel\nSMS\nEmail\nOther\nAllied Health Report Reading\nService Provider Search\nRequest/Follow up of reports/documents\nResearch Disability/Treatment\nPurchasing Equipment\nSetting up appointment"
+  },
+  {
+   "fieldname": "delivered_date",
+   "fieldtype": "Date",
+   "label": "Delivered Date"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "<p>Support Item: Level 2 (Coordination of Supports)</p>"
+  },
+  {
+   "fieldname": "subject_line",
+   "fieldtype": "Data",
+   "label": "Subject Line"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "case_note",
+   "fieldtype": "Small Text",
+   "label": "Case Note"
+  },
+  {
+   "fieldname": "total_billing",
+   "fieldtype": "Currency",
+   "label": "Total Billing",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ccn",
+   "fieldtype": "Button",
+   "label": "Create Case Note"
+  },
+  {
+   "fieldname": "sb1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "participant.ndis_no",
+   "fieldname": "ndis_number",
+   "fieldtype": "Data",
+   "label": "NDIS Number",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "participant.gender",
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "participant.date_of_birth",
+   "fieldname": "date_of_birth",
+   "fieldtype": "Data",
+   "label": "Date of Birth",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "participant.email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "read_only": 1
+  },
+  {
+   "fieldname": "case_notes",
+   "fieldtype": "Table",
+   "label": "Case Notes",
+   "options": "Case Notes"
+  },
+  {
+   "fieldname": "htma2",
+   "fieldtype": "HTML",
+   "label": "htma2",
+   "options": "<p>Provider: Hi Five Community Services</p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-03-28 08:48:13.768526",
+ "modified_by": "Administrator",
+ "module": "Support Coordination",
+ "name": "Case Note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

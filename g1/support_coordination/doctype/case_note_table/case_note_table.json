@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "creation": "2021-02-09 01:40:18.701754",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cn1",
+  "time",
+  "contact_type",
+  "delivered_date",
+  "html",
+  "subject_line",
+  "case_note",
+  "total_billing"
+ ],
+ "fields": [
+  {
+   "fieldname": "cn1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Case Note",
+   "options": "Participant Coordination"
+  },
+  {
+   "fetch_from": "cn1.time",
+   "fieldname": "time",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Time",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "cn1.contact_type",
+   "fieldname": "contact_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact Type",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "cn1.delivered_date",
+   "fieldname": "delivered_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Delivered Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html",
+   "options": "<p>Support Item: Level 2 (Coordination of Supports)<br><br>Provider: Hi Five Community Services</p>"
+  },
+  {
+   "fetch_from": "cn1.subject_line",
+   "fieldname": "subject_line",
+   "fieldtype": "Data",
+   "label": "Subject Line",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "cn1.case_note",
+   "fieldname": "case_note",
+   "fieldtype": "Small Text",
+   "label": "Case Note",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "cn1.total_billing",
+   "fieldname": "total_billing",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Billing",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-28 08:52:02.311956",
+ "modified_by": "Administrator",
+ "module": "Support Coordination",
+ "name": "Case Note Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

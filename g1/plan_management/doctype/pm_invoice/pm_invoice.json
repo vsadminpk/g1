@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "creation": "2021-01-22 05:58:25.163048",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "gst_code",
+  "delivered_date",
+  "delivered_from",
+  "delivered_to",
+  "category",
+  "support_item",
+  "hours",
+  "hourly_rate",
+  "total_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Type"
+  },
+  {
+   "fieldname": "gst_code",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "GST Code",
+   "options": "P1\nP2"
+  },
+  {
+   "fieldname": "delivered_date",
+   "fieldtype": "Date",
+   "label": "Delivered Date"
+  },
+  {
+   "fieldname": "delivered_from",
+   "fieldtype": "Date",
+   "label": "Delivered From"
+  },
+  {
+   "fieldname": "delivered_to",
+   "fieldtype": "Data",
+   "label": "Delivered To"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "support_item",
+   "fieldtype": "Data",
+   "label": "Support Item"
+  },
+  {
+   "fieldname": "hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Hours"
+  },
+  {
+   "fieldname": "hourly_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Hourly Rate"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:08:31.663818",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "PM Invoice",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

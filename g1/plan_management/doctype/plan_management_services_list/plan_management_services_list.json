@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "format:{support_item_number}-{support_item_name}",
+ "creation": "2021-02-05 08:23:51.853117",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "registration_group_number",
+  "registration_group_name",
+  "support_category_number",
+  "support_category_name",
+  "support_item_number",
+  "support_item_name",
+  "unit",
+  "quote",
+  "price_limit_nt_satas_wa_mmm_1_to_5",
+  "price_limit_act_nswqld_vic_mmm_1_to_5",
+  "price_limit_national_non_remote_mmm_1_to_5",
+  "price_limit_national_remote_mmm_6",
+  "price_limit_national_very_remote_mmm_7",
+  "non_face_to_face_support_provision",
+  "provider_travel",
+  "short_notice_cancellations",
+  "ndia_requested_reports",
+  "irregular_sil_supports"
+ ],
+ "fields": [
+  {
+   "fieldname": "registration_group_number",
+   "fieldtype": "Data",
+   "label": "Registration Group Number"
+  },
+  {
+   "fieldname": "registration_group_name",
+   "fieldtype": "Data",
+   "label": "Registration Group Name"
+  },
+  {
+   "fieldname": "support_category_number",
+   "fieldtype": "Data",
+   "label": "Support Category Number"
+  },
+  {
+   "fieldname": "support_category_name",
+   "fieldtype": "Data",
+   "label": "Support Category Name"
+  },
+  {
+   "fieldname": "support_item_number",
+   "fieldtype": "Data",
+   "label": "Support Item Number"
+  },
+  {
+   "fieldname": "support_item_name",
+   "fieldtype": "Data",
+   "label": "Support Item Name"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Select",
+   "label": "Unit",
+   "options": "Daily\nEach\nHourly\nMonthly\nWeekly\nYearly"
+  },
+  {
+   "fieldname": "quote",
+   "fieldtype": "Select",
+   "label": "Quote",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "price_limit_nt_satas_wa_mmm_1_to_5",
+   "fieldtype": "Currency",
+   "label": "Price Limit NT SATAS WA MMM 1 to 5"
+  },
+  {
+   "fieldname": "price_limit_act_nswqld_vic_mmm_1_to_5",
+   "fieldtype": "Currency",
+   "label": "Price Limit ACT NSWQLD VIC MMM 1 to 5"
+  },
+  {
+   "fieldname": "price_limit_national_non_remote_mmm_1_to_5",
+   "fieldtype": "Currency",
+   "label": "Price Limit National Non Remote MMM 1 to 5"
+  },
+  {
+   "fieldname": "price_limit_national_remote_mmm_6",
+   "fieldtype": "Currency",
+   "label": "Price Limit National Remote MMM 6"
+  },
+  {
+   "fieldname": "price_limit_national_very_remote_mmm_7",
+   "fieldtype": "Currency",
+   "label": "Price Limit National Very Remote MMM 7"
+  },
+  {
+   "fieldname": "non_face_to_face_support_provision",
+   "fieldtype": "Select",
+   "label": "Non Face to Face Support Provision",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "provider_travel",
+   "fieldtype": "Select",
+   "label": "Provider Travel",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "short_notice_cancellations",
+   "fieldtype": "Select",
+   "label": "Short Notice Cancellations",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ndia_requested_reports",
+   "fieldtype": "Select",
+   "label": "NDIA Requested Reports",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "irregular_sil_supports",
+   "fieldtype": "Select",
+   "label": "Irregular SIL Supports",
+   "options": "Yes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-02-05 08:23:51.853117",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Plan Management Services List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

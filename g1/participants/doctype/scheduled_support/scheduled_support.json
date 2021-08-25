@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "creation": "2020-12-24 00:24:57.322297",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "support",
+  "description_of_support",
+  "price_and_payment_information",
+  "how_the_support_will_be_provided"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "support",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Support"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "description_of_support",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description of support"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "price_and_payment_information",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Price and payment information"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "how_the_support_will_be_provided",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "How the support will be provided"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-05 06:49:40.662891",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Scheduled Support",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

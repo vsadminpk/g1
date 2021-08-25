@@ -1,0 +1,335 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-22 22:02:10.533206",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading",
+  "body1",
+  "version",
+  "body3",
+  "participant",
+  "parti2",
+  "ft1",
+  "dt2",
+  "dt3",
+  "dt4",
+  "dt5",
+  "adt6",
+  "body4",
+  "services",
+  "section_break_11",
+  "body5",
+  "column_break_13",
+  "checkdt",
+  "section_break_15",
+  "body6",
+  "column_break_18",
+  "dt6",
+  "section_break_20",
+  "body7",
+  "column_break_22",
+  "dt7",
+  "section_break_24",
+  "name_of_client_or_authorised_representative",
+  "dt8",
+  "dt9",
+  "column_break_28",
+  "user",
+  "dt10",
+  "dt11",
+  "section_break_36",
+  "staff_use_only",
+  "vbcns",
+  "body11",
+  "body12",
+  "name_of_hi_five_community_services_staff_member",
+  "dt13",
+  "dt14"
+ ],
+ "fields": [
+  {
+   "fieldname": "heading",
+   "fieldtype": "HTML",
+   "label": "Heading",
+   "options": "<h1>\nParticipant Privacy Consent Form\n</h1>"
+  },
+  {
+   "fieldname": "body1",
+   "fieldtype": "HTML",
+   "label": "Body1",
+   "options": "<h5>\nHi Five Community Services will work closely with other agencies to coordinate the best\nsupport for you. This means your informed consent for the sharing of information will be\nsought and respected in all situations unless:\n<ul>\n<li>we are obliged by law to disclose your information regardless of consent or otherwise</li>\n<li>it is unreasonable or impracticable to gain consent or consent has been refused; and</li>\n<li>the disclosure is reasonably necessary to prevent or lessen a serious threat to the life, health or safety of a person or group of people.</li>\n</ul>\n</h5>"
+  },
+  {
+   "fieldname": "body3",
+   "fieldtype": "HTML",
+   "label": "body3",
+   "options": "<p>I, </p>"
+  },
+  {
+   "fieldname": "parti2",
+   "fieldtype": "HTML",
+   "label": "body2",
+   "options": "<p>\nhereby acknowledge that Hi Five Community Services has advised me of the following:</p>"
+  },
+  {
+   "default": "0",
+   "fieldname": "ft1",
+   "fieldtype": "Check",
+   "label": "Hi Five Community Services\u2019 Privacy and Confidentiality Policy and Procedure;"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt2",
+   "fieldtype": "Check",
+   "label": "my right to access my personal information; and"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt3",
+   "fieldtype": "Check",
+   "label": "my right to withdraw my consent at any time."
+  },
+  {
+   "fieldname": "body4",
+   "fieldtype": "HTML",
+   "label": "safety of a person or group of people.",
+   "options": "<p>I understand that the follow service(s) are recommended and relevant information about me may\nbe forwarded to the agency(s) that provide these services, in order that I receive the best possible\nservice: </p>"
+  },
+  {
+   "fieldname": "services",
+   "fieldtype": "Table",
+   "label": "Services",
+   "options": "Provided Service"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "body5",
+   "fieldtype": "HTML",
+   "label": "body5",
+   "options": "\n<p style=\"text-justify: auto;\">I understand that Hi Five Community Services must comply with relevant privacy laws and I will\ncontact the organisation immediately if I feel that these laws have been breached. </p>"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "checkdt",
+   "fieldtype": "Check",
+   "label": " "
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "body6",
+   "fieldtype": "HTML",
+   "label": " body6",
+   "options": "<p>My worker has discussed with me how and why certain information about me may need to be\nprovided to other service providers.</p>"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt6",
+   "fieldtype": "Check",
+   "label": " "
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "body7",
+   "fieldtype": "HTML",
+   "label": "body7",
+   "length": 100,
+   "options": "<p style=\"text-justify: auto;\">I understand the recommendations and I give my permission for the information to be shared with\nthe people or agencies as detailed above.</p>"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt7",
+   "fieldtype": "Check",
+   "label": " "
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_client_or_authorised_representative",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Participant or Authorised Representative",
+   "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt8",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt9",
+   "fieldtype": "Signature",
+   "in_list_view": 1,
+   "label": "Signature",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "name_of_hi_five_community_services_staff_member",
+   "fieldtype": "Data",
+   "label": "Name of Hi Five Community Services Staff Member",
+   "read_only": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt10",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "dt11",
+   "fieldtype": "Signature",
+   "label": "Signature",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "staff_use_only",
+   "fieldtype": "Heading",
+   "label": "Staff Use Only"
+  },
+  {
+   "fieldname": "vbcns",
+   "fieldtype": "HTML",
+   "label": "vbcns",
+   "options": "<h4>Verbal Consent</h4>"
+  },
+  {
+   "fieldname": "body11",
+   "fieldtype": "HTML",
+   "label": "body11",
+   "options": "<p>Verbal consent should only be used where it is not practicable to obtain written consent.</p>"
+  },
+  {
+   "fieldname": "body12",
+   "fieldtype": "HTML",
+   "label": "body12",
+   "options": "<p>I have discussed the proposed referrals with the client or authorized representative and I am satisfied\nthat they understand the proposed uses and disclosures, and have provided their informed consent to\nthese.</p>"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt13",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "dt14",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Participant",
+   "options": "Participant",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Hi Five Community Services Staff Member",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "dt4",
+   "fieldtype": "Check",
+   "label": "we are obliged by law to disclose your information regardless of consent or otherwise"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt5",
+   "fieldtype": "Check",
+   "label": "it is unreasonable or impracticable to gain consent or consent has been refused; and"
+  },
+  {
+   "default": "0",
+   "fieldname": "adt6",
+   "fieldtype": "Check",
+   "label": "the disclosure is reasonably necessary to prevent or lessen a serious threat to the life, health or safety of a person or group of people."
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-05 06:51:08.986906",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Participant Privacy Consent Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

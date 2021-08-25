@@ -1,0 +1,249 @@
+{
+ "actions": [],
+ "creation": "2021-02-11 03:08:55.585900",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "invoice",
+  "participant",
+  "service_provider",
+  "invoice_date",
+  "invoice_note",
+  "attachments",
+  "on_hold_reason",
+  "approved_by_client",
+  "grand_total",
+  "assistance_with_daily_life",
+  "assistance_with_social_and_community_participation",
+  "assistive_technology",
+  "consumables",
+  "finding_and_keeping_a_job",
+  "home_modifications",
+  "improved_daily_living_skills",
+  "improved_health_and_wellbeing",
+  "improved_learning",
+  "improved_life_choices",
+  "improved_living_arrangements",
+  "improved_relationships",
+  "increased_social_and_community_participation",
+  "support_coordination",
+  "transport"
+ ],
+ "fields": [
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Invoice",
+   "options": "Plan Management Invoice"
+  },
+  {
+   "fetch_from": "invoice.participant",
+   "fieldname": "participant",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Participant",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.invoice_date",
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Invoice Date",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.grand_total",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Grand Total",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.service_provider",
+   "fieldname": "service_provider",
+   "fieldtype": "Data",
+   "label": "Service Provider",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.invoice_note",
+   "fieldname": "invoice_note",
+   "fieldtype": "Small Text",
+   "label": "Invoice Note",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.attachments",
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.on_hold_reason",
+   "fieldname": "on_hold_reason",
+   "fieldtype": "Data",
+   "label": "On Hold Reason",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fetch_from": "invoice.approved_by_client",
+   "fieldname": "approved_by_client",
+   "fieldtype": "Check",
+   "label": "Approved by Client",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.assistance_with_daily_life",
+   "fieldname": "assistance_with_daily_life",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Assistance with daily life",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.assistance_with_social_and_community_participation",
+   "fieldname": "assistance_with_social_and_community_participation",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Assistance with social and community participation",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.assistive_technology",
+   "fieldname": "assistive_technology",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Assistive Technology",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.consumables",
+   "fieldname": "consumables",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Consumables",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.finding_and_keeping_a_job",
+   "fieldname": "finding_and_keeping_a_job",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Finding and keeping a job",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.home_modifications",
+   "fieldname": "home_modifications",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Home modifications",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.improved_daily_living_skills",
+   "fieldname": "improved_daily_living_skills",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved daily living skills",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.improved_health_and_wellbeing",
+   "fieldname": "improved_health_and_wellbeing",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved health and wellbeing",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.improved_learning",
+   "fieldname": "improved_learning",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved learning",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.improved_life_choices",
+   "fieldname": "improved_life_choices",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved life choices",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.improved_living_arrangements",
+   "fieldname": "improved_living_arrangements",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved living arrangements",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.improved_relationships",
+   "fieldname": "improved_relationships",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Improved relationships",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.increased_social_and_community_participation",
+   "fieldname": "increased_social_and_community_participation",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Increased social and community participation",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.support_coordination",
+   "fieldname": "support_coordination",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Support Coordination",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "invoice.transport",
+   "fieldname": "transport",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Transport",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-08-02 05:04:15.657464",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Invoices",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

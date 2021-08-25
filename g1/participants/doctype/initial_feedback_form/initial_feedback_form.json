@@ -1,0 +1,166 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-24 21:04:07.276344",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "participant",
+  "version",
+  "ft2",
+  "ft3",
+  "bd3",
+  "ft4",
+  "ft5",
+  "ft6",
+  "ft7",
+  "ft8",
+  "ft9",
+  "ft10",
+  "ft11",
+  "ft12",
+  "ft13"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Initial Feedback Form</h1>\n"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h5>At Hi Five Community Services we would like to know if you are happy with the services you are getting.\n</h5>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Name of participant:",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "ft2",
+   "fieldtype": "Select",
+   "label": "Answers provided on participant\u2019s behalf by a parent/carer ",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ft3",
+   "fieldtype": "Select",
+   "label": "Is the participant verbal?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<h5>Questions</h5>"
+  },
+  {
+   "fieldname": "ft4",
+   "fieldtype": "Select",
+   "label": "Are you happy with the activities you do at Hi Five Community Services?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ft5",
+   "fieldtype": "Small Text",
+   "label": "Notes:"
+  },
+  {
+   "fieldname": "ft6",
+   "fieldtype": "Select",
+   "label": "Do people at Hi Five Community Services try to help you if you have a problem?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ft7",
+   "fieldtype": "Data",
+   "label": "How did you find the onboarding process?"
+  },
+  {
+   "fieldname": "ft8",
+   "fieldtype": "Select",
+   "label": "Have you received a copy of your Service Agreement?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ft9",
+   "fieldtype": "Select",
+   "label": "Were your rights explained to you, do you understand your rights?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ft10",
+   "fieldtype": "Select",
+   "label": "Have you received and understood the induction handbook?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ft11",
+   "fieldtype": "Select",
+   "label": "Do you understand the complaints procedure and advocacy options that you have?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "ft12",
+   "fieldtype": "Small Text",
+   "label": "Do have any questions or feedback to give?"
+  },
+  {
+   "fieldname": "ft13",
+   "fieldtype": "Table",
+   "label": "People who helped you with this survey:",
+   "options": "User Multi Link"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:29:59.460066",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Initial Feedback Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

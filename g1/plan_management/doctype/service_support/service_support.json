@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "creation": "2021-01-22 16:13:44.362710",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "service",
+  "quantity",
+  "rate",
+  "note",
+  "service_provider",
+  "dt1",
+  "total1",
+  "dt2",
+  "total_delivered"
+ ],
+ "fields": [
+  {
+   "fieldname": "service",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service",
+   "options": "Service"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Note"
+  },
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service Provider",
+   "options": "Service Provider"
+  },
+  {
+   "fieldname": "dt1",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Management Style (Stated Item)",
+   "options": "Agency\nParticipant Funding Management\nSelf Managed"
+  },
+  {
+   "fieldname": "total1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "dt2",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Exclude From Service Contract Allocation Totals"
+  },
+  {
+   "fieldname": "total_delivered",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Total Delivered",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:08:23.639718",
+ "modified_by": "Administrator",
+ "module": "Plan Management",
+ "name": "Service Support",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

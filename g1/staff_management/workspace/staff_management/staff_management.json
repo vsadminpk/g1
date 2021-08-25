@@ -1,0 +1,63 @@
+{
+ "cards_label": "Documents",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-02-03 12:45:53.445844",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "label": "Staff Management",
+ "links": [],
+ "modified": "2021-02-03 12:45:53.445844",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Management",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Staff Members",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Staff Staff Screening Documents",
+   "link_to": "Staff Screening",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Staff Onboarding Documents",
+   "link_to": "Staff File Checklist",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Declaration Forms",
+   "link_to": "Declaration Form",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Policies and Procedures",
+   "link_to": "Staff Policies and Procedures",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Incident Reports",
+   "link_to": "Incident Report",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Manage Staff"
+}

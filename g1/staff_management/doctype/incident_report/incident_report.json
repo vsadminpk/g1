@@ -1,0 +1,1053 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "format:Incident-Report-{#####}",
+ "creation": "2021-01-13 17:29:14.733079",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "primpar",
+  "participants_involved",
+  "primstaff",
+  "staff_involved",
+  "others",
+  "dt3",
+  "dt4",
+  "section_break_7",
+  "dt5",
+  "bd3",
+  "dt6",
+  "dt7",
+  "bd4",
+  "section_break_13",
+  "dt8",
+  "dt9",
+  "dt10",
+  "dt11",
+  "dt12",
+  "column_break_19",
+  "dt13",
+  "dt14",
+  "dt15",
+  "dt16",
+  "section_break_24",
+  "bd5",
+  "dt17",
+  "dt18",
+  "dt19",
+  "bd6",
+  "section_break_30",
+  "dt20",
+  "dt21",
+  "dt22",
+  "dt23",
+  "dt24",
+  "dt37",
+  "column_break_36",
+  "dt25",
+  "dt26",
+  "dt27",
+  "dt28",
+  "dt29",
+  "column_break_42",
+  "dt30",
+  "dt31",
+  "dt32",
+  "dt34",
+  "dt35",
+  "column_break_48",
+  "dt36",
+  "dt42",
+  "dt40",
+  "dt41",
+  "section_break_53",
+  "dt43",
+  "location_on_body",
+  "guidehtml",
+  "bd01",
+  "dt44",
+  "dt45",
+  "bd02",
+  "dt46",
+  "dt47",
+  "dt48",
+  "bd03",
+  "dt49",
+  "bd04",
+  "rihbr",
+  "rihbr2",
+  "dt50",
+  "dt51",
+  "dt52",
+  "dt53",
+  "dt54",
+  "dt55",
+  "dt56",
+  "dt57",
+  "dt58",
+  "dt59",
+  "dt60",
+  "dt61",
+  "dt62",
+  "dt63",
+  "dt64",
+  "dt67",
+  "dt68",
+  "section_break_84",
+  "bd09",
+  "section_break_86",
+  "dt70",
+  "dt71",
+  "dt72",
+  "dt73",
+  "dt74",
+  "dt75",
+  "column_break_93",
+  "dt76",
+  "dt77",
+  "dt78",
+  "dt79",
+  "dt80",
+  "column_break_99",
+  "dt81",
+  "dt82",
+  "dt83",
+  "dt84",
+  "dt85",
+  "column_break_105",
+  "dt86",
+  "dt87",
+  "dt88",
+  "dt89",
+  "dt90",
+  "section_break_111",
+  "wswtiati",
+  "dt91",
+  "dt92",
+  "user",
+  "dt94",
+  "date2",
+  "bdd",
+  "bdd1",
+  "dt97",
+  "date1",
+  "dt99",
+  "section_break_123",
+  "dt100",
+  "dt101",
+  "dt102",
+  "column_break_127",
+  "dt103",
+  "dt104",
+  "dt105",
+  "column_break_131",
+  "dt106",
+  "dt107",
+  "column_break_134",
+  "dt108",
+  "dt109",
+  "section_break_137",
+  "dt110",
+  "user2",
+  "dt112",
+  "dt113",
+  "section_break_145",
+  "bdd24",
+  "dt114",
+  "column_break_148",
+  "html_148",
+  "signature_150"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Incident/Injury Report<br><br></h1>\n<p>To be completed for ALL incidents and accidents where an injury has or could have resulted.</p>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h5>Incident details</h5>"
+  },
+  {
+   "fieldname": "dt3",
+   "fieldtype": "Data",
+   "label": "Location of incident"
+  },
+  {
+   "fieldname": "dt4",
+   "fieldtype": "Date",
+   "label": "Date of incident"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt5",
+   "fieldtype": "Select",
+   "label": "Outcome",
+   "options": "Hazard\nNear Miss\nIncident\nFirst Aid"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<h5>Advocacy Offering</h5>"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt6",
+   "fieldtype": "Check",
+   "label": "Have you offered advocates to the person?"
+  },
+  {
+   "fieldname": "dt7",
+   "fieldtype": "Data",
+   "label": "If yes, Organization:"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<h5>Details of involved person</h5>"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt8",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "dt9",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "dt10",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "dt11",
+   "fieldtype": "Select",
+   "label": "Employment Status",
+   "options": "Casual\nPermanent\nFull Time\nPart Time\nContractor"
+  },
+  {
+   "fieldname": "dt12",
+   "fieldtype": "Select",
+   "label": "Experience in Job",
+   "options": "0-3 Months\n4-12 Months\n1-2 Years\n3-5 Years\n5-10 Years\n10 Years +"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt13",
+   "fieldtype": "Data",
+   "label": "surname"
+  },
+  {
+   "fieldname": "dt14",
+   "fieldtype": "Select",
+   "label": "gender",
+   "options": "Male\nFemale\nOther"
+  },
+  {
+   "fieldname": "dt15",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "dt16",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<h5>Details of witness/es (if any)</h5>"
+  },
+  {
+   "fieldname": "dt17",
+   "fieldtype": "Table",
+   "label": "Witness/witnesses",
+   "options": "Witness"
+  },
+  {
+   "fieldname": "dt18",
+   "fieldtype": "Small Text",
+   "label": "What task was being performed at the time of the incident?"
+  },
+  {
+   "fieldname": "dt19",
+   "fieldtype": "Small Text",
+   "label": "What happened? (e.g. \u2018employee tripped over box\u2019 or \u2018forklift hit wall\u2019)"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<h5>Cause of Injury</h5>"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt20",
+   "fieldtype": "Check",
+   "label": "Lift/Bend/Push/Pull"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt21",
+   "fieldtype": "Check",
+   "label": "Psychological Stress- Person"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt22",
+   "fieldtype": "Check",
+   "label": "Psychological Stress- Bullying/Harassment"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt23",
+   "fieldtype": "Check",
+   "label": "Psychological Stress- Workload/Organization"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt24",
+   "fieldtype": "Check",
+   "label": "Workplace Violence"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt37",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt25",
+   "fieldtype": "Check",
+   "label": "Posture or arm usage"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt26",
+   "fieldtype": "Check",
+   "label": "Sun Exposure"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt27",
+   "fieldtype": "Check",
+   "label": "Slip/trip/fall"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt28",
+   "fieldtype": "Check",
+   "label": "Hazardous Substance/Material"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt29",
+   "fieldtype": "Check",
+   "label": "Drugs/Alcohol"
+  },
+  {
+   "fieldname": "column_break_42",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt30",
+   "fieldtype": "Check",
+   "label": "Handheld Tools"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt31",
+   "fieldtype": "Check",
+   "label": "Involuntary Movement of Participant"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt32",
+   "fieldtype": "Check",
+   "label": "Contact with Animal/Insect"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt34",
+   "fieldtype": "Check",
+   "label": "Electric Shock"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt35",
+   "fieldtype": "Check",
+   "label": "Equipment/Machinery"
+  },
+  {
+   "fieldname": "column_break_48",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt36",
+   "fieldtype": "Check",
+   "label": "Behaviour of Participant"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt42",
+   "fieldtype": "Check",
+   "label": "Vehicle Accident - Work Vehicle"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt40",
+   "fieldtype": "Check",
+   "label": "Vehicle Accident - Own Vehicle"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt41",
+   "fieldtype": "Check",
+   "label": "Struck by Vehicle"
+  },
+  {
+   "fieldname": "section_break_53",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt43",
+   "fieldtype": "Data",
+   "label": "Nature of injury (e.g. burn, cut, scrape, etc.): "
+  },
+  {
+   "fieldname": "location_on_body",
+   "fieldtype": "Attach Image",
+   "label": "Location on body "
+  },
+  {
+   "fieldname": "bd01",
+   "fieldtype": "HTML",
+   "label": "bd01",
+   "options": "<h5>Violence, Abuse, Neglect, Exploitation And Discrimination</h5>"
+  },
+  {
+   "fieldname": "dt44",
+   "fieldtype": "Select",
+   "label": "Does the Participant look like there has been Abuse/ Neglect/ Exploitation/ Discrimination:",
+   "options": "Yes\nNo\nNot Applicable"
+  },
+  {
+   "fieldname": "dt45",
+   "fieldtype": "Small Text",
+   "label": "If yes, provide details"
+  },
+  {
+   "fieldname": "bd02",
+   "fieldtype": "HTML",
+   "label": "bd02",
+   "options": "<h5>Treatment</h5>"
+  },
+  {
+   "fieldname": "dt46",
+   "fieldtype": "Select",
+   "label": "Treatment Administered",
+   "options": "Yes\nNo\nNot Applicable"
+  },
+  {
+   "fieldname": "dt47",
+   "fieldtype": "Select",
+   "label": "Referral required",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "dt48",
+   "fieldtype": "Data",
+   "label": "First aid attendant Name"
+  },
+  {
+   "fieldname": "bd03",
+   "fieldtype": "HTML",
+   "label": "bd03",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\"> Signature</label>"
+  },
+  {
+   "fieldname": "dt49",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "bd04",
+   "fieldtype": "HTML",
+   "label": "bd04",
+   "options": "<h5><b>THE FOLLOWING SECTIONS ARE TO BE COMPLETED BY A SENIOR STAFF MEMBER ON DUTY:</b><br><br>Incident investigation</h5>"
+  },
+  {
+   "fieldname": "dt50",
+   "fieldtype": "Select",
+   "label": "Did the incident occur as part of the involved person\u2019s normal activities?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt51",
+   "fieldtype": "Select",
+   "label": "Did equipment contribute?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt52",
+   "fieldtype": "Select",
+   "label": "Was the equipment used designed for activity?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt53",
+   "fieldtype": "Select",
+   "label": "Was the equipment properly maintained?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt54",
+   "fieldtype": "Select",
+   "label": "Did the equipment fail?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt55",
+   "fieldtype": "Select",
+   "label": "Had a risk assessment been undertaken?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt56",
+   "fieldtype": "Select",
+   "label": "Did safety instructions accompany the activity?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt57",
+   "fieldtype": "Select",
+   "label": "Are there documented safe work procedures (SWP) for the activity?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt58",
+   "fieldtype": "Select",
+   "label": "Were the SWP followed?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt59",
+   "fieldtype": "Select",
+   "label": "Was appropriate Personal Protective Equipment (PPE) used?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt60",
+   "fieldtype": "Select",
+   "label": "Was the involved person trained in this activity?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt61",
+   "fieldtype": "Select",
+   "label": "Did a known behaviour problem contribute?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt62",
+   "fieldtype": "Select",
+   "label": "Was there a known behaviour management plan?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt63",
+   "fieldtype": "Select",
+   "label": "Was it followed?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt64",
+   "fieldtype": "Select",
+   "label": "Did poor housekeeping contribute?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt67",
+   "fieldtype": "Select",
+   "label": "Did the work environment contribute?",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "dt68",
+   "fieldtype": "Small Text",
+   "label": "After reviewing the above prompts and undertaking interviews and/or site visits, what are the identified cause(s) of the injury?"
+  },
+  {
+   "fieldname": "section_break_84",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd09",
+   "fieldtype": "HTML",
+   "label": "bd09",
+   "options": "<h5>Remedial actions recommended</h5>"
+  },
+  {
+   "fieldname": "section_break_86",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt70",
+   "fieldtype": "Check",
+   "label": "Conduct Task Analysis"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt71",
+   "fieldtype": "Check",
+   "label": "Improve Skills Mix"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt72",
+   "fieldtype": "Check",
+   "label": "Improve Work Environment"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt73",
+   "fieldtype": "Check",
+   "label": "Improve Personal Protection"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt74",
+   "fieldtype": "Check",
+   "label": "Housekeeping Review"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt75",
+   "fieldtype": "Check",
+   "label": "Develop and/or provide training"
+  },
+  {
+   "fieldname": "column_break_93",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt76",
+   "fieldtype": "Check",
+   "label": "Reinstruct person(s) Involved"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt77",
+   "fieldtype": "Check",
+   "label": "Develop/review task procedures"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt78",
+   "fieldtype": "Check",
+   "label": "Request Maintenance"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt79",
+   "fieldtype": "Check",
+   "label": "Temporarily relocate person involved"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt80",
+   "fieldtype": "Check",
+   "label": "Improve work organisation"
+  },
+  {
+   "fieldname": "column_break_99",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt81",
+   "fieldtype": "Check",
+   "label": "Improve design/construction/guarding"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt82",
+   "fieldtype": "Check",
+   "label": "Provide debriefing and/or counseling"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt83",
+   "fieldtype": "Check",
+   "label": "Improve Security"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt84",
+   "fieldtype": "Check",
+   "label": "Provide or replace equipment/tools"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt85",
+   "fieldtype": "Check",
+   "label": "Investigate Safer Alternatives"
+  },
+  {
+   "fieldname": "column_break_105",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt86",
+   "fieldtype": "Check",
+   "label": "Conduct Hazard Systems Audit"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt87",
+   "fieldtype": "Check",
+   "label": "Improve Communication / reporting procedures"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt88",
+   "fieldtype": "Check",
+   "label": "Review WHS policies/ programs"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt89",
+   "fieldtype": "Check",
+   "label": "Provide, review or replace Behavioural Support Plan"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt90",
+   "fieldtype": "Check",
+   "label": "Request Safety Data Sheet"
+  },
+  {
+   "fieldname": "section_break_111",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt91",
+   "fieldtype": "Small Text",
+   "label": "What, in your own words, has been implemented or planned to prevent recurrence?"
+  },
+  {
+   "fieldname": "dt92",
+   "fieldtype": "Small Text",
+   "label": "Remedial actions completed:"
+  },
+  {
+   "fieldname": "dt94",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "bdd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bdd1",
+   "fieldtype": "HTML",
+   "label": "bdd1",
+   "options": "<h5>Outcomes</h5>"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt97",
+   "fieldtype": "Check",
+   "label": "Did the injured person stop work?"
+  },
+  {
+   "depends_on": "dt97",
+   "fieldname": "dt99",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "section_break_123",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt100",
+   "fieldtype": "Check",
+   "label": "Treated By Doctor"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt101",
+   "fieldtype": "Check",
+   "label": "Insurer Notified"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt102",
+   "fieldtype": "Check",
+   "label": "WHS Committee/representative notified"
+  },
+  {
+   "fieldname": "column_break_127",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt103",
+   "fieldtype": "Check",
+   "label": "Lodged workers with compensation claim"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt104",
+   "fieldtype": "Check",
+   "label": "Returned to normal duties"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt105",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fieldname": "column_break_131",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt106",
+   "fieldtype": "Check",
+   "label": "Contacted by Return to Work coordinator"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt107",
+   "fieldtype": "Check",
+   "label": "Returned to modified duties"
+  },
+  {
+   "fieldname": "column_break_134",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt108",
+   "fieldtype": "Check",
+   "label": "Workcover notified"
+  },
+  {
+   "default": "0",
+   "fieldname": "dt109",
+   "fieldtype": "Check",
+   "label": "Hospitalised"
+  },
+  {
+   "fieldname": "section_break_137",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt110",
+   "fieldtype": "Small Text",
+   "label": "Manager\u2019s review comments:"
+  },
+  {
+   "fieldname": "dt112",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dt113",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bdd24",
+   "fieldtype": "HTML",
+   "label": "bdd24",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Manager's Signature</label>"
+  },
+  {
+   "fieldname": "dt114",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Table",
+   "label": "Others",
+   "options": "Incident Report Others"
+  },
+  {
+   "fieldname": "participants_involved",
+   "fieldtype": "Table MultiSelect",
+   "label": "Additional Participants Involved",
+   "options": "Participant Multi Link"
+  },
+  {
+   "fieldname": "staff_involved",
+   "fieldtype": "Table MultiSelect",
+   "label": "Additional Staff Members Involved",
+   "options": "User Multi Link"
+  },
+  {
+   "fieldname": "guidehtml",
+   "fieldtype": "HTML",
+   "options": "<button class=\"btn btn-default btn-sm btn-attach\"><a href=\"http://vertex360.com.au/files/Screenshot%202021-02-03%20at%2010.46.04%20PM.png/\" target=\"_blank\">Guide</a></button>"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User"
+  },
+  {
+   "fetch_from": "user2.full_name",
+   "fieldname": "user2",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "depends_on": "dt97",
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "primpar",
+   "fieldtype": "Link",
+   "label": "Primary Participant",
+   "options": "Participant"
+  },
+  {
+   "fieldname": "primstaff",
+   "fieldtype": "Link",
+   "label": "Primary Staff Member Involved",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_145",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_148",
+   "fieldtype": "HTML",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Staff Member's Signature</label>"
+  },
+  {
+   "fieldname": "column_break_148",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signature_150",
+   "fieldtype": "Signature"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "rihbr",
+   "fieldtype": "Select",
+   "label": "Reportable incident has been reported?",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "default": "N/A",
+   "fieldname": "rihbr2",
+   "fieldtype": "Select",
+   "label": "Further risk assessment has been conducted?",
+   "options": "N/A\nYes\nNo"
+  },
+  {
+   "fieldname": "wswtiati",
+   "fieldtype": "Small Text",
+   "label": "What steps were taken immediately after the incident?"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:48.074711",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Incident Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

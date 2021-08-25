@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "creation": "2021-02-02 10:36:56.733893",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_person",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of person"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Visitor\nVolunteer\nContractor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-02-02 10:37:05.583920",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Incident Report Others",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

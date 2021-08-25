@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:full_name",
+ "creation": "2021-07-14 05:47:02.014328",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_1",
+  "section_break_2",
+  "html_3",
+  "column_break_4",
+  "html_5",
+  "section_break_6",
+  "attach_filled_agreement",
+  "user",
+  "full_name",
+  "signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_1",
+   "fieldtype": "HTML",
+   "options": "<h1>User Agreement</h1>"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_3",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/03/Contract-Support-Coordinator-2.docx\" target=\"_blank\">Hifive - Support Coordinator Contract</a><p><br></p>"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_5",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/03/Contract-Support-Worker.pdf\" target=\"_blank\">Hifive - Support Worker Contract</a><p><br></p>"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach_filled_agreement",
+   "fieldtype": "Attach",
+   "label": "Attach Filled Agreement"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:47.684335",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Worker Agreement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

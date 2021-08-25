@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "autoname": "PHOTO.###",
+ "creation": "2020-12-23 05:46:53.319340",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "photo"
+ ],
+ "fields": [
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach",
+   "label": "Photo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:00:50.683243",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Photos Relationship",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

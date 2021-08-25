@@ -1,0 +1,206 @@
+{
+ "cards_label": "Documents",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-02-03 12:59:28.176617",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "icon": "project",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "label": "Participants",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Consent Forms",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Adult Participant Guardian Nomination Consent Forms",
+   "link_to": "Adult Participant Guardian Nomination Consent Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Participant Acknowledgement Forms",
+   "link_to": "Participant Acknowledgement Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Participant Privacy Consent Forms",
+   "link_to": "Participant Privacy Consent Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Feedback Forms",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Initial Feedback Forms",
+   "link_to": "Initial Feedback Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Feedback Forms",
+   "link_to": "Monthly Feedback Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Annual Feedback Form",
+   "link_to": "Annual Feedback Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Feedback Forms",
+   "link_to": "Feedback Form",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Documents",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "NDIS Plans",
+   "link_to": "NDIS Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "MISC Documents",
+   "link_to": "MISC Document",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Participant Support Review",
+   "link_to": "Participant Support Review",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Participant Induction Handbooks",
+   "link_to": "Participant Induction Handbook",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-08-25 04:46:41.293534",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Participants",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Manage Participants",
+   "link_to": "Participant",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Assessment Forms",
+   "link_to": "Assessment Form",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Relationships",
+   "link_to": "Relationship",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Support Plans",
+   "link_to": "Support Plan",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Person Centered Plans",
+   "link_to": "Person Centered Plan",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Participant Service Agreements",
+   "link_to": "Plan Management",
+   "type": "Workspace"
+  },
+  {
+   "doc_view": "",
+   "label": "Goals",
+   "link_to": "Goal",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Incident Reports",
+   "link_to": "Incident Report",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "PM Check",
+   "link_to": "Plan Management",
+   "type": "Workspace"
+  }
+ ],
+ "shortcuts_label": "Manage Participants"
+}

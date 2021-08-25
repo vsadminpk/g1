@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "autoname": "field:dt1",
+ "creation": "2021-01-14 07:05:01.272442",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dt1"
+ ],
+ "fields": [
+  {
+   "fieldname": "dt1",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Staff Handbook",
+   "link_fieldname": "dt2"
+  },
+  {
+   "link_doctype": "Policies and Procedures",
+   "link_fieldname": "staff_member"
+  }
+ ],
+ "modified": "2021-01-30 12:21:56.325074",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff Document",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

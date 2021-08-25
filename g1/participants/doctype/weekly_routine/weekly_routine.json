@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "autoname": "format:Routine {day}",
+ "creation": "2020-12-22 21:46:32.142239",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "day",
+  "morning",
+  "afternoon",
+  "evening"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Day",
+   "options": "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "morning",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Morning"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "afternoon",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Afternoon"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "evening",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Evening"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:04:48.231003",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Weekly Routine",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

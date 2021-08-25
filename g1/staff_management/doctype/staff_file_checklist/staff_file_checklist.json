@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "format:{full_name} File Checklist {###}",
+ "creation": "2021-02-28 19:03:50.826340",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_1",
+  "user",
+  "full_name",
+  "file_checklist",
+  "supervisor",
+  "section_break_6",
+  "date_file_opened",
+  "signature_8",
+  "column_break_9",
+  "date_file_closed",
+  "signature_11"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_1",
+   "fieldtype": "HTML",
+   "options": "<h1>Staff File Checklist</h1>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "file_checklist",
+   "fieldtype": "Table",
+   "label": "File Checklist",
+   "options": "File Checklist"
+  },
+  {
+   "fetch_from": "supervisor.full_name",
+   "fieldname": "supervisor",
+   "fieldtype": "Link",
+   "label": "Supervisor",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_file_opened",
+   "fieldtype": "Date",
+   "label": "Date File Opened"
+  },
+  {
+   "fieldname": "signature_8",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_file_closed",
+   "fieldtype": "Date",
+   "label": "Date File Closed"
+  },
+  {
+   "fieldname": "signature_11",
+   "fieldtype": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:49.694959",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Staff File Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

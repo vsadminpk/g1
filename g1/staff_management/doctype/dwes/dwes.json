@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:full_name",
+ "creation": "2020-12-30 22:08:21.357101",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd4",
+  "user",
+  "full_name",
+  "street",
+  "suburb",
+  "area",
+  "phone",
+  "email",
+  "signature",
+  "date",
+  "bd5",
+  "bd6"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<h3>Disability Worker Exclusion Scheme<br>Consent and Acknowledgment Form (v2)</h3>\n<p>I am aware that the Department of Health and Human Services (the department) operates a Disability Worker<br>Exclusion Scheme and has a Disability Worker Exclusion List (the List).</p>\n<p><br>I consent to my personal details being provided to the department for the purpose of checking against the List.</p>\n<p><br>I consent to the department collecting personal information and sensitive personal information about me, including<br>information relating to any criminal, disciplinary and employment history of mine, for the purposes of the<br>department compiling and maintaining the List.</p>\n<p><br>I accept that if my name is on or is placed on the List, I will be prevented from being engaged by:</p>\n<p><br>A. a disability service provider (as defined in the Disability Act 2006 (Vic)) as:<br>&nbsp; &nbsp; A Disability Worker, being a person engaged by a service provider who:<br>&nbsp; &nbsp; &nbsp; &nbsp; (i) provides, or supervises or manages a person who provides direct support to a person with a<br>&nbsp; &nbsp; &nbsp; &nbsp; disability, and<br>&nbsp; &nbsp; &nbsp; &nbsp; (ii) has direct contact or access to a person with a disability<br>&nbsp; &nbsp; &nbsp; &nbsp; and excluded from any work at the disability service that falls within the definition of Excluded Work being<br>&nbsp; &nbsp; &nbsp; &nbsp; work at a disability service:<br>&nbsp; &nbsp; &nbsp; &nbsp; (i) as a Disability Worker, or<br>&nbsp; &nbsp; &nbsp; &nbsp; (ii) that involves regular direct contact with or access to a person with a disability.</p>\n<p><br>B. a registered NDIS provider registered under section 73E of the National Disability Insurance Scheme Act<br>2013 (Cth) as:<br>&nbsp; &nbsp; &nbsp; &nbsp; (i) an NDIS worker involved in the direct delivery of specified supports and services to people with<br>&nbsp; &nbsp; &nbsp; &nbsp; a disability as a normal part of their duties or<br>&nbsp; &nbsp; &nbsp; &nbsp; (ii) an NDIS worker likely to require more than incidental contact with people with a disability as a<br>&nbsp; &nbsp; &nbsp; &nbsp; normal part of their duties<br>&nbsp; &nbsp; &nbsp; &nbsp; (iii) a key personnel as defined under section 11A of the National Disability Insurance Scheme Act<br>&nbsp; &nbsp; &nbsp; &nbsp; 2013 (Cth) which includes executive, senior management and operational positions in a<br>&nbsp; &nbsp; &nbsp; &nbsp; registered NDIS provider (such as, a Chief Executive Officer, Chairperson or Board Member).</p>\n<p><br>I agree that the department may inform any registered NDIS provider or service provider or labour hire agency that<br>has engaged me that I am on the List, or that I am the subject of a Notification by a service provider or registered<br>NDIS provider.</p>\n<p><br>I agree to inform Hi Five Community Services of the name and address of any other service provider or registered<br>NDIS provider I am, or intend to be, engaged by.</p>"
+  },
+  {
+   "fetch_from": "user.street",
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.suburb",
+   "fieldname": "suburb",
+   "fieldtype": "Data",
+   "label": "suburb",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.area",
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.phone",
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<p><strong><em>Hi Five Community Services</em></strong><em><span style=\"font-weight: 400;\"> and the department are committed to protecting your privacy. </span></em><strong><em>Hi Five Community Services</em></strong><em><span style=\"font-weight: 400;\"> and the department collect and handle personal and sensitive information for the purposes of the operation of the Disability Worker Exclusion Scheme.</span></em></p>\n<p><em><span style=\"font-weight: 400;\">In order to manage the Disability Worker Exclusion Scheme, the department may share your personal information with external parties such as other service providers or registered NDIS providers.</span></em></p>\n<p><em><span style=\"font-weight: 400;\">For more information on the department&rsquo;s privacy collection, please refer to the department&rsquo;s privacy policy or visit our website on https://dhhs.vic.gov.au/publications/privacy-policy</span></em></p>\n<p><em><span style=\"font-weight: 400;\">You may request to access your information that is provided to </span></em><strong><em>Hi Five Community Services</em></strong><em><span style=\"font-weight: 400;\">.</span></em><strong><em> Hi Five Community Services</em></strong><em><span style=\"font-weight: 400;\"> can be contacted on </span></em><a href=\"mailto:info@hifive.org.au\"><em><span style=\"font-weight: 400;\">info@hifive.org.au</span></em></a><em><span style=\"font-weight: 400;\"> or 1300 492&nbsp; 214</span></em> <em><span style=\"font-weight: 400;\">or you may contact the department&rsquo;s Privacy Unit by emailing privacy@dhhs.vic.gov.au.</span></em></p>"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Disability Worker Exclusion Scheme &ndash; Consent and Acknowledgement Form (v2)</label>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:57.197470",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "DWES",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

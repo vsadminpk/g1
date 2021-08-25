@@ -1,0 +1,516 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "format:{full_name} Reference Check {###}",
+ "creation": "2021-01-13 13:59:53.688046",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "date",
+  "user",
+  "full_name",
+  "position_applied_for",
+  "dt2",
+  "position",
+  "mobile_number",
+  "dt3",
+  "section_break_10",
+  "bdd",
+  "section_break_9",
+  "bd2",
+  "column_break_11",
+  "dt4",
+  "section_break_13",
+  "bd3",
+  "column_break_16",
+  "dt5",
+  "section_break_18",
+  "bd4",
+  "column_break_20",
+  "dt6",
+  "section_break_22",
+  "bd5",
+  "section_break_24",
+  "bd6",
+  "column_break_26",
+  "dt7",
+  "section_break_28",
+  "bd7",
+  "column_break_30",
+  "dt8",
+  "section_break_32",
+  "bd8",
+  "column_break_34",
+  "from",
+  "column_break_36",
+  "to",
+  "section_break_38",
+  "bd9",
+  "column_break_40",
+  "dt9",
+  "section_break_42",
+  "bd10",
+  "column_break_44",
+  "dt10",
+  "section_break_46",
+  "bd11",
+  "column_break_48",
+  "small_text_49",
+  "section_break_50",
+  "bd12",
+  "column_break_52",
+  "dt12",
+  "section_break_54",
+  "bd13",
+  "column_break_56",
+  "dt13",
+  "section_break_58",
+  "bd14",
+  "column_break_60",
+  "dt14",
+  "section_break_62",
+  "head1",
+  "section_break_64",
+  "bd15",
+  "column_break_66",
+  "dt15",
+  "section_break_68",
+  "head2",
+  "section_break_70",
+  "bd16",
+  "column_break_72",
+  "dt16",
+  "section_break_74",
+  "bd17",
+  "column_break_76",
+  "dt17",
+  "section_break_78",
+  "bd18"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Reference Check</h1>"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "position_applied_for",
+   "fieldtype": "Data",
+   "label": "Position Applied For"
+  },
+  {
+   "fieldname": "dt2",
+   "fieldtype": "Data",
+   "label": "Referee's Name"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fetch_from": "dt3.full_name",
+   "fieldname": "dt3",
+   "fieldtype": "Link",
+   "label": "Reference Check Conducted By",
+   "options": "User"
+  },
+  {
+   "fieldname": "bdd",
+   "fieldtype": "HTML",
+   "label": "bdd",
+   "options": "<h4>Introduction</h4>"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">My name is &lt;name&gt; and I\u2019m calling to conduct a reference check for &lt;name of applicant&gt; who is being considered for a position with Hi Five Community Services. Your details have been provided to me by &lt;name of applicant&gt; as a potential referee. Are you prepared to provide a reference?</label>"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt4",
+   "fieldtype": "Select",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">The reference check will take approximately 10 minutes to complete. Is this a good time for you? If not, when is a convenient time for us to continue this conversation?</label>"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt5",
+   "fieldtype": "Select",
+   "options": "Call Back\nProceed"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Please note that this reference will be used in the overall evaluation of the applicant and will affect whether they are selected for the job.  The information you provide may be given to the candidate if requested. Do I have your permission to proceed?</label>"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt6",
+   "fieldtype": "Select",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<h4>General Questions</h4>"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">What is the nature of your relationship with the applicant?</label>"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt7",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">In what capacity is/was the applicant employed by your business?</label>"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt8",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_32",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd8",
+   "fieldtype": "HTML",
+   "label": "bd8",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">What were the dates of their employment?</label>"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "label": "To"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Date",
+   "label": "From"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd9",
+   "fieldtype": "HTML",
+   "label": "bd9",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">What duties and responsibilities does/did the applicant have?</label>"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt9",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_42",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd10",
+   "fieldtype": "HTML",
+   "label": "bd10",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">What is/was the applicant\u2019s reason for leaving?</label>"
+  },
+  {
+   "fieldname": "column_break_44",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt10",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_46",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd11",
+   "fieldtype": "HTML",
+   "label": "bd11",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">How would you describe the applicant\u2019s overall work performance?</label>"
+  },
+  {
+   "fieldname": "column_break_48",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "small_text_49",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_50",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd12",
+   "fieldtype": "HTML",
+   "label": "bd12",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">What would you say are the applicant\u2019s strengths?</label>"
+  },
+  {
+   "fieldname": "column_break_52",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt12",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_54",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd13",
+   "fieldtype": "HTML",
+   "label": "bd13",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">What would you say are the applicant\u2019s development areas (e.g. weaknesses)?</label>"
+  },
+  {
+   "fieldname": "column_break_56",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt13",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_58",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd14",
+   "fieldtype": "HTML",
+   "label": "bd14",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Have you had any concerns with their performance? \nIf yes, when were these issues identified? When were they discussed with the individual? What work are they doing to improve and what progress has been made?\n</label>"
+  },
+  {
+   "fieldname": "column_break_60",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt14",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_62",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "head1",
+   "fieldtype": "HTML",
+   "label": "head1",
+   "options": "<h4>Job-specific questions</h4>"
+  },
+  {
+   "fieldname": "section_break_64",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd15",
+   "fieldtype": "HTML",
+   "label": "bd15",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">\nCan you comment on the applicant\u2019s?\n<ul>\n<li>reliability?</li>\n<li>punctuality?</li>\n<li>attendance?</li>\n<li>professionalism?</li>\n<li>Time management?</li>\n<li>Ability to follow instructions?</li>\n<li>responsibility?</li>\n</ul>\n</label>"
+  },
+  {
+   "fieldname": "column_break_66",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt15",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_68",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "head2",
+   "fieldtype": "HTML",
+   "label": "head2",
+   "options": "<h4>In Closing</h4>"
+  },
+  {
+   "fieldname": "section_break_70",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd16",
+   "fieldtype": "HTML",
+   "label": "bd16",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Would you re-employ the applicant? Why/why not?</label>"
+  },
+  {
+   "fieldname": "column_break_72",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt16",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_74",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd17",
+   "fieldtype": "HTML",
+   "label": "bd17",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Do you have any final comments?</label>"
+  },
+  {
+   "fieldname": "column_break_76",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt17",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_78",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd18",
+   "fieldtype": "HTML",
+   "label": "bd18",
+   "options": "<p>Thank you for taking the time to provide feedback.  If you wish to provide any further information, you can contact me on hr@hifive.org.au</p>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Applicant",
+   "options": "User"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number",
+   "length": 10
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:52.869843",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Reference Check",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

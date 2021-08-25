@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "creation": "2020-12-25 02:17:38.923107",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "day",
+  "daily_current",
+  "daily_new",
+  "unit_of_measure",
+  "service_provider"
+ ],
+ "fields": [
+  {
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Day",
+   "options": "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+  },
+  {
+   "fieldname": "daily_current",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Daily Current"
+  },
+  {
+   "fieldname": "daily_new",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Daily New"
+  },
+  {
+   "fieldname": "unit_of_measure",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit of Measure"
+  },
+  {
+   "fieldname": "service_provider",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Service Provider"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-01-30 02:02:25.457524",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Regular Activities Review",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

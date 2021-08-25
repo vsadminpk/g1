@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "field:full_name",
+ "creation": "2020-12-30 22:58:31.892797",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "bd2",
+  "user",
+  "full_name",
+  "bd3",
+  "street",
+  "suburb",
+  "area",
+  "bd4",
+  "declared_at",
+  "date",
+  "bd5",
+  "signature",
+  "bd6",
+  "signature2",
+  "bd7"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Statutory Declaration</h1><h3>Pre-employment screening for Disability Workers</h3>"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">I </label>"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">of </label>"
+  },
+  {
+   "fetch_from": "user.street",
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "street",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.suburb",
+   "fieldname": "suburb",
+   "fieldtype": "Data",
+   "label": "suburb",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "user.area",
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<p>do solemnly and sincerely declare that I have fully disclosed in writing to [Hi Five Community Services], all<br>details of:</p>\n<p>any charges laid against me by police concerning any offence committed in Australia or in another country in the<br>past</p>\n<p>any offence of which I have been found guilty, committed in Australia or in another country in the past</p>\n<p>any formal disciplinary action taken against me by any current or former employer</p>\n<p>any finding of improper or unprofessional conduct by me by any Court or Tribunal of any kind</p>\n<p>any investigations I have been the subject of by an employer, law enforcement agency or any integrity body or<br>similar in Australia or in another country</p>\n<p>and that a copy of my responses to the above issues which I have provided to [Hi Five Community Services], as<br>part of the recruitment process to a position of [Hi Five Community Services], is attached hereto.</p>\n<p>I acknowledge that this declaration is true and correct, and I make it with the understanding and belief that a<br>person who makes a false declaration is liable to the penalties of perjury.</p>"
+  },
+  {
+   "fieldname": "declared_at",
+   "fieldtype": "Data",
+   "label": "Declared at"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Signature of person making this declaration<br>[To be signed in front of an authorised witness]</label>"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<label class=\"control-label\" style=\"padding-right: 0px;\">Before me, [Signature of Authorised Witness]</label>"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Signature",
+   "label": "Signature2"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<p>The authorised witness must print or stamp his or her name, address, and title under section 107A of the\nEvidence (Miscellaneous Provisions) Act 1958 (Vic). (e.g. Justice of the Peace, Pharmacist, Police Officer, Court\nRegistrar, Bank Manager, Medical Practitioner, Dentist, some public servants)</p>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": " Staff Member",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:30:57.516816",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Statutory Declaration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

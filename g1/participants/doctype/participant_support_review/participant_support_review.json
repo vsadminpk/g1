@@ -1,0 +1,459 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{participant} Version {version}",
+ "creation": "2020-12-25 01:57:16.011425",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "ndis_plan_attached",
+  "version",
+  "section_break_6",
+  "bd2",
+  "participant",
+  "date_of_birth",
+  "gender",
+  "section_break_16",
+  "bd3",
+  "section_break_18",
+  "dt8",
+  "column_break_20",
+  "dt9",
+  "section_break_22",
+  "bdd",
+  "dt10",
+  "bdd1",
+  "dt11",
+  "bd4",
+  "bd5",
+  "dt12",
+  "dt13",
+  "bd6",
+  "bd7",
+  "dt14",
+  "bd8",
+  "bd9",
+  "dt15",
+  "bd10",
+  "bd11",
+  "dt16",
+  "bd12",
+  "bd13",
+  "dt17",
+  "bd14",
+  "bd15",
+  "dt18",
+  "bd16",
+  "dt19",
+  "bd17",
+  "dt20",
+  "bd18",
+  "dat1",
+  "bod1",
+  "bod2",
+  "goals",
+  "strengths",
+  "needs",
+  "wishes",
+  "bod3",
+  "bod4",
+  "dat2",
+  "bod5",
+  "dat3",
+  "bod6",
+  "dat4",
+  "bod7",
+  "user",
+  "full_name",
+  "dat6",
+  "dat7"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Participant Support Review Form</h1>"
+  },
+  {
+   "default": "0",
+   "fieldname": "ndis_plan_attached",
+   "fieldtype": "Check",
+   "label": "NDIS Plan attached"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd2",
+   "fieldtype": "HTML",
+   "label": "bd2",
+   "options": "<h5>CLIENT DETAILS</h5>"
+  },
+  {
+   "fieldname": "participant",
+   "fieldtype": "Link",
+   "label": "Participant",
+   "options": "Participant"
+  },
+  {
+   "fetch_from": "participant.date_of_birth",
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "participant.gender",
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bd3",
+   "fieldtype": "HTML",
+   "label": "bd3",
+   "options": "<h5>GUARDIAN DETAILS (if applicable)</h5>"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dt8",
+   "fieldtype": "Data",
+   "label": "Surname"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dt9",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bdd",
+   "fieldtype": "HTML",
+   "label": "bdd",
+   "options": "<p>Please list any notable outcomes to date, and how these align with individual goals initially\nset out.</p>"
+  },
+  {
+   "fieldname": "dt10",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bdd1",
+   "fieldtype": "HTML",
+   "label": "bdd1",
+   "options": "<p>Have there been any changes to the following in the last review period?</p>"
+  },
+  {
+   "fieldname": "dt11",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bd4",
+   "fieldtype": "HTML",
+   "label": "bd4",
+   "options": "<h5>SUPPORTER INVOLVEMENT</h5>"
+  },
+  {
+   "fieldname": "bd5",
+   "fieldtype": "HTML",
+   "label": "bd5",
+   "options": "<p>Does the client or their guardian have a preference regarding family, friend and/or advocateinvolvement? If so, how will they be supported to participate?</p>"
+  },
+  {
+   "fieldname": "dt12",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "dt13",
+   "fieldtype": "Table",
+   "label": "Regular Activities Review (Hi Five Community Services and other providers):",
+   "options": "Regular Activities Review"
+  },
+  {
+   "fieldname": "bd6",
+   "fieldtype": "HTML",
+   "label": "bd6",
+   "options": "<h5>DECISION MAKING</h5>"
+  },
+  {
+   "fieldname": "bd7",
+   "fieldtype": "HTML",
+   "label": "bd7",
+   "options": "<p>How does the client (and their guardian, if applicable) want to provide input and be involved\nin decision-making?</p>"
+  },
+  {
+   "fieldname": "dt14",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bd8",
+   "fieldtype": "HTML",
+   "label": "bd8",
+   "options": "<h5>COMMUNICATION AND ACCESSIBILITY NEEDS</h5>"
+  },
+  {
+   "fieldname": "bd9",
+   "fieldtype": "HTML",
+   "label": "bd9",
+   "options": "<p>Does the client have any specific communication or accessibility needs? If so, list these\nalong with strategies to support them.</p>"
+  },
+  {
+   "fieldname": "dt15",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bd10",
+   "fieldtype": "HTML",
+   "label": "bd10",
+   "options": "<h5>HEALTH, WELLBEING AND SAFETY REQUIREMENTS</h5>"
+  },
+  {
+   "fieldname": "bd11",
+   "fieldtype": "HTML",
+   "label": "bd11",
+   "options": "<p>Does the client have any health, wellbeing or safety needs that need to be considered in\nservice delivery?</p>"
+  },
+  {
+   "fieldname": "dt16",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bd12",
+   "fieldtype": "HTML",
+   "label": "bd12",
+   "options": "<h5>JOINT PLANNING / CASE COORDINATION</h5>"
+  },
+  {
+   "fieldname": "bd13",
+   "fieldtype": "HTML",
+   "label": "bd13",
+   "options": "<p>Is there any joint planning and case coordination with other services that involve the client?\nHow will Hi Five Community Services support this?</p>"
+  },
+  {
+   "fieldname": "dt17",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bd14",
+   "fieldtype": "HTML",
+   "label": "bd14",
+   "options": "<h5>CONNECTION</h5>"
+  },
+  {
+   "fieldname": "bd15",
+   "fieldtype": "HTML",
+   "label": "bd15",
+   "options": "<p>(IF APPLICABLE) Does the client (or their guardian, if applicable) have any preferences\nregarding their connection to their Aboriginal and Torres Strait Islander culture and\ncommunity?</p>"
+  },
+  {
+   "fieldname": "dt18",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bd16",
+   "fieldtype": "HTML",
+   "label": "bd16",
+   "options": "<p>(IF APPLICABLE) Does the client (or their guardian, if applicable) have any preferences\nregarding their cultural, spiritual and/or language connection?</p>"
+  },
+  {
+   "fieldname": "dt19",
+   "fieldtype": "Data",
+   "label": " "
+  },
+  {
+   "fieldname": "bd17",
+   "fieldtype": "HTML",
+   "label": "bd17",
+   "options": "<p>Does the client (or their guardian, if applicable) have any preferences regarding their links to\nfamily, friendships, and other support networks?</p>"
+  },
+  {
+   "fieldname": "dt20",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bd18",
+   "fieldtype": "HTML",
+   "label": "bd18",
+   "options": "<p>What barriers to community participation exist for the client? What strategies will be put in\nplace to help the client overcome these?</p>"
+  },
+  {
+   "fieldname": "dat1",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bod1",
+   "fieldtype": "HTML",
+   "label": "bod1",
+   "options": "<h5>PERSONAL REFLECTION</h5>"
+  },
+  {
+   "fieldname": "bod2",
+   "fieldtype": "HTML",
+   "label": "bod2",
+   "options": "<p>Have there been any changes to the following in the last review period?</p>"
+  },
+  {
+   "fieldname": "goals",
+   "fieldtype": "Table",
+   "label": "Goals",
+   "options": "Goal Link"
+  },
+  {
+   "fieldname": "strengths",
+   "fieldtype": "Table",
+   "label": "Strengths",
+   "options": "Strength"
+  },
+  {
+   "fieldname": "needs",
+   "fieldtype": "Table",
+   "label": "Needs",
+   "options": "Need"
+  },
+  {
+   "fieldname": "wishes",
+   "fieldtype": "Table",
+   "label": "Wishes",
+   "options": "Wish"
+  },
+  {
+   "fieldname": "bod3",
+   "fieldtype": "HTML",
+   "label": "bod3",
+   "options": "<h5>SERVICE DELIVERY</h5>"
+  },
+  {
+   "fieldname": "bod4",
+   "fieldtype": "HTML",
+   "label": "bod4",
+   "options": "<p>How, when and where will Hi Five Community Services supports be delivered?</p>"
+  },
+  {
+   "fieldname": "dat2",
+   "fieldtype": "Small Text",
+   "label": " "
+  },
+  {
+   "fieldname": "bod5",
+   "fieldtype": "HTML",
+   "label": "bod5",
+   "options": "<p>What other actions will be taken by Hi Five Community Services to support service delivery?\nCan referrals and linkages to other services and activities that will enhance the client\u2019s\ncommunity participation be provided?</p>"
+  },
+  {
+   "fieldname": "dat3",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "bod6",
+   "fieldtype": "HTML",
+   "label": "bod6",
+   "options": "<h5>How often will service delivery be reviewed?</h5>"
+  },
+  {
+   "fieldname": "dat4",
+   "fieldtype": "Date",
+   "label": "Next Review Date:"
+  },
+  {
+   "fieldname": "bod7",
+   "fieldtype": "HTML",
+   "label": "bod7",
+   "options": "<h5>Assessing Staff Member</h5>"
+  },
+  {
+   "default": "Today",
+   "fieldname": "dat6",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "dat7",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User"
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version",
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-19 10:29:40.164948",
+ "modified_by": "Administrator",
+ "module": "Participants",
+ "name": "Participant Support Review",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1 Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
